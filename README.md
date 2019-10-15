@@ -6,5 +6,5 @@ A repo of custom player models compatible with Ooto 2.0+
 
 # Available Skins
 Start by selecting a game
-## [OoT](skins/oot)
-## [MM](skins/mm)
+## [OoT](oot)
+## [MM](mm)
