@@ -432,34 +432,34 @@ REPOINT
 
 // Hardcoded Assembly Pointers
     GoTo( VROM_CODE+0x69112 );                  //    Left Silver/Golden Gauntlet Forearm
-    Hi32( DL_UPGRADE_LFOREARM );
+    Hi32( LUT_DL_UPGRADE_LFOREARM );
     GoTo( VROM_CODE+0x69116 );
-    Lo32( DL_UPGRADE_LFOREARM );
+    Lo32( LUT_DL_UPGRADE_LFOREARM );
 
     GoTo( VROM_CODE+0x6912E );                  //    Right Silver / Golden Gauntlet Forearm
-    Hi32( DL_UPGRADE_RFOREARM );
+    Hi32( LUT_DL_UPGRADE_RFOREARM );
     GoTo( VROM_CODE+0x69132 );
-    Lo32( DL_UPGRADE_RFOREARM );
+    Lo32( LUT_DL_UPGRADE_RFOREARM );
 
     GoTo( VROM_CODE+0x6914E );                  //    Left Silver / Golden Gauntlet Hand (Fist)
-    Hi32( DL_UPGRADE_LFIST );
+    Hi32( LUT_DL_UPGRADE_LFIST );
     GoTo( VROM_CODE+0x69162 );
-    Lo32( DL_UPGRADE_LFIST );
+    Lo32( LUT_DL_UPGRADE_LFIST );
 
     GoTo( VROM_CODE+0x69166 );                  //    Left Silver / Golden Gauntlet Hand (Open Hand)
-    Hi32( DL_UPGRADE_LHAND );
+    Hi32( LUT_DL_UPGRADE_LHAND );
     GoTo( VROM_CODE+0x69172 );
-    Lo32( DL_UPGRADE_LHAND );
+    Lo32( LUT_DL_UPGRADE_LHAND );
 
     GoTo( VROM_CODE+0x6919E );                  //    Right Silver / Golden Gauntlet Hand (Fist)
-    Hi32( DL_UPGRADE_RFIST );
+    Hi32( LUT_DL_UPGRADE_RFIST );
     GoTo( VROM_CODE+0x691A2 );
-    Lo32( DL_UPGRADE_RFIST );
+    Lo32( LUT_DL_UPGRADE_RFIST );
 
     GoTo( VROM_CODE+0x691AE );                  //    Right Silver / Golden Gauntlet Hand (Open Hand)
-    Hi32( DL_UPGRADE_RHAND );
+    Hi32( LUT_DL_UPGRADE_RHAND );
     GoTo( VROM_CODE+0x691B2 );
-    Lo32( DL_UPGRADE_RHAND );
+    Lo32( LUT_DL_UPGRADE_RHAND );
 
     GoTo( VROM_CODE+0x69DEA );                  //    FPS Right Hand + FPS Hookshot / Longshot
     Hi32( DL_FPS_LHAND_HOOKSHOT );
