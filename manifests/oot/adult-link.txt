@@ -43,7 +43,7 @@ DICTIONARY
     DL_RFIST              0x015928    "Fist.R"
 
     // Items
-    DL_SWORD_SHEATH       0x015D58    "Limb 19"
+    DL_SWORD_SHEATH       0x015D58    "Sheath"
     DL_SWORD_HILT         0x0168E8    "Hilt.2"
     DL_SWORD_BLADE        0x016E48    "Blade.2"
     DL_LONGSWORD_HILT     0x017148    "Hilt.3"
@@ -256,80 +256,80 @@ OBJECT POOL=0x5000,0x800
     LUT_DL_BLADEBREAK:
         CallList( DL_BLADEBREAK );
 
-    DL_SWORD_SHEATHED:
+    LUT_DL_SWORD_SHEATHED:
         CallMatrix( MATRIX_SWORD_BACK );
         CallList( LUT_DL_SWORD_HILT );
         PopMatrix( 1 );
         CallList( LUT_DL_SWORD_SHEATH );
 
-    DL_SHIELD_HYLIAN_BACK:
+    LUT_DL_SHIELD_HYLIAN_BACK:
         CallMatrix( MATRIX_SHIELD_BACK );
         CallList( LUT_DL_SHIELD_HYLIAN );
 
-    DL_SHIELD_MIRROR_BACK:
+    LUT_DL_SHIELD_MIRROR_BACK:
         CallMatrix( MATRIX_SHIELD_BACK );
         CallList( LUT_DL_SHIELD_MIRROR );
 
-    DL_SWORD_SHIELD_HYLIAN:
-        CallList( DL_SWORD_SHEATHED );
-        CallList( DL_SHIELD_HYLIAN_BACK );
+    LUT_DL_SWORD_SHIELD_HYLIAN:
+        CallList( LUT_DL_SWORD_SHEATHED );
+        CallList( LUT_DL_SHIELD_HYLIAN_BACK );
 
-    DL_SWORD_SHIELD_MIRROR:
-        CallList( DL_SWORD_SHEATHED );
-        CallList( DL_SHIELD_MIRROR_BACK );
+    LUT_DL_SWORD_SHIELD_MIRROR:
+        CallList( LUT_DL_SWORD_SHEATHED );
+        CallList( LUT_DL_SHIELD_MIRROR_BACK );
 
-    DL_SHEATH0_HYLIAN:
+    LUT_DL_SHEATH0_HYLIAN:
         CallList( LUT_DL_SWORD_SHEATH );
-        CallList( DL_SHIELD_HYLIAN_BACK );
+        CallList( LUT_DL_SHIELD_HYLIAN_BACK );
 
-    DL_SHEATH0_MIRROR:
+    LUT_DL_SHEATH0_MIRROR:
         CallList( LUT_DL_SWORD_SHEATH );
-        CallList( DL_SHIELD_MIRROR_BACK );
+        CallList( LUT_DL_SHIELD_MIRROR_BACK );
 
-    DL_LFIST_SWORD:
+    LUT_DL_LFIST_SWORD:
         CallList( LUT_DL_SWORD_HILT );
         CallList( LUT_DL_SWORD_BLADE );
         CallList( LUT_DL_LFIST );
 
-    DL_LFIST_LONGSWORD:
+    LUT_DL_LFIST_LONGSWORD:
         CallList( LUT_DL_LONGSWORD_HILT );
         CallList( LUT_DL_LONGSWORD_BLADE );
         CallList( LUT_DL_LFIST );
 
-    DL_LFIST_LONGSWORD_BROKEN:
+    LUT_DL_LFIST_LONGSWORD_BROKEN:
         CallList( LUT_DL_LONGSWORD_HILT );
         CallList( LUT_DL_LONGSWORD_BROKEN );
         CallList( LUT_DL_LFIST );
 
-    DL_LFIST_HAMMER:
+    LUT_DL_LFIST_HAMMER:
         CallList( LUT_DL_HAMMER );
         CallList( LUT_DL_LFIST );
 
-    DL_RFIST_SHIELD_HYLIAN:
+    LUT_DL_RFIST_SHIELD_HYLIAN:
         CallList( LUT_DL_SHIELD_HYLIAN );
         CallList( LUT_DL_RFIST );
 
-    DL_RFIST_SHIELD_MIRROR:
+    LUT_DL_RFIST_SHIELD_MIRROR:
         CallList( LUT_DL_SHIELD_MIRROR );
         CallList( LUT_DL_RFIST );
 
-    DL_RFIST_BOW:
+    LUT_DL_RFIST_BOW:
         CallList( LUT_DL_BOW );
         CallList( LUT_DL_RFIST );
 
-    DL_RFIST_HOOKSHOT:
+    LUT_DL_RFIST_HOOKSHOT:
         CallList( LUT_DL_HOOKSHOT );
         CallList( LUT_DL_RFIST );
 
-    DL_RHAND_OCARINA_TIME:
+    LUT_DL_RHAND_OCARINA_TIME:
         CallList( LUT_DL_OCARINA_TIME );
         CallList( LUT_DL_RHAND );
 
-    DL_FPS_RHAND_BOW:
+    LUT_DL_FPS_RHAND_BOW:
         CallList( LUT_DL_BOW );
         CallList( LUT_DL_FPS_RHAND );
 
-    DL_FPS_LHAND_HOOKSHOT:
+    LUT_DL_FPS_LHAND_HOOKSHOT:
         CallList( LUT_DL_FPS_HOOKSHOT );
         CallList( LUT_DL_FPS_RHAND );
 END
@@ -342,18 +342,18 @@ REPOINT
         Write32( LUT_DL_RFIST );                    //    Right Fist (Low Poly)
         Write32( LUT_DL_RFIST );                    //    Right Fist + Deku Shield (High Poly)
         Write32( LUT_DL_RFIST );                    //    Right Fist + Deku Shield (Low Poly)
-        Write32( DL_RFIST_SHIELD_HYLIAN );      //    Right Fist + Hylian Shield (High Poly)
-        Write32( DL_RFIST_SHIELD_HYLIAN );      //    Right Fist + Hylian Shield (Low Poly)
-        Write32( DL_RFIST_SHIELD_MIRROR );      //    Right Fist + Mirror Shield (High Poly)
-        Write32( DL_RFIST_SHIELD_MIRROR );      //    Right Fist + Mirror Shield (Low Poly)
-        Write32( DL_SWORD_SHEATHED );           //    Sheathed Sword (High Poly)
-        Write32( DL_SWORD_SHEATHED );           //    Sheathed Sword (Low Poly)
-        Write32( DL_SWORD_SHEATHED );           //    Deku Shield + Sheathed Sword (High Poly)
-        Write32( DL_SWORD_SHEATHED );           //    Deku Shield + Sheathed Sword (Low Poly)
-        Write32( DL_SWORD_SHIELD_HYLIAN );      //    Hylian Shield + Sheathed Sword (High Poly)
-        Write32( DL_SWORD_SHIELD_HYLIAN );      //    Hylian Shield + Sheathed Sword (Low Poly)
-        Write32( DL_SWORD_SHIELD_MIRROR );      //    Mirror Shield + Sheathed Sword (High Poly)
-        Write32( DL_SWORD_SHIELD_MIRROR );      //    Mirror Shield + Sheathed Sword (Low Poly)
+        Write32( LUT_DL_RFIST_SHIELD_HYLIAN );      //    Right Fist + Hylian Shield (High Poly)
+        Write32( LUT_DL_RFIST_SHIELD_HYLIAN );      //    Right Fist + Hylian Shield (Low Poly)
+        Write32( LUT_DL_RFIST_SHIELD_MIRROR );      //    Right Fist + Mirror Shield (High Poly)
+        Write32( LUT_DL_RFIST_SHIELD_MIRROR );      //    Right Fist + Mirror Shield (Low Poly)
+        Write32( LUT_DL_SWORD_SHEATHED );           //    Sheathed Sword (High Poly)
+        Write32( LUT_DL_SWORD_SHEATHED );           //    Sheathed Sword (Low Poly)
+        Write32( LUT_DL_SWORD_SHEATHED );           //    Deku Shield + Sheathed Sword (High Poly)
+        Write32( LUT_DL_SWORD_SHEATHED );           //    Deku Shield + Sheathed Sword (Low Poly)
+        Write32( LUT_DL_SWORD_SHIELD_HYLIAN );      //    Hylian Shield + Sheathed Sword (High Poly)
+        Write32( LUT_DL_SWORD_SHIELD_HYLIAN );      //    Hylian Shield + Sheathed Sword (Low Poly)
+        Write32( LUT_DL_SWORD_SHIELD_MIRROR );      //    Mirror Shield + Sheathed Sword (High Poly)
+        Write32( LUT_DL_SWORD_SHIELD_MIRROR );      //    Mirror Shield + Sheathed Sword (Low Poly)
         Write32( 0x00000000     );              //    ? (High Poly)
         Write32( 0x00000000 );                  //    ? (Low Poly)
         Write32( 0x00000000 );                  //    Deku Shield without Sheath (High Poly)
@@ -362,48 +362,48 @@ REPOINT
         Write32( LUT_DL_SWORD_SHEATH );             //    Sword Sheath (Low Poly)
         Write32( LUT_DL_SWORD_SHEATH );             //    Deku Shield + Sheath (High Poly)
         Write32( LUT_DL_SWORD_SHEATH );             //    Deku Shield + Sheath (Low Poly)
-        Write32( DL_SHEATH0_HYLIAN );           //    Hylian Shield + Sheath (High Poly)
-        Write32( DL_SHEATH0_HYLIAN );           //    Hylian Shield + Sheath (Low Poly)
-        Write32( DL_SHEATH0_MIRROR );           //    Mirror Shield + Sheath (High Poly)
-        Write32( DL_SHEATH0_MIRROR );           //    Mirror Shield + Sheath (Low Poly)
+        Write32( LUT_DL_SHEATH0_HYLIAN );           //    Hylian Shield + Sheath (High Poly)
+        Write32( LUT_DL_SHEATH0_HYLIAN );           //    Hylian Shield + Sheath (Low Poly)
+        Write32( LUT_DL_SHEATH0_MIRROR );           //    Mirror Shield + Sheath (High Poly)
+        Write32( LUT_DL_SHEATH0_MIRROR );           //    Mirror Shield + Sheath (Low Poly)
         Write32( 0x00000000 );                  //    ? (High Poly)
         Write32( 0x00000000 );                  //    ? (Low Poly)
         Write32( 0x00000000 );                  //    ? (High Poly)
         Write32( 0x00000000 );                  //    ? (Low Poly)
-        Write32( DL_LFIST_LONGSWORD );          //    Left Fist + Biggoron Sword (High Poly)
-        Write32( DL_LFIST_LONGSWORD );          //    Left Fist + Biggoron Sword (Low Poly)
-        Write32( DL_LFIST_LONGSWORD_BROKEN );   //    Left Fist + Broken Giant's Knife (High Poly)
-        Write32( DL_LFIST_LONGSWORD_BROKEN );   //    Left Fist + Broken Giant's Knife (Low Poly)
+        Write32( LUT_DL_LFIST_LONGSWORD );          //    Left Fist + Biggoron Sword (High Poly)
+        Write32( LUT_DL_LFIST_LONGSWORD );          //    Left Fist + Biggoron Sword (Low Poly)
+        Write32( LUT_DL_LFIST_LONGSWORD_BROKEN );   //    Left Fist + Broken Giant's Knife (High Poly)
+        Write32( LUT_DL_LFIST_LONGSWORD_BROKEN );   //    Left Fist + Broken Giant's Knife (Low Poly)
         Write32( LUT_DL_LHAND );                    //    Left Hand (High Poly)
         Write32( LUT_DL_LHAND );                    //    Left Hand (Low Poly)
         Write32( LUT_DL_LFIST );                    //    Left Fist (High Poly)
         Write32( LUT_DL_LFIST );                    //    Left Fist (Low Poly)
-        Write32( DL_LFIST_SWORD );              //    Left Fist + Kokiri Sword (High Poly)
-        Write32( DL_LFIST_SWORD );              //    Left Fist + Kokiri Sword (Low Poly)
-        Write32( DL_LFIST_SWORD );              //    Left Fist + Master Sword (High Poly)
-        Write32( DL_LFIST_SWORD );              //    Left Fist + Master Sword (Low Poly)
+        Write32( LUT_DL_LFIST_SWORD );              //    Left Fist + Kokiri Sword (High Poly)
+        Write32( LUT_DL_LFIST_SWORD );              //    Left Fist + Kokiri Sword (Low Poly)
+        Write32( LUT_DL_LFIST_SWORD );              //    Left Fist + Master Sword (High Poly)
+        Write32( LUT_DL_LFIST_SWORD );              //    Left Fist + Master Sword (Low Poly)
         Write32( LUT_DL_RHAND );                    //    Right Hand (High Poly)
         Write32( LUT_DL_RHAND );                    //    Right Hand (Low Poly)
         Write32( LUT_DL_RFIST );                    //    Right Fist (High Poly)
         Write32( LUT_DL_RFIST );                    //    Right Fist (Low Poly)
-        Write32( DL_RFIST_BOW );                //    Right Fist + Fairy Bow (and/or Fairy Slinghot?) (High Poly)
-        Write32( DL_RFIST_BOW );                //    Right Fist + Fairy Bow (and/or Fairy Slinghot?) (Low Poly)
-        Write32( DL_SWORD_SHEATHED );           //    Sheathed Sword (High Poly)
-        Write32( DL_SWORD_SHEATHED );           //    Sheathed Sword (Low Poly)
+        Write32( LUT_DL_RFIST_BOW );                //    Right Fist + Fairy Bow (and/or Fairy Slinghot?) (High Poly)
+        Write32( LUT_DL_RFIST_BOW );                //    Right Fist + Fairy Bow (and/or Fairy Slinghot?) (Low Poly)
+        Write32( LUT_DL_SWORD_SHEATHED );           //    Sheathed Sword (High Poly)
+        Write32( LUT_DL_SWORD_SHEATHED );           //    Sheathed Sword (Low Poly)
         Write32( LUT_DL_SWORD_SHEATH );             //    Sword Sheath (High Poly)
         Write32( LUT_DL_SWORD_SHEATH );             //    Sword Sheath (Low Poly)
         Write32( LUT_DL_WAIST );                    //    Waist (High Poly)
         Write32( LUT_DL_WAIST );                    //    Waist (Low Poly)
-        Write32( DL_RFIST_BOW );                //    Right Fist + Fairy Bow (and/or Fairy Slinghot?) (High Poly)
-        Write32( DL_RFIST_BOW );                //    Right Fist + Fairy Bow (and/or Fairy Slinghot?) (Low Poly)
-        Write32( DL_RHAND_OCARINA_TIME );       //    Right Hand + Fairy Ocarina (High Poly)
-        Write32( DL_RHAND_OCARINA_TIME );       //    Right Hand + Fairy Ocarina (Low Poly)
-        Write32( DL_RHAND_OCARINA_TIME );       //    Right Hand + Ocarina of Time (High Poly)
-        Write32( DL_RHAND_OCARINA_TIME );       //    Right Hand + Ocarina of Time (Low Poly)
-        Write32( DL_RFIST_HOOKSHOT );           //    Right Fist + Hookshot / Longshot (High Poly)
-        Write32( DL_RFIST_HOOKSHOT );           //    Right Fist + Hookshot / Longshot (Low Poly)
-        Write32( DL_LFIST_HAMMER );             //    Left Fist + Megaton Hammer (High Poly)
-        Write32( DL_LFIST_HAMMER );             //    Left Fist + Megaton Hammer (Low Poly)
+        Write32( LUT_DL_RFIST_BOW );                //    Right Fist + Fairy Bow (and/or Fairy Slinghot?) (High Poly)
+        Write32( LUT_DL_RFIST_BOW );                //    Right Fist + Fairy Bow (and/or Fairy Slinghot?) (Low Poly)
+        Write32( LUT_DL_RHAND_OCARINA_TIME );       //    Right Hand + Fairy Ocarina (High Poly)
+        Write32( LUT_DL_RHAND_OCARINA_TIME );       //    Right Hand + Fairy Ocarina (Low Poly)
+        Write32( LUT_DL_RHAND_OCARINA_TIME );       //    Right Hand + Ocarina of Time (High Poly)
+        Write32( LUT_DL_RHAND_OCARINA_TIME );       //    Right Hand + Ocarina of Time (Low Poly)
+        Write32( LUT_DL_RFIST_HOOKSHOT );           //    Right Fist + Hookshot / Longshot (High Poly)
+        Write32( LUT_DL_RFIST_HOOKSHOT );           //    Right Fist + Hookshot / Longshot (Low Poly)
+        Write32( LUT_DL_LFIST_HAMMER );             //    Left Fist + Megaton Hammer (High Poly)
+        Write32( LUT_DL_LFIST_HAMMER );             //    Left Fist + Megaton Hammer (Low Poly)
         Write32( LUT_DL_LFIST );                    //    Left Fist + Boomerang (High Poly)
         Write32( LUT_DL_LFIST );                    //    Left Fist + Boomerang (Low Poly)
         Write32( LUT_DL_LHAND_BOTTLE );             //    Outstretched Left Hand for Holding Bottles (High Poly)
@@ -412,7 +412,7 @@ REPOINT
         Write32( LUT_DL_FPS_LHAND );                //    FPS Left Hand
         Write32( LUT_DL_RSHOULDER );                //    Right Shoulder (High Poly)
         Write32( LUT_DL_FPS_RFOREARM );             //    FPS Right Forearm
-        Write32( DL_FPS_RHAND_BOW );            //    FPS Right Hand + Fairy Bow
+        Write32( LUT_DL_FPS_RHAND_BOW );            //    FPS Right Hand + Fairy Bow
 
     GoTo( VROM_CODE+0xE6A4C );
     SetAdvance( 4 );
@@ -462,32 +462,32 @@ REPOINT
     Lo32( LUT_DL_UPGRADE_RHAND );
 
     GoTo( VROM_CODE+0x69DEA );                  //    FPS Right Hand + FPS Hookshot / Longshot
-    Hi32( DL_FPS_LHAND_HOOKSHOT );
+    Hi32( LUT_DL_FPS_LHAND_HOOKSHOT );
     GoTo( VROM_CODE+0x69DEE );
-    Lo32( DL_FPS_LHAND_HOOKSHOT );
+    Lo32( LUT_DL_FPS_LHAND_HOOKSHOT );
 
     GoTo( VROM_CODE+0x6A666 );                  //    Hookshot / Longshot Aiming Reticle
-    Hi32( DL_HOOKSHOT_AIM );
+    Hi32( LUT_DL_HOOKSHOT_AIM );
     GoTo( VROM_CODE+0x6A66A );
-    Lo32( DL_HOOKSHOT_AIM );
+    Lo32( LUT_DL_HOOKSHOT_AIM );
 
 // Arms_Hook
     GoTo( VROM_ARMS_HOOK+0xA72 );               //    Hookshot / Longshot Spike
-    Hi32( DL_HOOKSHOT_HOOK );
+    Hi32( LUT_DL_HOOKSHOT_HOOK );
     GoTo( VROM_ARMS_HOOK+0xA76 );
-    Lo32( DL_HOOKSHOT_HOOK );
+    Lo32( LUT_DL_HOOKSHOT_HOOK );
 
     GoTo( VROM_ARMS_HOOK+0xB66 );               //    Hookshot / Longshot Chain
-    Hi32( DL_HOOKSHOT_CHAIN );
+    Hi32( LUT_DL_HOOKSHOT_CHAIN );
     GoTo( VROM_ARMS_HOOK+0xB6A );
-    Lo32( DL_HOOKSHOT_CHAIN );
+    Lo32( LUT_DL_HOOKSHOT_CHAIN );
 
     GoTo( VROM_ARMS_HOOK+0xBA8 );               //    Hookshot / Longshot Object File
     Write16( OBJ_BOY );
 
 // ovl_Effect_Ss_Stick
     GoTo( VROM_SS_STICK+0x32C );                //    Broken Piece of Giant's Knife
-    Write32( DL_BLADEBREAK );
+    Write32( LUT_DL_BLADEBREAK );
 
     GoTo( VROM_SS_STICK+0x328 );                //    Giant's Knife / Biggoron Sword Object File
     Write16( OBJ_BOY );
