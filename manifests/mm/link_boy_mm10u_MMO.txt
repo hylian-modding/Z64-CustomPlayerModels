@@ -1,0 +1,132 @@
+DICTIONARY
+    //
+    // For use with decompressed 1.0 MM only!
+    //
+    VROM_CODE             0x00B3C000           // start of code within rom
+    TABLE_OBJECT          0x11CC80             // start of object table within code
+    VROM_OBJ              O_0x10               // object to overwrite
+
+    HIERARCHY_CODE        0x‭11A340‬             // Relative to the start of code;
+                                               // Link's hierarchy pointer will
+                                               // be written at this address
+
+    SEG                   0x06000000           // ram segment
+ 
+    OBJ_BOY               0x0010               // object_link_boy object number
+
+    // Hierarchy
+    DL_WAIST                    0x0049E0        "Limb 1" // this is the name zzconvert automatically uses
+    DL_RTHIGH                   0x004CF8        "Limb 3"
+    DL_RSHIN                    0x004F48        "Limb 4"
+    DL_RFOOT                    0x005190        "Limb 5"
+    DL_LTHIGH                   0x0052A0        "Limb 6"
+    DL_LSHIN                    0x0055D0        "Limb 7"
+    DL_LFOOT                    0x005818        "Limb 8"
+    DL_HEAD                     0x005A78        "Limb 10"
+    DL_HAT                      0x005928        "Limb 11"
+    DL_COLLAR                   0x0060E8        "Limb 12"
+    DL_LSHOULDER                0x006A58        "Limb 13"
+    DL_LFOREARM                 0x006C38        "Limb 14"
+    DL_RSHOULDER                0x006410        "Limb 16"
+    DL_RFOREARM                 0x0065E0        "Limb 17"
+	DL_SHEATH  					0x006370 		"Limb 19"
+    DL_TORSO                    0x006148        "Limb 20"
+	DL_LHAND                    0x006eb8        "Limb 15"
+    DL_RHAND                    0x0067d8        "Limb 18"
+  
+
+	// Other
+	DL_HELIX_SWORD              	0x007F28        "Sword.Helix"
+	
+
+END
+
+
+OBJECT POOL=0x5000,0x800 
+  LUT_ZZ_MODLOADER:
+	HexString(4D 4F 44 4C 4F 41 44 45 52 36 34 01 FF FF FF FF);
+	LUT_DL_HELIX_SWORD:
+		CallList( DL_HELIX_SWORD );
+		
+    LUT_DL_RTHIGH:
+        CallList( DL_RTHIGH );
+
+    LUT_DL_RSHIN:
+        CallList( DL_RSHIN );
+
+    LUT_DL_RFOOT:
+        CallList( DL_RFOOT );
+
+    LUT_DL_LTHIGH:
+        CallList( DL_LTHIGH );
+
+    LUT_DL_LSHIN:
+        CallList( DL_LSHIN );
+
+    LUT_DL_LFOOT:
+        CallList( DL_LFOOT );
+
+    LUT_DL_HEAD:
+        CallList( DL_HEAD );
+
+    LUT_DL_HAT:
+        CallList( DL_HAT );
+
+    LUT_DL_COLLAR:
+        CallList( DL_COLLAR );
+
+    LUT_DL_LSHOULDER:
+        CallList( DL_LSHOULDER );
+
+    LUT_DL_LFOREARM:
+        CallList( DL_LFOREARM );
+
+    LUT_DL_RSHOULDER:
+        CallList( DL_RSHOULDER );
+
+    LUT_DL_RFOREARM:
+        CallList( DL_RFOREARM );
+
+    LUT_DL_TORSO:
+        CallList( DL_TORSO );
+
+    LUT_DL_LHAND:
+        CallList( DL_LHAND );
+
+    LUT_DL_RHAND:
+        CallList( DL_RHAND );
+	LUT_DL_WAIST:
+		CallList( DL_WAIST );
+		
+
+END
+
+REPOINT
+
+	GoTo(0x00C5653C);
+		Write32( LUT_DL_WAIST );
+		Write32( LUT_DL_WAIST );
+	
+	GoTo(0x00E37680);
+		Write32( LUT_DL_COLLAR );
+		
+	GoTo(0x00EB2820);
+		Write32( LUT_DL_COLLAR );
+		
+	GoTo(0x00C567D4);
+		Write32( LUT_DL_LFOREARM );
+		
+	GoTo(0x00C567FC);
+		Write32( LUT_DL_RFOREARM );
+	
+	GoTo(0x00C56654);
+		Write32( LUT_DL_LHAND );
+		Write32( LUT_DL_LHAND );
+		
+	GoTo(0x00C566E4);
+		Write32( LUT_DL_RHAND );
+		Write32( LUT_DL_RHAND );
+	
+
+
+END

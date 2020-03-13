@@ -1,0 +1,158 @@
+DICTIONARY
+    //
+    // For use with decompressed 1.0 MM only!
+    //
+    VROM_CODE             0x00B3C000           // start of code within rom
+    TABLE_OBJECT          0x11CC80             // start of object table within code
+    VROM_OBJ              O_0x154              // object to overwrite
+
+    HIERARCHY_CODE        0x11A34C‬             // Relative to the start of code;
+                                               // Link's hierarchy pointer will
+                                               // be written at this address
+
+    SEG                   0x06000000           // ram segment
+
+    OBJ_NUTS              0x0154               // object_link_nuts object number
+
+    // Hierarchy
+    DL_WAIST                    0x002C20        "Limb 1" // this is the name zzconvert automatically uses
+    DL_RTHIGH                   0x0025D0        "Limb 3"
+    DL_RSHIN                    0x0026D8        "Limb 4"
+    DL_RFOOT                    0x0027E0        "Limb 5"
+    DL_LTHIGH                   0x0028F8        "Limb 6"
+    DL_LSHIN                    0x002A00        "Limb 7"
+    DL_LFOOT                    0x002B08        "Limb 8"
+    DL_HEAD                     0x002FD8        "Limb 10"
+    DL_HAT                      0x003488        "Limb 11"
+    DL_COLLAR                   0x002DD8        "Limb 12"
+    DL_LSHOULDER                0x0039B0        "Limb 13"
+    DL_LFOREARM                 0x003AB8        "Limb 14"
+    DL_RSHOULDER                0x0036B0        "Limb 16"
+    DL_RFOREARM                 0x0037B8        "Limb 17"
+	DL_SHEATH                   0x0035F0        "Limb 19"
+    DL_TORSO                    0x002E98        "Limb 20"
+
+    // Hands
+    DL_LHAND                    0x003BC0        "Limb 15"
+    DL_RHAND                    0x0038C0        "Limb 18"
+	DL_LHAND_BOTTLE             0x00B690        "Bottle.Hand.L"
+	DL_SHIELD                   0x00A348		"Shield"
+
+	//Deku Pipe
+	DL_PIPE_MOUTH				0x007390        "Pipe.Mouth"
+	DL_PIPE_RIGHT				0x007548        "Pipe.Right"
+	DL_PIPE_UP					0x0076A0        "Pipe.Up"
+	DL_PIPE_DOWN				0x0077D0        "Pipe.Down"
+	DL_PIPE_LEFT				0x007900        "Pipe.Left"
+	DL_PIPE_A					0x007A28        "Pipe.A"
+
+
+END
+
+OBJECT POOL=0x5000,0x800 
+	LUT_ZZ_MODLOADER:
+		HexString(4D 4F 44 4C 4F 41 44 45 52 36 34 01 FF FF FF FF);
+
+	LUT_DL_SHIELD:
+        CallList( DL_SHIELD );
+		
+	LUT_DL_PIPE_MOUTH:
+        CallList( DL_PIPE_MOUTH );
+		
+	LUT_DL_PIPE_UP:
+        CallList( DL_PIPE_UP );
+		
+	LUT_DL_PIPE_DOWN:
+        CallList( DL_PIPE_DOWN );
+		
+	LUT_DL_PIPE_LEFT:
+        CallList( DL_PIPE_LEFT );
+		
+    LUT_DL_RTHIGH:
+        CallList( DL_RTHIGH );
+
+    LUT_DL_RSHIN:
+        CallList( DL_RSHIN );
+
+    LUT_DL_RFOOT:
+        CallList( DL_RFOOT );
+
+    LUT_DL_LTHIGH:
+        CallList( DL_LTHIGH );
+
+    LUT_DL_LSHIN:
+        CallList( DL_LSHIN );
+
+    LUT_DL_LFOOT:
+        CallList( DL_LFOOT );
+
+    LUT_DL_HEAD:
+        CallList( DL_HEAD );
+
+    LUT_DL_HAT:
+        CallList( DL_HAT );
+
+    LUT_DL_COLLAR:
+        CallList( DL_COLLAR );
+
+    LUT_DL_LSHOULDER:
+        CallList( DL_LSHOULDER );
+
+    LUT_DL_LFOREARM:
+        CallList( DL_LFOREARM );
+
+    LUT_DL_RSHOULDER:
+        CallList( DL_RSHOULDER );
+
+    LUT_DL_RFOREARM:
+        CallList( DL_RFOREARM );
+
+    LUT_DL_TORSO:
+        CallList( DL_TORSO );
+
+    LUT_DL_LHAND:
+        CallList( DL_LHAND );
+
+	LUT_DL_LHAND_BOTTLE:
+		CallList( DL_LHAND_BOTTLE );
+		
+    LUT_DL_RHAND:
+        CallList( DL_RHAND );
+    
+	LUT_DL_SHEATH:
+		CallList( DL_SHEATH );
+	
+	LUT_DL_WAIST:
+		CallList( DL_WAIST );
+
+END
+
+REPOINT
+      GoTo(0x00C56554‬‬);
+      Write32(LUT_DL_WAIST);               // Waist
+      Write32(LUT_DL_WAIST);
+
+	  
+      GoTo(0x00C56644);                    // Left Hand
+      Write32(LUT_DL_LHAND);
+      Write32(LUT_DL_LHAND);
+
+
+      GoTo(0x00C566FC);                    // Right Hand
+      Write32(LUT_DL_RHAND);
+      Write32(LUT_DL_RHAND);
+
+	  GoTo(0x00C56808);                    // Right Shoulder
+      Write32(LUT_DL_RSHOULDER);
+	  
+	  GoTo(0x00C567E0):
+	  Write32(LUT_DL_LFOREARM);			   // Left Forearm
+	  
+	  GoTo(0x00DB6F40);                    // Outstretched Left Hand (for holding bottles)
+	  Write32(LUT_DL_LHAND_BOTTLE);
+	  
+	  GoTo (0x00C5658C);				   // Sheath
+	  Write32(LUT_DL_SHEATH);
+	  
+
+END
