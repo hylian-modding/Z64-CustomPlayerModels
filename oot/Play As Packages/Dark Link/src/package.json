@@ -1,0 +1,17 @@
+{
+  "name": "zzplayas_DarkLink",
+  "version": "1.0.0",
+  "description": "Play as Dark Link in Ocarina of Time (Replace Adult Link)",
+  "main": "zzplayas.js",
+  "author": "CrookedPoe",
+  "credits": "Bird of Light; CrookedPoe",
+  "license": "GPL-3.0",
+  "core": "OcarinaofTime",
+  "zzplayas": {
+    "adult_model": "extracted.zobj",
+    "child_model": "",
+    "anim_file": "",
+    "adult_icon": "DarkLinkHead.png",
+    "child_icon": ""
+  }
+}
