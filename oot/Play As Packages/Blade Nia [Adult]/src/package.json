@@ -1,0 +1,17 @@
+{
+  "name": "Nia",
+  "version": "1.0.0",
+  "description": "Nia from Xenoblade Chronicles 2",
+  "main": "zzplayas.js",
+  "author": "Psi-Hate",
+  "credits": "Psi-Hate",
+  "license": "GPL-3.0",
+  "core": "OcarinaofTime",
+  "zzplayas": {
+    "adult_model": "OoTOBladeNia.zobj",
+    "child_model": "",
+    "anim_file": "",
+    "adult_icon": "icon.png",
+    "child_icon": ""
+  }
+}
