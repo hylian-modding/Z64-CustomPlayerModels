@@ -2,7 +2,7 @@
 Here are custom player models completely developer approved.
 ### Example Model
 #### Aria The Demon by [AriaHiro64](https://github.com/AriaHiro64)
-[![Download](img/aria-adult.jpg)](Play As Packages/Aria The Demon/zzplayas_aria_the_demon.pak)
+[![Download](img/aria-adult.jpg)("Play As Packages/Aria The Demon/zzplayas_aria_the_demon.pak")
 
 costume 0 is the default skin
 costume 1 is a swimsuit version
