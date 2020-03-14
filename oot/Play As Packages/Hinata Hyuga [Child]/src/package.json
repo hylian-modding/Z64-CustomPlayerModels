@@ -11,7 +11,7 @@
     "adult_model": "",
     "child_model": "OoTOHinata.zobj",
     "anim_file": "",
-    "adult_icon": "icon.png",
-    "child_icon": ""
+    "adult_icon": "",
+    "child_icon": "icon.png"
   }
 }
