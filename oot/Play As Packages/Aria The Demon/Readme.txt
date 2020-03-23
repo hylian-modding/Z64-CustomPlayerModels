@@ -32,3 +32,16 @@ A costume inspired by Kasumi (Misty) from the game Pokemon
 2 - Chichi
 
 This is what Chichi (Aria's Daughter) would look like grown up
+
+4 - Spirikin
+
+Demon eyed Aria. Freak out your friends
+
+5 - Hero's Tunic Aria
+
+Aria in Link's Tunic.
+
+6 - Nastalgia
+
+The original design for Aria in 2009.
+
