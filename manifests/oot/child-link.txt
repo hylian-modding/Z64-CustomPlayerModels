@@ -164,18 +164,12 @@ OBJECT POOL=0x5000,0x800
 
     LUT_DL_SWORD_BLADE:
         CallList( DL_SWORD_BLADE );
-
-    LUT_DL_SWORD_BLADE:
-        CallList( DL_SWORD_BLADE );
     
     LUT_DL_SLINGSHOT:
         CallList( DL_SLINGSHOT );
 
     LUT_DL_OCARINA_FAIRY:
         CallList( DL_OCARINA_FAIRY );
-
-    LUT_DL_OCARINA_TIME:
-        CallList( DL_OCARINA_TIME);
 
     LUT_DL_OCARINA_TIME:
         CallList( DL_OCARINA_TIME);
@@ -233,63 +227,108 @@ OBJECT POOL=0x5000,0x800
           CallList( LUT_DL_SWORD_HILT );
           PopMatrix( 1 );
           CallList( LUT_DL_SWORD_SHEATH );
+		  
+	LUT_DL_SWORD_SHEATHED:
+		CallList(DL_SWORD_SHEATHED);
 
     DL_SHIELD_DEKU_ODD: // Oddly Rotated Deku Shield
           CallMatrix( MATRIX_ITEM_SHIELD);
           CallList( LUT_DL_SHIELD_DEKU );
+		  
+	LUT_DL_SHIELD_DEKU_ODD:
+			CallList(DL_SHIELD_DEKU_ODD);
 
       DL_SHIELD_DEKU_BACK: // Rotated Deku Shield
           CallMatrix( MATRIX_SHIELD_BACK );
           CallList( LUT_DL_SHIELD_DEKU );
+		  
+	LUT_DL_SHIELD_DEKU_BACK:
+		CallList(DL_SHIELD_DEKU_BACK);
 
     DL_SWORD_SHIELD_HYLIAN: // Hylian Shield + Sheathed Kokiri Sword
           CallList( DL_SWORD_SHEATHED );
           CallList( LUT_DL_SHIELD_HYLIAN_BACK );
+		  
+	LUT_DL_SWORD_SHIELD_HYLIAN:
+			CallList(DL_SWORD_SHIELD_HYLIAN);
 
       DL_SWORD_SHIELD_DEKU: // Deku Shield + Sheathed Kokiri Sword
           CallList( DL_SWORD_SHEATHED );
           CallList( DL_SHIELD_DEKU_BACK );
+		  
+	LUT_DL_SWORD_SHIELD_DEKU:
+			CallList(DL_SWORD_SHIELD_DEKU);
 
       DL_SHEATH0_HYLIAN: // Hylian Shield + Kokiri Sword Sheath
           CallList( DL_SWORD_SHEATHED );
           CallList( LUT_DL_SHIELD_HYLIAN_BACK );
+		  
+	LUT_DL_SHEATH0_HYLIAN:
+			CallList(DL_SHEATH0_HYLIAN);
 
       DL_SHEATH0_DEKU: // Deku Shield + Kokiri Sword Sheath
           CallList( LUT_DL_SWORD_SHEATH );
           CallList( DL_SHIELD_DEKU_BACK );
+		  
+	LUT_DL_SHEATH0_DEKU:
+			CallList(DL_SHEATH0_DEKU);
 
     DL_LFIST_SWORD: // Left Fist + Kokiri Sword
       CallList( LUT_DL_SWORD_HILT );
       CallList( LUT_DL_SWORD_BLADE );
       CallList( LUT_DL_LFIST );
+	  
+	LUT_DL_LFIST_SWORD:
+			CallList(DL_LFIST_SWORD);
 
     DL_LHAND_PEDESTALSWORD: // Left Hand + Master Sword
       CallList( LUT_DL_MASTER_SWORD );
       CallList( LUT_DL_LHAND );
+	  
+	LUT_DL_LHAND_PEDESTALSWORD:
+			CallList(DL_LHAND_PEDESTALSWORD);
 
     DL_LFIST_BOOMERANG: // Left Fist + Boomerang
       CallList( LUT_DL_BOOMERANG );
       CallList( LUT_DL_LFIST );
+	  
+	LUT_DL_LFIST_BOOMERANG:
+		CallList(DL_LFIST_BOOMERANG);
 
     DL_RFIST_SHIELD_DEKU: // Right Fist + Deku Shield
           CallList( LUT_DL_SHIELD_DEKU );
           CallList( LUT_DL_RFIST );
+		  
+	LUT_DL_RFIST_SHIELD_DEKU:
+			CallList(DL_RFIST_SHIELD_DEKU);
 
     DL_RFIST_SLINGSHOT: // Right Fist + Fairy Slingshot
           CallList( LUT_DL_SLINGSHOT );
           CallList( LUT_DL_RFIST );
+		  
+	LUT_DL_RFIST_SLINGSHOT:
+			CallList(DL_RFIST_SLINGSHOT);
 
     DL_RHAND_OCARINA_FAIRY:
           CallList( LUT_DL_OCARINA_FAIRY );
           CallList( LUT_DL_RHAND );
+		  
+	LUT_DL_RHAND_OCARINA_FAIRY:
+			CallList(DL_RHAND_OCARINA_FAIRY);
 
     DL_RHAND_OCARINA_TIME:
       CallList( LUT_DL_OCARINA_TIME );
       CallList( LUT_DL_RHAND );
+	  
+	LUT_DL_RHAND_OCARINA_TIME:
+			CallList(DL_RHAND_OCARINA_TIME);
 
     DL_FPS_RARM_SLINGSHOT:
           CallList( LUT_DL_SLINGSHOT );
           CallList( LUT_DL_FPS_RIGHT_ARM );
+		  
+	LUT_DL_FPS_RARM_SLINGSHOT:
+			CallList(DL_FPS_RARM_SLINGSHOT);
 END
 
 REPOINT
@@ -298,79 +337,79 @@ REPOINT
       SetAdvance( 8 );
           Write32( LUT_DL_RFIST );                  //    Right Fist (High Poly)
           Write32( LUT_DL_RFIST );                  //    Right Fist (Low Poly)
-          Write32( DL_RFIST_SHIELD_DEKU );      //    Right Fist + Deku Shield (High Poly)
-          Write32( DL_RFIST_SHIELD_DEKU );      //    Right Fist + Deku Shield (Low Poly)
+          Write32( LUT_DL_RFIST_SHIELD_DEKU );      //    Right Fist + Deku Shield (High Poly)
+          Write32( LUT_DL_RFIST_SHIELD_DEKU );      //    Right Fist + Deku Shield (Low Poly)
           Write32( LUT_DL_RFIST );                  //    Right Fist + Hylian Shield (High Poly)
           Write32( LUT_DL_RFIST );                  //    Right Fist + Hylian Shield (Low Poly)
           Write32( LUT_DL_RFIST );                  //    Right Fist + Mirror Shield (High Poly)
           Write32( LUT_DL_RFIST );                  //    Right Fist + Mirror Shield (Low Poly)
-          Write32( DL_SWORD_SHEATHED );         //    Sheathed Sword (High Poly)
-          Write32( DL_SWORD_SHEATHED );         //    Sheathed Sword (Low Poly)
-          Write32( DL_SWORD_SHIELD_DEKU );      //    Deku Shield + Sheathed Sword (High Poly)
-          Write32( DL_SWORD_SHIELD_DEKU );      //    Deku Shield + Sheathed Sword (Low Poly)
-          Write32( DL_SWORD_SHIELD_HYLIAN );    //    Hylian Shield + Sheathed Sword (High Poly)
-          Write32( DL_SWORD_SHIELD_HYLIAN );    //    Hylian Shield + Sheathed Sword (Low Poly)
-          Write32( DL_SWORD_SHEATHED );         //    Mirror Shield + Sheathed Sword (High Poly)
-          Write32( DL_SWORD_SHEATHED );         //    Mirror Shield + Sheathed Sword (Low Poly)
+          Write32( LUT_DL_SWORD_SHEATHED );         //    Sheathed Sword (High Poly)
+          Write32( LUT_DL_SWORD_SHEATHED );         //    Sheathed Sword (Low Poly)
+          Write32( LUT_DL_SWORD_SHIELD_DEKU );      //    Deku Shield + Sheathed Sword (High Poly)
+          Write32( LUT_DL_SWORD_SHIELD_DEKU );      //    Deku Shield + Sheathed Sword (Low Poly)
+          Write32( LUT_DL_SWORD_SHIELD_HYLIAN );    //    Hylian Shield + Sheathed Sword (High Poly)
+          Write32( LUT_DL_SWORD_SHIELD_HYLIAN );    //    Hylian Shield + Sheathed Sword (Low Poly)
+          Write32( LUT_DL_SWORD_SHEATHED );         //    Mirror Shield + Sheathed Sword (High Poly)
+          Write32( LUT_DL_SWORD_SHEATHED );         //    Mirror Shield + Sheathed Sword (Low Poly)
           Write32( 0x00000000     );            //    ? (High Poly)
           Write32( 0x00000000 );                //    ? (Low Poly)
-          Write32( DL_SHIELD_DEKU_BACK );       //    Deku Shield without Sheath (High Poly)
-          Write32( DL_SHIELD_DEKU_BACK );       //    Deku Shield without Sheath (Low Poly)
-          Write32( DL_SWORD_SHEATH );           //    No Shield + Sheath (High Poly)
-          Write32( DL_SWORD_SHEATH );           //    No Shield + Sheath (Low Poly)
-          Write32( DL_SHEATH0_DEKU );           //    Deku Shield + Sheath (High Poly)
-          Write32( DL_SHEATH0_DEKU );           //    Deku Shield + Sheath (Low Poly)
-          Write32( DL_SHEATH0_HYLIAN );         //    Hylian Shield + Sheath (High Poly)
-          Write32( DL_SHEATH0_HYLIAN );         //    Hylian Shield + Sheath (Low Poly)
-          Write32( DL_SWORD_SHEATH );           //    Mirror Shield + Sheath (High Poly)
-          Write32( DL_SWORD_SHEATH );           //    Mirror Shield + Sheath (Low Poly)
+          Write32( LUT_DL_SHIELD_DEKU_BACK );       //    Deku Shield without Sheath (High Poly)
+          Write32( LUT_DL_SHIELD_DEKU_BACK );       //    Deku Shield without Sheath (Low Poly)
+          Write32( LUT_DL_SWORD_SHEATH );           //    No Shield + Sheath (High Poly)
+          Write32( LUT_DL_SWORD_SHEATH );           //    No Shield + Sheath (Low Poly)
+          Write32( LUT_DL_SHEATH0_DEKU );           //    Deku Shield + Sheath (High Poly)
+          Write32( LUT_DL_SHEATH0_DEKU );           //    Deku Shield + Sheath (Low Poly)
+          Write32( LUT_DL_SHEATH0_HYLIAN );         //    Hylian Shield + Sheath (High Poly)
+          Write32( LUT_DL_SHEATH0_HYLIAN );         //    Hylian Shield + Sheath (Low Poly)
+          Write32( LUT_DL_SWORD_SHEATH );           //    Mirror Shield + Sheath (High Poly)
+          Write32( LUT_DL_SWORD_SHEATH );           //    Mirror Shield + Sheath (Low Poly)
           Write32( 0x00000000 );                //    ? (High Poly)
           Write32( 0x00000000 );                //    ? (Low Poly)
-      Write32( DL_SHIELD_DEKU_BACK );           //    Deku Shield without Sheath (High Poly)
-      Write32( DL_SHIELD_DEKU_BACK );           //    Deku Shield without Sheath (Low Poly)
-          Write32( DL_LHAND_PEDESTALSWORD );    //    Left Fist + Biggoron Sword (High Poly)
-          Write32( DL_LHAND_PEDESTALSWORD );    //    Left Fist + Biggoron Sword (Low Poly)
-          Write32( DL_LHAND_PEDESTALSWORD );    //    Left Fist + Broken Giant's Knife (High Poly)
-          Write32( DL_LHAND_PEDESTALSWORD );    //    Left Fist + Broken Giant's Knife (Low Poly)
+      Write32( LUT_DL_SHIELD_DEKU_BACK );           //    Deku Shield without Sheath (High Poly)
+      Write32( LUT_DL_SHIELD_DEKU_BACK );           //    Deku Shield without Sheath (Low Poly)
+          Write32( LUT_DL_LHAND_PEDESTALSWORD );    //    Left Fist + Biggoron Sword (High Poly)
+          Write32( LUT_DL_LHAND_PEDESTALSWORD );    //    Left Fist + Biggoron Sword (Low Poly)
+          Write32( LUT_DL_LHAND_PEDESTALSWORD );    //    Left Fist + Broken Giant's Knife (High Poly)
+          Write32( LUT_DL_LHAND_PEDESTALSWORD );    //    Left Fist + Broken Giant's Knife (Low Poly)
           Write32( LUT_DL_LHAND );                  //    Left Hand (High Poly)
           Write32( LUT_DL_LHAND );                  //    Left Hand (Low Poly)
           Write32( LUT_DL_LFIST );                  //    Left Fist (High Poly)
           Write32( LUT_DL_LFIST );                  //    Left Fist (Low Poly)
-          Write32( DL_LFIST_SWORD );            //    Left Fist + Kokiri Sword (High Poly)
-          Write32( DL_LFIST_SWORD );            //    Left Fist + Kokiri Sword (Low Poly)
-          Write32( DL_LFIST_SWORD );            //    Left Fist + Master Sword (High Poly)
-          Write32( DL_LFIST_SWORD );            //    Left Fist + Master Sword (Low Poly)
+          Write32( LUT_DL_LFIST_SWORD );            //    Left Fist + Kokiri Sword (High Poly)
+          Write32( LUT_DL_LFIST_SWORD );            //    Left Fist + Kokiri Sword (Low Poly)
+          Write32( LUT_DL_LFIST_SWORD );            //    Left Fist + Master Sword (High Poly)
+          Write32( LUT_DL_LFIST_SWORD );            //    Left Fist + Master Sword (Low Poly)
           Write32( LUT_DL_RHAND );                  //    Right Hand (High Poly)
           Write32( LUT_DL_RHAND );                  //    Right Hand (Low Poly)
           Write32( LUT_DL_RFIST );                  //    Right Fist (High Poly)
           Write32( LUT_DL_RFIST );                  //    Right Fist (Low Poly)
-          Write32( DL_RFIST_SLINGSHOT );        //    Right Fist + Fairy Slingshot (and/or Fairy Bow?) (High Poly)
-          Write32( DL_RFIST_SLINGSHOT );        //    Right Fist + Fairy Slingshot (and/or Fairy Bow?) (Low Poly)
-          Write32( DL_SWORD_SHEATHED );         //    Sheathed Sword (High Poly)
-          Write32( DL_SWORD_SHEATHED );         //    Sheathed Sword (Low Poly)
+          Write32( LUT_DL_RFIST_SLINGSHOT );        //    Right Fist + Fairy Slingshot (and/or Fairy Bow?) (High Poly)
+          Write32( LUT_DL_RFIST_SLINGSHOT );        //    Right Fist + Fairy Slingshot (and/or Fairy Bow?) (Low Poly)
+          Write32( LUT_DL_SWORD_SHEATHED );         //    Sheathed Sword (High Poly)
+          Write32( LUT_DL_SWORD_SHEATHED );         //    Sheathed Sword (Low Poly)
           Write32( LUT_DL_SWORD_SHEATH );           //    Sword Sheath (High Poly)
           Write32( LUT_DL_SWORD_SHEATH );           //    Sword Sheath (Low Poly)
           Write32( LUT_DL_WAIST );                  //    Waist (High Poly)
           Write32( LUT_DL_WAIST );                  //    Waist (Low Poly)
-      Write32( DL_RFIST_SLINGSHOT );            //    Right Fist + Fairy Slingshot (and/or Fairy Bow?) (High Poly)
-          Write32( DL_RFIST_SLINGSHOT );        //    Right Fist + Fairy Slingshot (and/or Fairy Bow?) (Low Poly)
-          Write32( DL_RHAND_OCARINA_FAIRY );    //    Right Hand + Fairy Ocarina (High Poly)
-          Write32( DL_RHAND_OCARINA_FAIRY );    //    Right Hand + Fairy Ocarina (Low Poly)
-          Write32( DL_RHAND_OCARINA_TIME );     //    Right Hand + Ocarina of Time (High Poly)
-          Write32( DL_RHAND_OCARINA_TIME );     //    Right Hand + Ocarina of Time (Low Poly)
+      Write32( LUT_DL_RFIST_SLINGSHOT );            //    Right Fist + Fairy Slingshot (and/or Fairy Bow?) (High Poly)
+          Write32( LUT_DL_RFIST_SLINGSHOT );        //    Right Fist + Fairy Slingshot (and/or Fairy Bow?) (Low Poly)
+          Write32( LUT_DL_RHAND_OCARINA_FAIRY );    //    Right Hand + Fairy Ocarina (High Poly)
+          Write32( LUT_DL_RHAND_OCARINA_FAIRY );    //    Right Hand + Fairy Ocarina (Low Poly)
+          Write32( LUT_DL_RHAND_OCARINA_TIME );     //    Right Hand + Ocarina of Time (High Poly)
+          Write32( LUT_DL_RHAND_OCARINA_TIME );     //    Right Hand + Ocarina of Time (Low Poly)
           Write32( LUT_DL_RFIST );                  //    Right Fist + Hookshot / Longshot (High Poly)
           Write32( LUT_DL_RFIST );                  //    Right Fist + Hookshot / Longshot (Low Poly)
           Write32( LUT_DL_LFIST );                  //    Left Fist + Megaton Hammer (High Poly)
           Write32( LUT_DL_LFIST );                  //    Left Fist + Megaton Hammer (Low Poly)
-          Write32( DL_LFIST_BOOMERANG );        //    Left Fist + Boomerang (High Poly)
-          Write32( DL_LFIST_BOOMERANG );        //    Left Fist + Boomerang (Low Poly)
+          Write32( LUT_DL_LFIST_BOOMERANG );        //    Left Fist + Boomerang (High Poly)
+          Write32( LUT_DL_LFIST_BOOMERANG );        //    Left Fist + Boomerang (Low Poly)
           Write32( LUT_DL_LHAND_BOTTLE );           //    Outstretched Left Hand for Holding Bottles (High Poly)
           Write32( LUT_DL_LHAND_BOTTLE );           //    Outstretched Left Hand for Holding Bottles (Low Poly)
           Write32( 0x00000000 );                //    FPS Left Forearm
           Write32( 0x00000000 );                //    FPS Left Hand
           Write32( LUT_DL_RSHOULDER );              //    Right Shoulder (High Poly)
           Write32( 0x00000000 );                //    FPS Right Forearm
-          Write32( DL_FPS_RARM_SLINGSHOT );     //    FPS Right Hand + Fairy Bow
+          Write32( LUT_DL_FPS_RARM_SLINGSHOT );     //    FPS Right Hand + Fairy Bow
 
       GoTo( VROM_CODE+0xE6B2C );
         Write32( LUT_DL_BOTTLE );                   //    Empty Bottle
@@ -400,19 +439,19 @@ REPOINT
 
       // Item_Shield
       GoTo( VROM_ITEM_SHIELD+0x7EE );           //    Burning Deku Shield
-      Hi32( DL_SHIELD_DEKU_ODD );
+      Hi32( LUT_DL_SHIELD_DEKU_ODD );
       GoTo( VROM_ITEM_SHIELD+0x7F2 );
-      Lo32( DL_SHIELD_DEKU_ODD );
+      Lo32( LUT_DL_SHIELD_DEKU_ODD );
 
       // ovl_player_actor
       GoTo( VROM_PLAYER+0x2253C );
       SetAdvance( 4 );
-      Write32( DL_MASK_KEATON );                //    Keaton Mask
-          Write32( LUT_DL_MASK_SKULL );             //    Skull Mask
-          Write32( LUT_DL_MASK_SPOOKY );            //    Spooky Mask
-          Write32( LUT_DL_MASK_BUNNY );             //    Bunny Hood
-          Write32( LUT_DL_MASK_GORON );             //    Goron Mask
-          Write32( LUT_DL_MASK_ZORA );              //    Zora Mask
-          Write32( LUT_DL_MASK_GERUDO );            //    Gerudo Mask
-          Write32( LUT_DL_MASK_TRUTH );             //    Mask of Truth
+	  Write32( LUT_DL_MASK_KEATON );                //    Keaton Mask
+      Write32( LUT_DL_MASK_SKULL );             //    Skull Mask
+      Write32( LUT_DL_MASK_SPOOKY );            //    Spooky Mask
+      Write32( LUT_DL_MASK_BUNNY );             //    Bunny Hood
+      Write32( LUT_DL_MASK_GORON );             //    Goron Mask
+      Write32( LUT_DL_MASK_ZORA );              //    Zora Mask
+      Write32( LUT_DL_MASK_GERUDO );            //    Gerudo Mask
+      Write32( LUT_DL_MASK_TRUTH );             //    Mask of Truth
 END
