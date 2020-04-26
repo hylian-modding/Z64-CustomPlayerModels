@@ -1,14 +1,14 @@
 {
   "name": "Aria_the_Demon",
-  "version": "3.0.0",
+  "version": "1.0.0-RTP",
   "description": "An alien warrior from a planet called Earth",
   "main": "zzplayas.js",
   "author": "AriaHiro64",
-  "credits": "",
+  "credits": "Dragon King Development",
   "license": "GPL-3.0",
   "core": "OcarinaofTime",
   "zzplayas": {
-    "adult_model": ["Aria_Hiro_Girl_OOTO.zobj", "Aria_Hiro_Girl_OOTO_Swim.zobj", "Chichi_Hiro_Girl_OOTO.zobj", "Aria_Hiro_Girl_OOTO_Spirikin.zobj", "Aria_Hiro_Girl_OOTO_Kokiri.zobj", "Aria_Hiro_Girl_OOTO_Proto.zobj"],
+    "adult_model": ["Aria_Hiro_Girl_OOTO.zobj", "Aria_Hiro_Girl_OOTO_Swim.zobj", "Chichi_Hiro_Girl_OOTO.zobj", "Aria_Hiro_Girl_OOTO_Spirikin.zobj", "Aria_Hiro_Girl_OOTO_Kokiri.zobj", "Aria_Hiro_Girl_OOTO_Proto.zobj" ],
     "child_model": ["Aria_Hiro_Child_OOTO.zobj", "Aria_Hiro_Child_OOTO_Swim.zobj", "Chichi_Hiro_Child_OOTO.zobj", "Aria_Hiro_Child_OOTO_Spirikin.zobj", "Aria_Hiro_Child_OOTO_Kokiri.zobj", "Aria_Hiro_Child_OOTO_Proto.zobj"],
     "anim_file": "link_animetion.zdata",
     "adult_icon": "Girl.png",
