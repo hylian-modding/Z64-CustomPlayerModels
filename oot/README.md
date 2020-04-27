@@ -30,4 +30,4 @@ Here are custom player models completely developer approved.
 [![Download](img/.png)](PlayAsPackages/.pak)
 ### Aria The Demon
 #### By [AriaHiro64](https://github.com/AriaHiro64)
-[![Download](img/aria.jpgz)](PlayAsPackages/AriaTheDemon/zzplayas_aria_the_demon.pak)
+[![Download](img/aria.png)](PlayAsPackages/AriaTheDemon/zzplayas_aria_the_demon.pak)
