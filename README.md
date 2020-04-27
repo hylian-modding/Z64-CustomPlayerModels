@@ -1,5 +1,5 @@
-# OcarinaOfTimeOnline-CustomPlayerModels
-A repo of custom player models compatible with Ooto 2.0+
+# Z64-CustomPlayerModels
+A repo of custom player models compatible with ModLoader64
 
 # Making/Submitting Custom Skins
 [Read the guide here](guide/README.md)
@@ -7,4 +7,3 @@ A repo of custom player models compatible with Ooto 2.0+
 # Available Skins
 Start by selecting a game
 ## [OoT](oot/README.md)
-## [MM](mm/README.md)
