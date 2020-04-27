@@ -27,7 +27,7 @@ Here are custom player models completely developer approved.
 [![Download](img/Tetra.png)](PlayAsPackages/Tetra/Tetra.pak)
 ### Toon Link from The Legend of Zelda: The Wind Waker
 #### By [Psi-Hate](https://github.com/Psi-Hate)
-[![Download](img/.png)](PlayAsPackages/.pak)
+[![Download](img/ToonLink.png)](PlayAsPackages/ToonLink/ToonLink.pak)
 ### Aria The Demon
 #### By [AriaHiro64](https://github.com/AriaHiro64)
 [![Download](img/aria.png)](PlayAsPackages/AriaTheDemon/zzplayas_aria_the_demon.pak)
