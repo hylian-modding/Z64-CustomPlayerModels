@@ -3,31 +3,31 @@ Here are custom player models completely developer approved.
 ## Example Model
 ### Nia from Xenoblade
 #### By [Psi-Hate](https://github.com/Psi-Hate)
-[![Download](img/Nia.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/zzNia.pak)
+[![Download](img/Nia.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/zzNia.pak)
 ### Bombiwa from The Legend of Zelda
 #### By [Psi-Hate](https://github.com/Psi-Hate)
-[![Download](img/Bombiwa.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/Bombiwa.pak)
+[![Download](img/Bombiwa.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/Bombiwa.pak)
 ### Dark Link from The Legend of Zelda
 #### By [CrookedPoe](https://github.com/CrookedPoe)
-[![Download](img/DarkLink.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/zzplayas_DarkLink.pak)
+[![Download](img/DarkLink.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/zzplayas_DarkLink.pak)
 ### Fierce Deity from The Legend of Zelda: Majora's Mask
 #### By [CrookedPoe](https://github.com/CrookedPoe)
-[![Download](img/FierceDeity.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/zzplayas_Deity.pak)
+[![Download](img/FierceDeity.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/zzplayas_Deity.pak)
 ### Kafei from The Legend of Zelda: Majora's Mask
 #### By [CrookedPoe](https://github.com/CrookedPoe)
-[![Download](img/Kafei.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/zzplayas_Kafei.pak)
+[![Download](img/Kafei.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/zzplayas_Kafei.pak)
 ### Megaman Volnutt from Megaman Legends
 #### By [Psi-Hate](https://github.com/Psi-Hate)
-[![Download](img/Megaman.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/MegamanVolnutt.pak)
+[![Download](img/Megaman.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/MegamanVolnutt.pak)
 ### Psi-Hate Original Character
 #### By [Psi-Hate](https://github.com/Psi-Hate)
-[![Download](img/Psi-Hate.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/PsiHate.pak)
+[![Download](img/Psi-Hate.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/PsiHate.pak)
 ### Tetra from The Legend of Zelda: The Wind Waker
 #### By [Psi-Hate](https://github.com/Psi-Hate)
-[![Download](img/Tetra.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/Tetra.pak)
+[![Download](img/Tetra.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/Tetra.pak)
 ### Toon Link from The Legend of Zelda: The Wind Waker
 #### By [Psi-Hate](https://github.com/Psi-Hate)
-[![Download](img/ToonLink.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/ToonLink.pak)
+[![Download](img/ToonLink.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/ToonLink.pak)
 ### Aria The Demon
 #### By [AriaHiro64](https://github.com/AriaHiro64)
-[![Download](img/aria.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/zzplayas_aria_the_demon.pak)
+[![Download](img/aria.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/zzplayas_aria_the_demon.pak)
