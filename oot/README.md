@@ -1,9 +1,6 @@
 ## Custom Player Models For Ocarina of Time Online
 Here are custom player models completely developer approved.
 ## Example Model
-### Nia from Xenoblade
-#### By [Psi-Hate](https://github.com/Psi-Hate)
-[![Download](img/Nia.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/zzNia.pak)
 ### Bombiwa from The Legend of Zelda
 #### By [Psi-Hate](https://github.com/Psi-Hate)
 [![Download](img/Bombiwa.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/Bombiwa.pak)
@@ -16,9 +13,15 @@ Here are custom player models completely developer approved.
 ### Kafei from The Legend of Zelda: Majora's Mask
 #### By [CrookedPoe](https://github.com/CrookedPoe)
 [![Download](img/Kafei.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/zzplayas_Kafei.pak)
+### Linebeck from The Legend of Zelda: Phantom Hourglass
+### By [Psi-Hate](https://github.com/Psi-Hate)
+[![Download](img/Linebeck.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/Linebeck.pak)
 ### Megaman Volnutt from Megaman Legends
 #### By [Psi-Hate](https://github.com/Psi-Hate)
 [![Download](img/Megaman.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/MegamanVolnutt.pak)
+### Nia from Xenoblade
+#### By [Psi-Hate](https://github.com/Psi-Hate)
+[![Download](img/Nia.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/zzNia.pak)
 ### Psi-Hate Original Character
 #### By [Psi-Hate](https://github.com/Psi-Hate)
 [![Download](img/Psi-Hate.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/PsiHate.pak)
