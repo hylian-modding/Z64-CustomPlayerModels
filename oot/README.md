@@ -19,6 +19,9 @@ Here are custom player models completely developer approved.
 ### Malon from The Legend of Zelda: Ocarina of Time
 #### By [AriaHiro64](https://github.com/AriaHiro64)
 [![Download](img/Malon.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/zzplayas_Malon.pak)
+### Malon from The Legend of Zelda: Ocarina of Time 3DS
+#### By [Kimi-Stardust](https://github.com/Kimi-Stardust)
+[![Download](img/Malon3D.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/zzplayas_malon3d.pak)
 ### Megaman Volnutt from Megaman Legends
 #### By [Psi-Hate](https://github.com/Psi-Hate)
 [![Download](img/Megaman.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/MegamanVolnutt.pak)
