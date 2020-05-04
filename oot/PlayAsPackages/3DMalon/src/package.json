@@ -1,0 +1,18 @@
+{
+  "name": "MalonOoT3D",
+  "version": "1.1.7",
+  "description": "Child and Adult Malon from OoT3D for OoTO",
+  "main": "zzplayas.js",
+  "author": "Kimi Stardust",
+  "credits": "Niko, Maro & Denoflions",
+  "license": "GPL-3.0",
+  "core": "OcarinaofTime",
+  "zzplayas": {
+    "adult_model": "zzplayas_malonlegs_adult.zobj",
+    "child_model": "zzplayas_malonlegs_child.zobj",
+    "anim_file": "",
+    "adult_icon": "tileAdult.png",
+    "child_icon": "tileChild.png",
+	"updateUrl": "https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/PlayAsPackages/3DMalon/update.json"
+  }
+}
