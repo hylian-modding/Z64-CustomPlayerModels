@@ -10,6 +10,9 @@ Here are custom player models completely developer approved.
 ### Fierce Deity from The Legend of Zelda: Majora's Mask
 #### By [CrookedPoe](https://github.com/CrookedPoe)
 [![Download](img/FierceDeity.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/zzplayas_Deity.pak)
+### Fierce Deity from The Legend of Zelda: Majora's Mask 3DS
+#### By [CraftyBoss](https://github.com/CraftyBoss)
+[![Download](img/FierceDeity3D.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/zzplayas_Deity3D.pak)
 ### Kafei from The Legend of Zelda: Majora's Mask
 #### By [CrookedPoe](https://github.com/CrookedPoe)
 [![Download](img/Kafei.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/zzplayas_Kafei.pak)
