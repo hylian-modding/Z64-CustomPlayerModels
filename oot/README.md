@@ -19,6 +19,9 @@ Here are custom player models completely developer approved.
 ### Linebeck from The Legend of Zelda: Phantom Hourglass
 #### By [Psi-Hate](https://github.com/Psi-Hate)
 [![Download](img/Linebeck.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/Linebeck.pak)
+### Link from The Legend of Zelda: Majora's Mask
+#### By [Neirn](https://github.com/Neirn)
+[![Download](img/MMYoungLink.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/MM_Young_Link.pak)
 ### Malon from The Legend of Zelda: Ocarina of Time
 #### By [AriaHiro64](https://github.com/AriaHiro64)
 [![Download](img/Malon.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/zzplayas_Malon.pak)
@@ -46,6 +49,4 @@ Here are custom player models completely developer approved.
 ### Aria The Demon Original Character
 #### By [AriaHiro64](https://github.com/AriaHiro64)
 [![Download](img/aria.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/zzplayas_aria_the_demon.pak)
-### Young Link from The Legend of Zelda: Majora's Mask
-#### By [Neirn](https://github.com/Neirn)
-[![Download](img/MMYoungLink.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/MM_Young_Link.pak)
+
