@@ -7,6 +7,9 @@ Here are custom player models completely developer approved.
 ### Dark Link from The Legend of Zelda: Ocarina of Time
 #### By [CrookedPoe](https://github.com/CrookedPoe)
 [![Download](img/DarkLink.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/zzplayas_DarkLink.pak)
+### Edward Elric from Full Metal Alchemist
+#### By [Unesag](https://github.com/Unesag/Z64-CustomPlayerModels)
+[![Download](img/edElricMod.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/edElricMod.pak)
 ### Fierce Deity from The Legend of Zelda: Majora's Mask
 #### By [CrookedPoe](https://github.com/CrookedPoe)
 [![Download](img/FierceDeity.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/zzplayas_Deity.pak)
