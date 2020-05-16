@@ -13,6 +13,9 @@ Here are custom player models completely developer approved.
 ### Fierce Deity from The Legend of Zelda: Majora's Mask 3DS
 #### By [CraftyBoss](https://github.com/CraftyBoss)
 [![Download](img/FierceDeity3D.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/FierceDeity3DS.pak)
+### Fierce Deity *Remastered* from The Legend of Zelda: Majora's Mask
+#### By [Skilar](https://skilarmbabcock.wixsite.com/skilarmodding)
+[![Download](img/BetterMMFierceDeity.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/BetterMMFierceDeity.pak)
 ### Kafei from The Legend of Zelda: Majora's Mask
 #### By [CrookedPoe](https://github.com/CrookedPoe)
 [![Download](img/Kafei.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/zzplayas_Kafei.pak)
@@ -20,10 +23,13 @@ Here are custom player models completely developer approved.
 #### By [Psi-Hate](https://github.com/Psi-Hate)
 [![Download](img/Linebeck.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/Linebeck.pak)
 ### Link from The Legend of Zelda: Majora's Mask
+#### By [Skilar](https://skilarmbabcock.wixsite.com/skilarmodding)
+[![Download](img/MMAdultLink.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/MMAdultLink.pak)
+### Link from The Legend of Zelda: Majora's Mask
 #### By [Neirn](https://github.com/Neirn)
 [![Download](img/MMYoungLink.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/MM_Young_Link.pak)
 ### Link from The Legend of Zelda: Twilight Princess
-#### By [Skilar](https://skilarmbabcock.wixsite.com/skilarmodding/tplink64-play-as-twilight-princess-)
+#### By [Skilar](https://skilarmbabcock.wixsite.com/skilarmodding)
 [![Download](img/TPLink64.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/TPLink64.pak)
 ### Malon from The Legend of Zelda: Ocarina of Time
 #### By [AriaHiro64](https://github.com/AriaHiro64)
