@@ -22,6 +22,9 @@ Here are custom player models completely developer approved.
 ### Link from The Legend of Zelda: Majora's Mask
 #### By [Neirn](https://github.com/Neirn)
 [![Download](img/MMYoungLink.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/MM_Young_Link.pak)
+### Link from The Legend of Zelda: Twilight Princess
+#### By [Skilar](https://skilarmbabcock.wixsite.com/skilarmodding/tplink64-play-as-twilight-princess-)
+[![Download](img/TPLink64.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/TPLink64.pak)
 ### Malon from The Legend of Zelda: Ocarina of Time
 #### By [AriaHiro64](https://github.com/AriaHiro64)
 [![Download](img/Malon.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/zzplayas_Malon.pak)
