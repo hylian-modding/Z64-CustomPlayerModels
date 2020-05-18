@@ -7,6 +7,9 @@ DICTIONARY
     TABLE_ACTOR           0xD7490              // start of actor table within code
     TABLE_PARTICLE        0xD6BA0              // start of particle table within code
     VROM_ITEM_SHIELD      A_238                // start of Item_Shield
+    VROM_GRAVE_CHILD      A_364                // graveyard kid
+    VROM_GUARD            A_179                // kakariko guard
+	VROM_RUNNING_MAN      A_354                // running man
     VROM_SS_STICK         E_16                 // ovl_Effect_Ss_Stick is effect 16
     VROM_PLAYER           0xBCDB70             // start of ovl_player_actor within rom
     VROM_OBJ              O_0x15               // object to overwrite
@@ -44,7 +47,7 @@ DICTIONARY
     DL_RFIST              0x017E90    "Fist.R"
 
     // Equipment
-    DL_SWORD_SHEATH       0x0180A0    "Limb 19"
+    DL_SWORD_SHEATH       0x0180A0    "Sheath"
     DL_SWORD_HILT         0x0183C8    "Hilt.1"
     DL_SWORD_BLADE        0x018678    "Blade.1"
     DL_MASTER_SWORD       0x018FC8    "Blade.2"
@@ -454,4 +457,24 @@ REPOINT
       Write32( LUT_DL_MASK_ZORA );              //    Zora Mask
       Write32( LUT_DL_MASK_GERUDO );            //    Gerudo Mask
       Write32( LUT_DL_MASK_TRUTH );             //    Mask of Truth
+	  
+//External_character_Masks
+
+	// En_Cs (Graveyard Kid Spooky Mask)
+	GoTo( VROM_GRAVE_CHILD+0xE62);
+	Hi32( LUT_DL_MASK_SPOOKY );
+	GoTo( VROM_GRAVE_CHILD+0xE66);
+	Lo32( LUT_DL_MASK_SPOOKY );
+
+	// En_Heishi2 (Kakariko Guard Keaton Mask)
+	GoTo( VROM_GUARD+0x1EA2);
+	Hi32( LUT_DL_MASK_KEATON );
+	GoTo( VROM_GUARD+0x1EA6);
+	Lo32( LUT_DL_MASK_KEATON );
+
+     // En_Mm (Running Man Bunny Hood)
+     GoTo( VROM_RUNNING_MAN+0x1142);
+     Hi32( LUT_DL_MASK_BUNNY );
+     GoTo( VROM_RUNNING_MAN+0x1146);
+     Lo32( LUT_DL_MASK_BUNNY );
 END
