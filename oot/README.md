@@ -21,10 +21,13 @@ Here are custom player models completely developer approved.
 [![Download](img/FierceDeity3D.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/FierceDeity3DS.pak)
 ### Fierce Deity *Remastered* from The Legend of Zelda: Majora's Mask
 #### By [Skilar](https://skilarmbabcock.wixsite.com/skilarmodding)
-[![Download](img/BetterMMFierceDeity.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/BetterMMFierceDeity.pak)
+[![Download](img/BetterMMFierceDeity.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/BetterFierceDeityLink.pak)
 ### Godot from Ace Attorney
 #### By Anonymous
 [![Download](img/Godot.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/Godot.pak)
+### Izou Link from The Legend of Zelda
+#### By [Psi-Hate](https://github.com/Psi-Hate)
+[![Download](img/IzouLink.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/IzouLink.pak)
 ### Kafei from The Legend of Zelda: Majora's Mask
 #### By [CrookedPoe](https://github.com/CrookedPoe)
 [![Download](img/Kafei.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/zzplayas_Kafei.pak)
