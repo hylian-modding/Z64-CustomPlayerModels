@@ -25,6 +25,10 @@ Here are custom player models completely developer approved.
 ### Godot from Ace Attorney
 #### By Anonymous
 [![Download](img/Godot.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/Godot.pak)
+### Inuyasha from Inuyasha
+#### By Hailey
+[![Download](img/Inuyasha.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/InuyashaFormChange.pak)
+#### [Tessaiga as Biggoron Sword](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/Tessaiga.pak)
 ### Izou Link from The Legend of Zelda
 #### By [Psi-Hate](https://github.com/Psi-Hate)
 [![Download](img/IzouLink.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/IzouLink.pak)
