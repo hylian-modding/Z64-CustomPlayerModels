@@ -7,6 +7,9 @@ Here are custom player models completely developer approved.
 ### Dark Link from The Legend of Zelda: Ocarina of Time
 #### By [CrookedPoe](https://github.com/CrookedPoe)
 [![Download](img/DarkLink.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/zzplayas_DarkLink.pak)
+### Dampe from The Legend of Zelda: Ocarina of Time
+#### By [Psi-Hate](https://github.com/Psi-Hate)
+[![Download](img/Dampe.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/Dampe.pak)
 ### Edward Elric from Full Metal Alchemist
 #### By [Unesag](https://github.com/Unesag/Z64-CustomPlayerModels)
 [![Download](img/edElricMod.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/edElricMod.pak)
@@ -52,6 +55,12 @@ Here are custom player models completely developer approved.
 ### Psi-Hate Original Character
 #### By [Psi-Hate](https://github.com/Psi-Hate)
 [![Download](img/Psi-Hate.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/PsiHate.pak)
+### Roll from Mega Man
+#### By [Psi-Hate](https://github.com/Psi-Hate)
+[![Download](img/Roll.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/Roll.pak)
+### Sonic from Sonic The Hedgehog
+#### By [Psi-Hate](https://github.com/Psi-Hate)
+[![Download](img/Sonic.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/Sonic.pak)
 ### Tetra from The Legend of Zelda: The Wind Waker
 #### By [Psi-Hate](https://github.com/Psi-Hate)
 [![Download](img/Tetra.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/Tetra.pak)
