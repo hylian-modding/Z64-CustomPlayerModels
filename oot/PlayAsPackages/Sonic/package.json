@@ -1,0 +1,17 @@
+{
+  "name": "Sonic",
+  "version": "1.0.0",
+  "description": "",
+  "main": "zzplayas.js",
+  "author": "Psi-Hate",
+  "credits": "",
+  "license": "GPL-3.0",
+  "core": "OcarinaofTime",
+  "zzplayas": {
+    "adult_model": "SonicModernOoTO.zobj",
+    "child_model": "SonicClassicOoTO.zobj",
+    "anim_file": "",
+    "adult_icon": "icon.png",
+    "child_icon": "icon.png"
+  }
+}
