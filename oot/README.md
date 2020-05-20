@@ -44,13 +44,16 @@ Here are custom player models completely developer approved.
 ### Link from The Legend of Zelda: Majora's Mask
 #### By [Neirn](https://github.com/Neirn)
 [![Download](img/MMYoungLink.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/MM_Young_Link.pak)
+### Link from The Legend of Zelda: Ocarina of Time 3D
+#### By [Skilar](https://skilarmbabcock.wixsite.com/skilarmodding)
+[![Download](img/OcarinaOfTime3DSLink.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/OcarinaOfTime3DSLink.pak)
 ### Link from The Legend of Zelda: Twilight Princess
 #### By [Skilar](https://skilarmbabcock.wixsite.com/skilarmodding)
 [![Download](img/TPLink64.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/TPLink64.pak)
 ### Malon from The Legend of Zelda: Ocarina of Time
 #### By [AriaHiro64](https://github.com/AriaHiro64)
 [![Download](img/Malon.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/zzplayas_Malon.pak)
-### Malon from The Legend of Zelda: Ocarina of Time 3DS
+### Malon from The Legend of Zelda: Ocarina of Time 3D
 #### By [Kimi-Stardust](https://github.com/Kimi-Stardust)
 [![Download](img/Malon3D.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/zzplayas_malon3d.pak)
 ### Thicc Malon Original Character
