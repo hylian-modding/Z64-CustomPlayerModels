@@ -42,7 +42,7 @@ Here are custom player models completely developer approved.
 #### By [Skilar](https://skilarmbabcock.wixsite.com/skilarmodding)
 [![Download](img/MMAdultLink.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/MMAdultLink.pak)
 ### Link from The Legend of Zelda: Majora's Mask
-#### By [Neirn](https://github.com/Neirn)
+### By [Neirn](https://github.com/Neirn)
 [![Download](img/MMYoungLink.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/MM_Young_Link.pak)
 ### Link from The Legend of Zelda: Twilight Princess
 #### By [Skilar](https://skilarmbabcock.wixsite.com/skilarmodding)
