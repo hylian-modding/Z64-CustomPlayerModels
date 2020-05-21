@@ -1,10 +1,10 @@
 {
   "name": "MM_Young_Link",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Play as Young Link from Majora's Mask",
   "main": "zzplayas.js",
   "author": "Neirn",
-  "credits": "Thanks to AriaHiro64 for the Link templates",
+  "credits": "ModLoader64 Team, AriaHiro64, CrookedPoe, ZeldaBoy14",
   "license": "GPL-3.0",
   "core": "OcarinaofTime",
   "zzplayas": {
