@@ -44,9 +44,12 @@ Here are custom player models completely developer approved.
 ### Linebeck from The Legend of Zelda: Phantom Hourglass
 #### By [Psi-Hate](https://github.com/Psi-Hate)
 [![Download](img/Linebeck.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/Linebeck.pak)
+### Link from The Legend of Zelda
+#### By [Skilar](https://skilarmbabcock.wixsite.com/skilarmodding)
+[![Download](img/OR_LA_ATTPLink.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/OR_LA_ATTPLink.pak)
 ### Link from The Legend of Zelda: Breath of the Wild
 #### By [Skilar](https://skilarmbabcock.wixsite.com/skilarmodding)
-[![Download](img/BOTWLink.png.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/BOTWLinkpreview.pak)
+[![Download](img/BOTWLink.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/BOTWLinkpreview.pak)
 ### Link from The Legend of Zelda: Majora's Mask
 #### By [Skilar](https://skilarmbabcock.wixsite.com/skilarmodding)
 [![Download](img/MMAdultLink.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/MMAdultLink.pak)
