@@ -4,6 +4,12 @@ Here are custom player models completely developer approved.
 ### Bombiwa from The Legend of Zelda: Ocarina of Time
 #### By [Psi-Hate](https://github.com/Psi-Hate)
 [![Download](img/Bombiwa.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/Bombiwa.pak)
+### Chrono from Chrono Trigger
+#### By [Skilar](https://skilarmbabcock.wixsite.com/skilarmodding)
+[![Download](img/Chrono.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/Chrono.pak)
+### Cloud Strife from Final Fantasy VII
+#### By [Skilar](https://skilarmbabcock.wixsite.com/skilarmodding)
+[![Download](img/Cloud.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/Cloud.pak)
 ### Dark Link from The Legend of Zelda: Ocarina of Time
 #### By [CrookedPoe](https://github.com/CrookedPoe)
 [![Download](img/DarkLink.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/zzplayas_DarkLink.pak)
@@ -38,6 +44,9 @@ Here are custom player models completely developer approved.
 ### Linebeck from The Legend of Zelda: Phantom Hourglass
 #### By [Psi-Hate](https://github.com/Psi-Hate)
 [![Download](img/Linebeck.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/Linebeck.pak)
+### Link from The Legend of Zelda: Breath of the Wild
+#### By [Skilar](https://skilarmbabcock.wixsite.com/skilarmodding)
+[![Download](img/BOTWLink.png.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/BOTWLinkpreview.pak)
 ### Link from The Legend of Zelda: Majora's Mask
 #### By [Skilar](https://skilarmbabcock.wixsite.com/skilarmodding)
 [![Download](img/MMAdultLink.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/MMAdultLink.pak)
