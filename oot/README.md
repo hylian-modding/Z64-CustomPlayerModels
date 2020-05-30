@@ -25,9 +25,13 @@ Here are custom player models completely developer approved.
 ### Fierce Deity from The Legend of Zelda: Majora's Mask 3DS
 #### By [CraftyBoss](https://github.com/CraftyBoss)
 [![Download](img/FierceDeity3D.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/FierceDeity3DS.pak)
+#### [Fierce Deity Sword as Biggoron Sword](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/FierceSword3DS.pak)
 ### Fierce Deity *Remastered* from The Legend of Zelda: Majora's Mask
 #### By [Skilar](https://skilarmbabcock.wixsite.com/skilarmodding)
 [![Download](img/BetterMMFierceDeity.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/BetterFierceDeityLink.pak)
+### Fox McCloud from Starfox
+#### By [Unesag](https://github.com/Unesag/Z64-CustomPlayerModels)
+[![Download](img/FoxMcCloud.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/FoxMcCloud.pak)
 ### Godot from Ace Attorney
 #### By Anonymous
 [![Download](img/Godot.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/Godot.pak)
