@@ -4,6 +4,9 @@ Here are custom player models completely developer approved.
 ### Bombiwa from The Legend of Zelda: Ocarina of Time
 #### By [Psi-Hate](https://github.com/Psi-Hate)
 [![Download](img/Bombiwa.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/Bombiwa.pak)
+### Chibi-Robo from Chibi-Robo!
+#### By [Unesag](https://github.com/Unesag/Z64-CustomPlayerModels)
+[![Download](img/ChibiRobo.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/ChibiRobo.pak)
 ### Chrono from Chrono Trigger
 #### By [Skilar](https://skilarmbabcock.wixsite.com/skilarmodding)
 [![Download](img/Chrono.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/Chrono.pak)
