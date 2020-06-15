@@ -21,16 +21,26 @@ class zzplayas {
     init() {
         let zz = this['metadata']['zzplayas'];
         if (!fs_extra_1.default.existsSync(zz.config_file)) {
-            fs_extra_1.default.writeFileSync(zz.config_file, JSON.stringify({ replace_equipment: 0 }, null, 1));
+            fs_extra_1.default.writeFileSync(zz.config_file, JSON.stringify({ version: zz.version, costume: 0, replace_equipment: 1 }, null, 3));
         }
         let config = fs_extra_1.default.readJSONSync(zz.config_file);
+        if (!config.version) {
+            let oldEquip = 0;
+            if (config.replace_equipment == 0) {
+                oldEquip = 1;
+            }
+            fs_extra_1.default.writeFileSync(zz.config_file, JSON.stringify({ version: zz.version, costume: 0, replace_equipment: oldEquip }, null, 3));
+            config = fs_extra_1.default.readJSONSync(zz.config_file);
+        }
         if (zz.adult_model !== '') {
             EventHandler_1.bus.emit(OotoAPI_1.OotOnlineEvents.CUSTOM_MODEL_APPLIED_ADULT, path_1.default.resolve(path_1.default.join(__dirname, zz.adult_model)));
         }
         if (zz.child_model !== '') {
             let choice = zz.child_model;
-            if (config.replace_equipment > 0) {
-                choice = 'no_equip_' + choice;
+            if (config.costume == 0) {
+                if (config.replace_equipment == 0) {
+                    choice = 'no_equip_' + choice;
+                }
             }
             EventHandler_1.bus.emit(OotoAPI_1.OotOnlineEvents.CUSTOM_MODEL_APPLIED_CHILD, path_1.default.resolve(path_1.default.join(__dirname, choice)));
         }
