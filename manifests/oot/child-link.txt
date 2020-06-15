@@ -263,7 +263,7 @@ OBJECT POOL=0x5000,0x800
 			CallList(DL_SWORD_SHIELD_DEKU);
 
       DL_SHEATH0_HYLIAN: // Hylian Shield + Kokiri Sword Sheath
-          CallList( DL_SWORD_SHEATH );
+          CallList( DL_SWORD_SHEATHED );
           CallList( LUT_DL_SHIELD_HYLIAN_BACK );
 		  
 	LUT_DL_SHEATH0_HYLIAN:
