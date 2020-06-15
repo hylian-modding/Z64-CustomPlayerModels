@@ -4,6 +4,9 @@ Here are custom player models completely developer approved.
 ### Bombiwa from The Legend of Zelda: Ocarina of Time
 #### By [Psi-Hate](https://github.com/Psi-Hate)
 [![Download](img/Bombiwa.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/Bombiwa.pak)
+### Chibi-Robo from Chibi-Robo!
+#### By [Unesag](https://github.com/Unesag/Z64-CustomPlayerModels)
+[![Download](img/ChibiRobo.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/ChibiRobo.pak)
 ### Chrono from Chrono Trigger
 #### By [Skilar](https://skilarmbabcock.wixsite.com/skilarmodding)
 [![Download](img/Chrono.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/Chrono.pak)
@@ -90,6 +93,9 @@ Here are custom player models completely developer approved.
 ### Sonic from Sonic The Hedgehog
 #### By [Psi-Hate](https://github.com/Psi-Hate)
 [![Download](img/Sonic.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/Sonic.pak)
+### Synth
+#### By [Bird of Light🐦](https://twitter.com/ColBirdstrong)
+[![Download](img/Synth.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/Synth.pak)
 ### Tetra from The Legend of Zelda: The Wind Waker
 #### By [Psi-Hate](https://github.com/Psi-Hate)
 [![Download](img/Tetra.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/Tetra.pak)
