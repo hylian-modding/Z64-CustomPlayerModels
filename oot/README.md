@@ -35,6 +35,9 @@ Here are custom player models completely developer approved.
 ### Fox McCloud from Starfox
 #### By [Unesag](https://github.com/Unesag/Z64-CustomPlayerModels)
 [![Download](img/FoxMcCloud.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/FoxMcCloud.pak)
+### Fox McCloud from Starfox Adventure
+#### By [Unesag](https://github.com/Unesag/Z64-CustomPlayerModels)
+[![Download](img/FoxMcCloudAdv.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/FoxMcCloudAdv.pak)
 ### Godot from Ace Attorney
 #### By Anonymous
 [![Download](img/Godot.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/Godot.pak)
@@ -84,6 +87,9 @@ Here are custom player models completely developer approved.
 ### Nia from Xenoblade
 #### By [Psi-Hate](https://github.com/Psi-Hate)
 [![Download](img/Nia.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/zzNia.pak)
+### Princess Ruto from The Legend of Zelda: Ocarina of Time
+#### By [Unesag](https://github.com/Unesag/Z64-CustomPlayerModels)
+[![Download](img/PrincessRutoChild.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/PrincessRutoChild.pak)
 ### Psi-Hate Original Character
 #### By [Psi-Hate](https://github.com/Psi-Hate)
 [![Download](img/Psi-Hate.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/PsiHate.pak)
