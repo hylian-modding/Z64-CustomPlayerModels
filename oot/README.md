@@ -96,6 +96,9 @@ Here are custom player models completely developer approved.
 ### Roll from Mega Man
 #### By [Psi-Hate](https://github.com/Psi-Hate)
 [![Download](img/Roll.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/Roll.pak)
+### Solid Snake from Metal Gear Solid
+#### By [Anubis-V1](https://github.com/Anubis-V1)
+[![Download](img/PS1Snake.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/PS1Snake.pak)
 ### Sonic from Sonic The Hedgehog
 #### By [Psi-Hate](https://github.com/Psi-Hate)
 [![Download](img/Sonic.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/Sonic.pak)
