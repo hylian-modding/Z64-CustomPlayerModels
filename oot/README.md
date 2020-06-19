@@ -41,6 +41,9 @@ Here are custom player models completely developer approved.
 ### Godot from Ace Attorney
 #### By Anonymous
 [![Download](img/Godot.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/Godot.pak)
+### Hatsune Miku from Project Diva
+#### By [JanexLane](https://github.com/JanexLane)
+[![Download](img/HatsuneMiku_LinkMod.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/HatsuneMiku_LinkMod.pak)
 ### Inuyasha from Inuyasha
 #### By Hailey
 [![Download](img/Inuyasha.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/InuyashaFormChange.pak)
@@ -90,6 +93,9 @@ Here are custom player models completely developer approved.
 ### Princess Ruto from The Legend of Zelda: Ocarina of Time
 #### By [Unesag](https://github.com/Unesag/Z64-CustomPlayerModels)
 [![Download](img/PrincessRutoChild.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/PrincessRutoChild.pak)
+### Princess Zelda from The Legend of Zelda: The Wind Waker
+#### By [Unesag](https://github.com/Unesag/Z64-CustomPlayerModels)
+[![Download](img/PrincessZeldaWW.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/PrincessZeldaWW.pak)
 ### Psi-Hate Original Character
 #### By [Psi-Hate](https://github.com/Psi-Hate)
 [![Download](img/Psi-Hate.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/PsiHate.pak)
