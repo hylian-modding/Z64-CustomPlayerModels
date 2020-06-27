@@ -19,6 +19,9 @@ Here are custom player models completely developer approved.
 ### Dampe from The Legend of Zelda: Ocarina of Time
 #### By [Psi-Hate](https://github.com/Psi-Hate)
 [![Download](img/Dampe.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/Dampe.pak)
+### Dr. Ahsid
+#### By [Unesag](https://github.com/Unesag/Z64-CustomPlayerModels)
+[![Download](img/DrAhsid.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/DrAhsid.pak)
 ### Edward Elric from Full Metal Alchemist
 #### By [Unesag](https://github.com/Unesag/Z64-CustomPlayerModels)
 [![Download](img/edElricMod.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/edElricMod.pak)
