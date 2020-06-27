@@ -93,6 +93,9 @@ Here are custom player models completely developer approved.
 ### Princess Ruto from The Legend of Zelda: Ocarina of Time
 #### By [Unesag](https://github.com/Unesag/Z64-CustomPlayerModels)
 [![Download](img/PrincessRutoChild.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/PrincessRutoChild.pak)
+### Princess Ruto from Hyrule Warriors
+#### By [Unesag](https://github.com/Unesag/Z64-CustomPlayerModels)
+[![Download](img/PrincessRutoGirl.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/PrincessRutoGirl.pak)
 ### Princess Zelda from The Legend of Zelda: The Wind Waker
 #### By [Unesag](https://github.com/Unesag/Z64-CustomPlayerModels)
 [![Download](img/PrincessZeldaWW.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/PrincessZeldaWW.pak)
