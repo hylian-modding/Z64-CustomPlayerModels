@@ -108,6 +108,10 @@ Here are custom player models completely developer approved.
 ### Roll from Mega Man
 #### By [Psi-Hate](https://github.com/Psi-Hate)
 [![Download](img/Roll.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/Roll.pak)
+### Saria from The Legend of Zelda: Ocarina of Time
+#### By [Malon's Rose]
+[![Download](img/Saria.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/SariaCombined.pak)
+#### [Child model only](./pak/Saria.pak) / [Adult model only](./pak/Saria_adult.pak)
 ### Skull Kid from The Legend of Zelda: Ocarina of Time
 #### By [Psi-Hate](https://github.com/Psi-Hate)
 [![Download](img/SkullKid.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/Skullkid.pak)
