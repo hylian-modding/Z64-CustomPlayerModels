@@ -4,6 +4,9 @@ Here are custom player models completely developer approved.
 ### Bombiwa from The Legend of Zelda: Ocarina of Time
 #### By [Psi-Hate](https://github.com/Psi-Hate)
 [![Download](img/Bombiwa.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/Bombiwa.pak)
+### Broly from Dragon Ball Z
+#### By MajinNoob
+[![Download](img/Broly.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/Broly.pak)
 ### Chibi-Robo from Chibi-Robo!
 #### By [Unesag](https://github.com/Unesag/Z64-CustomPlayerModels)
 [![Download](img/ChibiRobo.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/ChibiRobo.pak)
@@ -88,7 +91,7 @@ Here are custom player models completely developer approved.
 #### By [Skilar](https://skilarmbabcock.wixsite.com/skilarmodding)
 [![Download](img/TPLink64.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/TPLink64.pak)
 ### Lucina from Fire Emblem
-#### By [Malon's Rose]
+#### By Malon's Rose
 [![Download](img/Lucina.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/Lucina.pak)
 ### Malon from The Legend of Zelda: Ocarina of Time
 #### By [AriaHiro64](https://github.com/AriaHiro64)
@@ -121,7 +124,7 @@ Here are custom player models completely developer approved.
 #### By [Psi-Hate](https://github.com/Psi-Hate)
 [![Download](img/Roll.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/Roll.pak)
 ### Saria from The Legend of Zelda: Ocarina of Time
-#### By [Malon's Rose]
+#### By Malon's Rose
 [![Download](img/Saria.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/SariaCombined.pak)
 #### [Child model only](./pak/Saria.pak) / [Adult model only](./pak/Saria_adult.pak)
 ### Skull Kid from The Legend of Zelda: Ocarina of Time
@@ -142,6 +145,9 @@ Here are custom player models completely developer approved.
 ### Toon Link from The Legend of Zelda: The Wind Waker
 #### By [Psi-Hate](https://github.com/Psi-Hate)
 [![Download](img/ToonLink.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/ToonLink.pak)
+### Trunks from Dragon Ball Z
+#### By Hailey
+[![Download](img/Trunks.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/Trunks.pak)
 ### Wes from Pokemon Colesseum
 #### By [Serenade Melody](https://github.com/SerenadeMelody/Z64-CustomPlayerModels)
 [![Download](img/Wes_v2.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/Wes_v2.pak)
