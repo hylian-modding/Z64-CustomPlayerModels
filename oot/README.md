@@ -41,12 +41,21 @@ Here are custom player models completely developer approved.
 ### Fox McCloud from Starfox Adventure
 #### By [Unesag](https://github.com/Unesag/Z64-CustomPlayerModels)
 [![Download](img/FoxMcCloudAdv.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/FoxMcCloudAdv.pak)
+### Frozen Warrior
+#### By [Unesag](https://github.com/Unesag/Z64-CustomPlayerModels)
+[![Download](img/Icebiwa.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/Icebiwa.pak)
 ### Godot from Ace Attorney
 #### By Anonymous
 [![Download](img/Godot.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/Godot.pak)
 ### Hatsune Miku from Project Diva
 #### By [JanexLane](https://github.com/JanexLane)
 [![Download](img/HatsuneMiku_LinkMod.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/HatsuneMiku_LinkMod.pak)
+### Happy Mask Salesman from The Legend of Zelda: Majora's Mask
+#### By [Anubis-V1](https://github.com/Anubis-V1)
+[![Download](img/HappyMaskSalesman.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/HappyMaskSalesman.pak)
+### Hero's Shade from The Legend of Zelda: Twilight Princess
+#### By [Psi-Hate](https://github.com/Psi-Hate)
+[![Download](img/HeroShade.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/HeroShade.pak)
 ### Inuyasha from Inuyasha
 #### By Hailey
 [![Download](img/Inuyasha.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/InuyashaFormChange.pak)
@@ -78,6 +87,9 @@ Here are custom player models completely developer approved.
 ### Link from The Legend of Zelda: Twilight Princess
 #### By [Skilar](https://skilarmbabcock.wixsite.com/skilarmodding)
 [![Download](img/TPLink64.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/TPLink64.pak)
+### Lucina from Fire Emblem
+#### By [Malon's Rose]
+[![Download](img/Lucina.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/Lucina.pak)
 ### Malon from The Legend of Zelda: Ocarina of Time
 #### By [AriaHiro64](https://github.com/AriaHiro64)
 [![Download](img/Malon.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/zzplayas_Malon.pak)
