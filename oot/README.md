@@ -1,6 +1,5 @@
 ## Custom Player Models For Ocarina of Time Online
 Here are custom player models completely developer approved.
-## Example Model
 ### Bombiwa from The Legend of Zelda: Ocarina of Time
 #### By [Psi-Hate](https://github.com/Psi-Hate)
 [![Download](img/Bombiwa.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/Bombiwa.pak)
@@ -105,6 +104,9 @@ Here are custom player models completely developer approved.
 ### Megaman Volnutt from Megaman Legends
 #### By [Psi-Hate](https://github.com/Psi-Hate)
 [![Download](img/Megaman.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/MegamanVolnutt.pak)
+### Naruto from Naruto
+#### By [Psi-Hate](https://github.com/Psi-Hate)
+[![Download](img/Naruto.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/Naruto.pak)
 ### Nia from Xenoblade
 #### By [Psi-Hate](https://github.com/Psi-Hate)
 [![Download](img/Nia.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/zzNia.pak)
