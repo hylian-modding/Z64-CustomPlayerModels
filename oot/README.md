@@ -58,6 +58,9 @@ Here are custom player models completely developer approved.
 ### Hero's Shade from The Legend of Zelda: Twilight Princess
 #### By [Psi-Hate](https://github.com/Psi-Hate)
 [![Download](img/HeroShade.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/HeroShade.pak)
+### Hinata from The Naruto
+#### By [Psi-Hate](https://github.com/Psi-Hate)
+[![Download](img/Hinata.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/Hinata.pak)
 ### Inuyasha from Inuyasha
 #### By Hailey
 [![Download](img/Inuyasha.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/InuyashaFormChange.pak)
@@ -65,6 +68,9 @@ Here are custom player models completely developer approved.
 ### Izou Link from The Legend of Zelda
 #### By [Psi-Hate](https://github.com/Psi-Hate)
 [![Download](img/IzouLink.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/IzouLink.pak)
+### Joey Wheeler from Yu-Gi-Oh!
+#### By [Unesag](https://github.com/Unesag/Z64-CustomPlayerModels)
+[![Download](img/JoeyWheeler.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/Joey_Wheeler_Child.pak)
 ### Kafei from The Legend of Zelda: Majora's Mask
 #### By [CrookedPoe](https://github.com/CrookedPoe)
 [![Download](img/Kafei.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/zzplayas_Kafei.pak)
