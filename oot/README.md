@@ -58,7 +58,7 @@ Here are custom player models completely developer approved.
 ### Hero's Shade from The Legend of Zelda: Twilight Princess
 #### By [Psi-Hate](https://github.com/Psi-Hate)
 [![Download](img/HeroShade.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/HeroShade.pak)
-### Hinata from The Naruto
+### Hinata from Naruto
 #### By [Psi-Hate](https://github.com/Psi-Hate)
 [![Download](img/Hinata.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/Hinata.pak)
 ### Inuyasha from Inuyasha
