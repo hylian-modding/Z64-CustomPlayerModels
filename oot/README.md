@@ -95,6 +95,9 @@ Here are custom player models completely developer approved.
 ### Link from The Legend of Zelda: Twilight Princess
 #### By [Skilar](https://skilarmbabcock.wixsite.com/skilarmodding)
 [![Download](img/TPLink64.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/TPLink64.pak)
+### Lizalfos from The Legend of Zelda: Ocarina of Time
+#### By [ONI 3D-Arts](https://twitter.com/ONI_3DArts)
+[![Download](img/ChildLink_Lizalfos.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/ChildLink_Lizalfos.pak)
 ### Lucina from Fire Emblem
 #### By Malon's Rose
 [![Download](img/Lucina.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/Lucina.pak)
@@ -116,6 +119,10 @@ Here are custom player models completely developer approved.
 ### Nia from Xenoblade
 #### By [Psi-Hate](https://github.com/Psi-Hate)
 [![Download](img/Nia.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/zzNia.pak)
+### Pepsiman!
+#### By [UltIMa647](https://twitter.com/UltIMa647)
+[![Download](img/ADULT_Pepsiman.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/ADULT_Pepsiman.pak)
+#### [Default Tunic Colors](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/ADULT_Pepsiman_notuniccolor.pak)
 ### Princess Ruto from The Legend of Zelda: Ocarina of Time
 #### By [Unesag](https://github.com/Unesag/Z64-CustomPlayerModels)
 [![Download](img/PrincessRutoChild.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/PrincessRutoChild.pak)
