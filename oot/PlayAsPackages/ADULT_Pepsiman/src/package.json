@@ -1,0 +1,17 @@
+{
+  "name": "Pepsiman",
+  "version": "1.0.0",
+  "description": "",
+  "main": "zzplayas.js",
+  "author": "UltIMa647",
+  "credits": "",
+  "license": "GPL-3.0",
+  "core": "OcarinaofTime",
+  "zzplayas": {
+    "adult_model": "skin.zobj",
+    "child_model": "",
+    "anim_file": "",
+    "adult_icon": "adultico.png",
+    "child_icon": ""
+  }
+}
