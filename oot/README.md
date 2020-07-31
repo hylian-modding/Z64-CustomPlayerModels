@@ -37,6 +37,9 @@ Here are custom player models completely developer approved.
 ### Fierce Deity *Remastered* from The Legend of Zelda: Majora's Mask
 #### By [Skilar](https://skilarmbabcock.wixsite.com/skilarmodding)
 [![Download](img/BetterMMFierceDeity.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/BetterFierceDeityLink.pak)
+### Fighting Polygon Link from Super Smash Bros.
+#### By [ONI 3D-Arts](https://twitter.com/ONI_3DArts)
+[![Download](img/AdultLink_FightingPolygonLink.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/AdultLink_FightingPolygonLink.pak)
 ### Fox McCloud from Starfox
 #### By [Unesag](https://github.com/Unesag/Z64-CustomPlayerModels)
 [![Download](img/FoxMcCloud.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/FoxMcCloud.pak)
@@ -95,6 +98,7 @@ Here are custom player models completely developer approved.
 ### Link from The Legend of Zelda: Twilight Princess
 #### By [Skilar](https://skilarmbabcock.wixsite.com/skilarmodding)
 [![Download](img/TPLink64.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/TPLink64.pak)
+#### [With Equipment](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/TPLink64Equipped.pak)
 ### Lizalfos from The Legend of Zelda: Ocarina of Time
 #### By [ONI 3D-Arts](https://twitter.com/ONI_3DArts)
 [![Download](img/ChildLink_Lizalfos.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/ChildLink_Lizalfos.pak)
