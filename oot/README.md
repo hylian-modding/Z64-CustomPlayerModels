@@ -4,7 +4,7 @@ Here are custom player models completely developer approved.
 #### By [Psi-Hate](https://github.com/Psi-Hate)
 [![Download](img/Bombiwa.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/Bombiwa.pak)
 ### Broly from Dragon Ball Z
-#### By MajinNoob
+#### By Majin
 [![Download](img/Broly.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/Broly.pak)
 ### Chibi-Robo from Chibi-Robo!
 #### By [Unesag](https://github.com/Unesag/Z64-CustomPlayerModels)
@@ -98,7 +98,7 @@ Here are custom player models completely developer approved.
 ### Link from The Legend of Zelda: Twilight Princess
 #### By [Skilar](https://skilarmbabcock.wixsite.com/skilarmodding)
 [![Download](img/TPLink64.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/TPLink64.pak)
-#### [With Equipment](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/TPLink64Equipped.pak)
+#### [With Equipment (experimental)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/TPLink64Equipped.pak)
 ### Lizalfos from The Legend of Zelda: Ocarina of Time
 #### By [ONI 3D-Arts](https://twitter.com/ONI_3DArts)
 [![Download](img/ChildLink_Lizalfos.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/ChildLink_Lizalfos.pak)
