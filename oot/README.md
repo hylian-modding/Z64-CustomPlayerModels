@@ -78,7 +78,7 @@ Here are custom player models completely developer approved.
 #### By [CrookedPoe](https://github.com/CrookedPoe)
 [![Download](img/Kafei.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/zzplayas_Kafei.pak)
 ### Kairi from Kingdom Hearts
-#### By [Unesag](https://github.com/Unesag/Z64-CustomPlayerModels)
+#### By Malon's Rose
 [![Download](img/Kairi.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/Kairi.pak)
 ### Linebeck from The Legend of Zelda: Phantom Hourglass
 #### By [Psi-Hate](https://github.com/Psi-Hate)
@@ -159,7 +159,7 @@ Here are custom player models completely developer approved.
 #### By [Psi-Hate](https://github.com/Psi-Hate)
 [![Download](img/Sonic.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/Sonic.pak)
 ### Sora from Kingdom Hearts
-#### By Malon's Rose
+#### By [Unesag](https://github.com/Unesag/Z64-CustomPlayerModels)
 [![Download](img/Sora.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/Sora_Adult.pak)
 ### Synth
 #### By [Bird of Light🐦](https://twitter.com/ColBirdstrong)
