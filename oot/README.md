@@ -89,6 +89,9 @@ Here are custom player models completely developer approved.
 ### Link from The Legend of Zelda: Breath of the Wild
 #### By [Skilar](https://skilarmbabcock.wixsite.com/skilarmodding)
 [![Download](img/BOTWLink.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/BOTWLinkpreview.pak)
+### Link from The Legend of Zelda: A Link to the Past
+#### By [ONI 3D-Arts](https://twitter.com/ONI_3DArts)
+[![Download](img/LTTPLink.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/AllLink_LTTPLink.pak)
 ### Link from The Legend of Zelda: Majora's Mask
 #### By [Skilar](https://skilarmbabcock.wixsite.com/skilarmodding)
 [![Download](img/MMAdultLink.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/MMAdultLink.pak)
