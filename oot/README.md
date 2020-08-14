@@ -108,6 +108,9 @@ Here are custom player models completely developer approved.
 ### Lizalfos from The Legend of Zelda: Ocarina of Time
 #### By [ONI 3D-Arts](https://twitter.com/ONI_3DArts)
 [![Download](img/ChildLink_Lizalfos.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/ChildLink_Lizalfos.pak)
+### Lonk from Pennsylvania
+#### By Malon's Rose
+[![Download](img/Lonk.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/lonk.pak)
 ### Lucina from Fire Emblem
 #### By Malon's Rose
 [![Download](img/Lucina.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/Lucina.pak)
@@ -176,6 +179,9 @@ Here are custom player models completely developer approved.
 ### Trunks from Dragon Ball Z
 #### By Hailey
 [![Download](img/Trunks.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/Trunks.pak)
+### Vegeta from Dragon Ball Z
+#### By Hailey
+[![Download](img/Vegeta.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/Vegeta.pak)
 ### Wes from Pokemon Colesseum
 #### By [Serenade Melody](https://github.com/SerenadeMelody/Z64-CustomPlayerModels)
 [![Download](img/Wes_v2.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/Wes_v2.pak)
