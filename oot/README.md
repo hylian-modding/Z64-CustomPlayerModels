@@ -21,6 +21,9 @@ Here are custom player models completely developer approved.
 ### Dampe from The Legend of Zelda: Ocarina of Time
 #### By [Psi-Hate](https://github.com/Psi-Hate)
 [![Download](img/Dampe.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/Dampe.pak)
+### Deku Nut Link
+#### By [ONI 3D-Arts](https://twitter.com/ONI_3DArts)
+[![Download](img/DekuNutLink.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/AllLink_DekuNutLink.pak)
 ### Dr. Ahsid
 #### By [Unesag](https://github.com/Unesag/Z64-CustomPlayerModels)
 [![Download](img/DrAhsid.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/DrAhsid.pak)
