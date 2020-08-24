@@ -54,7 +54,7 @@ Here are custom player models completely developer approved.
 [![Download](img/Adult_Icebiwa.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/Adult_Icebiwa.pak)
 ### Godot from Ace Attorney
 #### By Anonymous
-[![Download](img/Adult_Godot.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/Godot.pak)
+[![Download](img/Adult_Godot.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/Adult_Godot.pak)
 ### Hatsune Miku from Project Diva
 #### By [JanexLane](https://github.com/JanexLane)
 [![Download](img/Combined_HatsuneMiku.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/Combined_HatsuneMiku.pak)
@@ -110,7 +110,7 @@ Here are custom player models completely developer approved.
 #### [With Equipment (experimental)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/Combined_TPLink64Equipped.pak)
 ### Lizalfos from The Legend of Zelda: Ocarina of Time
 #### By [ONI 3D-Arts](https://twitter.com/ONI_3DArts)
-[![Download](img/Child_Lizalfos.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/ChildLink_Lizalfos.pak)
+[![Download](img/Child_Lizalfos.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/Child_Lizalfos.pak)
 ### Lonk from Pennsylvania
 #### By Malon's Rose
 [![Download](img/Child_Lonk.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/Child_Lonk.pak)
@@ -122,7 +122,7 @@ Here are custom player models completely developer approved.
 [![Download](img/Combined_Malon.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/Combined_Malon.pak)
 ### Malon from The Legend of Zelda: Ocarina of Time 3D
 #### By [Kimi-Stardust](https://github.com/Kimi-Stardust)
-[![Download](img/Combined_Malon3D.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/Combined_malon3d.pak)
+[![Download](img/Combined_Malon3D.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/Combined_Malon3D.pak)
 ### Thicc Malon Original Character
 #### Bt [Kimi-Stardust](https://github.com/Kimi-Stardust)
 [![Download](img/Combined_ThiccMalon.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/Combined_ThiccMalon.pak)
@@ -166,13 +166,13 @@ Here are custom player models completely developer approved.
 [![Download](img/Adult_PS1Snake.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/Adult_PS1Snake.pak)
 ### Sonic from Sonic The Hedgehog
 #### By [Psi-Hate](https://github.com/Psi-Hate)
-[![Download](img/Combined_Sonic.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/Sonic.pak)
+[![Download](img/Combined_Sonic.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/Combined_Sonic.pak)
 ### Sora from Kingdom Hearts
 #### By [Unesag](https://github.com/Unesag/Z64-CustomPlayerModels)
 [![Download](img/Adult_Sora.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/Adult_Sora.pak)
 ### Synth
 #### By [Bird of Light🐦](https://twitter.com/ColBirdstrong)
-[![Download](img/Combined_Synth.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/Synth.pak)
+[![Download](img/Combined_Synth.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/Combined_Synth.pak)
 ### Tetra from The Legend of Zelda: The Wind Waker
 #### By [Psi-Hate](https://github.com/Psi-Hate)
 [![Download](img/Child_Tetra.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/Child_Tetra.pak)
