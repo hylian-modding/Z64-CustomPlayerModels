@@ -1,6 +1,6 @@
 {
-  "name": "MM_Young_Link",
-  "version": "1.2",
+  "name": "MMYoungLink",
+  "version": "1.4",
   "description": "Play as Young Link from Majora's Mask",
   "main": "zzplayas.js",
   "author": "Neirn",
@@ -14,6 +14,6 @@
     "adult_icon": "",
     "child_icon": "",
     "config_file": "./zzplayas_mm_young_link_config.json",
-    "version": "1.2"
+    "version": "1.4"
   }
 }
