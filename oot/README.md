@@ -101,6 +101,9 @@ Here are custom player models completely developer approved.
 ### Link from The Legend of Zelda: Majora's Mask
 #### By [Neirn](https://github.com/Neirn)
 [![Download](img/Child_MMLink.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/Child_MMLink.pak)
+### Link (Elegy of Emptiness statue) from The Legend of Zelda: Majora's Mask
+#### By [JerryWester](https://github.com/JerryWester)
+[![Download](img/Child_LinkElegyStatue.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/Child_LinkElegyStatue.pak)
 ### Link from The Legend of Zelda: Ocarina of Time 3D
 #### By [Skilar](https://skilarmbabcock.wixsite.com/skilarmodding)
 [![Download](img/Combined_OcarinaOfTime3DSLink.png)](https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/oot/pak/Combined_OcarinaOfTime3DSLink.pak)
