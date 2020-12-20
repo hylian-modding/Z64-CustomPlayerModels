@@ -5,6 +5,4 @@ Place a ".pak" of your choosing in the mods folder of ML64.
 [Read the guide here](guide/README.md)
 
 # Available Skins
-Start by selecting a game
-## [OoT](oot/README.md)
-## [MM](mm/README.md)
+All officially available playas models for OoT and MM are on the [ModLoader64](https://www.modloader64.com/models.html) website.
