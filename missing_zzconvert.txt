@@ -1,116 +1,153 @@
-./Z64-CustomPlayerModels/oot/PlayAsPackages/Sonic/src/SonicModernOoTO.zobj
-./Z64-CustomPlayerModels/oot/PlayAsPackages/Sonic/src/SonicClassicOoTO.zobj
-./Z64-CustomPlayerModels/oot/PlayAsPackages/Kafei/src/kafei_extracted.zobj
-./Z64-CustomPlayerModels/oot/PlayAsPackages/HenryStickmin/skin.zobj
-./Z64-CustomPlayerModels/oot/PlayAsPackages/FoxLink/Fox Boy OOT.zobj
-./Z64-CustomPlayerModels/oot/PlayAsPackages/FoxLink/Fox Child OOT.zobj
-./Z64-CustomPlayerModels/oot/PlayAsPackages/Adult_Zelda64/adult_zelda.zobj
-./Z64-CustomPlayerModels/oot/PlayAsPackages/AriaTheDemon/src/Aria_Hiro_Child_OOTO_Swim.zobj
-./Z64-CustomPlayerModels/oot/PlayAsPackages/AriaTheDemon/src/Aria_Hiro_Child_OOTO_Kokiri.zobj
-./Z64-CustomPlayerModels/oot/PlayAsPackages/AriaTheDemon/src/Aria_Hiro_Girl_OOTO_Proto.zobj
-./Z64-CustomPlayerModels/oot/PlayAsPackages/AriaTheDemon/src/Aria_Hiro_Girl_OOTO_Spirikin.zobj
-./Z64-CustomPlayerModels/oot/PlayAsPackages/AriaTheDemon/src/Aria_Hiro_Girl_OOTO.zobj
-./Z64-CustomPlayerModels/oot/PlayAsPackages/AriaTheDemon/src/Aria_Hiro_Child_OOTO_Spirikin.zobj
-./Z64-CustomPlayerModels/oot/PlayAsPackages/AriaTheDemon/src/Chichi_Hiro_Girl_OOTO.zobj
-./Z64-CustomPlayerModels/oot/PlayAsPackages/AriaTheDemon/src/Aria_Hiro_Girl_OOTO_Kokiri.zobj
-./Z64-CustomPlayerModels/oot/PlayAsPackages/AriaTheDemon/src/Aria_Hiro_Girl_OOTO_Swim.zobj
-./Z64-CustomPlayerModels/oot/PlayAsPackages/AriaTheDemon/src/Aria_Hiro_Child_OOTO.zobj
-./Z64-CustomPlayerModels/oot/PlayAsPackages/AriaTheDemon/src/Aria_Hiro_Child_OOTO_Proto.zobj
-./Z64-CustomPlayerModels/oot/PlayAsPackages/AriaTheDemon/src/Chichi_Hiro_Child_OOTO.zobj
-./Z64-CustomPlayerModels/oot/PlayAsPackages/Chrono/src/OnlineLink.zobj
-./Z64-CustomPlayerModels/oot/PlayAsPackages/Cool_Spot/cool_spot.zobj
-./Z64-CustomPlayerModels/oot/PlayAsPackages/Lucina/lucina.zobj
-./Z64-CustomPlayerModels/oot/PlayAsPackages/RubyRose/RubyRose.zobj
-./Z64-CustomPlayerModels/oot/PlayAsPackages/MegamanVolnutt/src/MegaManClassicOoTO.zobj
-./Z64-CustomPlayerModels/oot/PlayAsPackages/MegamanVolnutt/src/MegamanVolnutt.zobj
-./Z64-CustomPlayerModels/oot/PlayAsPackages/MegamanVolnutt/src/MegamanVolnuttOoTO.zobj
-./Z64-CustomPlayerModels/oot/PlayAsPackages/AdultLink_TerminalMontageLink/AdultLink_TerminalMontageLink.zobj
-./Z64-CustomPlayerModels/oot/PlayAsPackages/Paya/Paya.zobj
-./Z64-CustomPlayerModels/oot/PlayAsPackages/FierceDeity/src/fd_link_extracted.zobj
-./Z64-CustomPlayerModels/oot/PlayAsPackages/Trunks/Trunks.zobj
-./Z64-CustomPlayerModels/oot/PlayAsPackages/DarkMagicianGirl/Adult_Dark_Magician_Girl.zobj
-./Z64-CustomPlayerModels/oot/PlayAsPackages/Adult_LowPoly_OOT/Adult_LowPoly_OOT.zobj
-./Z64-CustomPlayerModels/oot/PlayAsPackages/Roll/src/rollOoTO.zobj
-./Z64-CustomPlayerModels/oot/PlayAsPackages/Roll/src/rollClassicOoTO.zobj
-./Z64-CustomPlayerModels/oot/PlayAsPackages/BladeNia/src/OoTOBladeNia.zobj
-./Z64-CustomPlayerModels/oot/PlayAsPackages/Anju/Anju.zobj
-./Z64-CustomPlayerModels/oot/PlayAsPackages/Anju/child_anju.zobj
-./Z64-CustomPlayerModels/oot/PlayAsPackages/Anju/anju_legs.zobj
-./Z64-CustomPlayerModels/oot/PlayAsPackages/Child_Bubsy/child_bubsy.zobj
-./Z64-CustomPlayerModels/oot/PlayAsPackages/lonk/lonk.zobj
-./Z64-CustomPlayerModels/oot/PlayAsPackages/IzouLink/src/IzouLinkOoTO.zobj
-./Z64-CustomPlayerModels/oot/PlayAsPackages/ADULT_Pepsiman/src/skin.zobj
-./Z64-CustomPlayerModels/oot/PlayAsPackages/Wes_v2/wes_2.zobj
-./Z64-CustomPlayerModels/oot/PlayAsPackages/Adult_ZoraLink/AdultZoraLink.zobj
-./Z64-CustomPlayerModels/oot/PlayAsPackages/Linebeck/src/LinebeckOoTO.zobj
-./Z64-CustomPlayerModels/oot/PlayAsPackages/Combined_StoneOfAgony/Adult_StoneOfAgony.zobj
-./Z64-CustomPlayerModels/oot/PlayAsPackages/Combined_StoneOfAgony/Child_StoneOfAgony.zobj
-./Z64-CustomPlayerModels/oot/PlayAsPackages/Bombiwa/src/BombiwaChildOoTO.zobj
-./Z64-CustomPlayerModels/oot/PlayAsPackages/Bombiwa/src/BombiwaAdultOoTO.zobj
-./Z64-CustomPlayerModels/oot/PlayAsPackages/Naruto/NarutoShippudenOoTO.zobj
-./Z64-CustomPlayerModels/oot/PlayAsPackages/Naruto/NarutoChildOoTO.zobj
-./Z64-CustomPlayerModels/oot/PlayAsPackages/BOTWLink/src/OnlineLink.zobj
-./Z64-CustomPlayerModels/oot/PlayAsPackages/Tetra/src/TetraOoTO.zobj
-./Z64-CustomPlayerModels/oot/PlayAsPackages/HeroShade/src/HeroShadeOoTO.zobj
-./Z64-CustomPlayerModels/oot/PlayAsPackages/ToonDarkMagicianGirl/toon_dmg.zobj
-./Z64-CustomPlayerModels/oot/PlayAsPackages/OR_LA_ATTPLink/src/OnlineLink.zobj
-./Z64-CustomPlayerModels/oot/PlayAsPackages/Saria/Adult_saria.zobj
-./Z64-CustomPlayerModels/oot/PlayAsPackages/Saria/Child_Saria.zobj
-./Z64-CustomPlayerModels/oot/PlayAsPackages/FoxLinkTunic/Fox Child Tunic OOT.zobj
-./Z64-CustomPlayerModels/oot/PlayAsPackages/FoxLinkTunic/Fox Boy Tunic OOT.zobj
-./Z64-CustomPlayerModels/oot/PlayAsPackages/ToonLink/src/DSLinkOoTO.zobj
-./Z64-CustomPlayerModels/oot/PlayAsPackages/HatsuneMiku_LinkMod/AdultMiku.zobj
-./Z64-CustomPlayerModels/oot/PlayAsPackages/HatsuneMiku_LinkMod/ChildMiku.zobj
-./Z64-CustomPlayerModels/oot/PlayAsPackages/Skullkid/src/SkullKidOoTO.zobj
-./Z64-CustomPlayerModels/oot/PlayAsPackages/Cloud/src/OnlineLink.zobj
-./Z64-CustomPlayerModels/oot/PlayAsPackages/Hinata/HinataChildOoTO.zobj
-./Z64-CustomPlayerModels/oot/PlayAsPackages/PsiHate/src/PsiHateOoTO.zobj
-./Z64-CustomPlayerModels/oot/PlayAsPackages/Combined_HylianGuard/Child_HylianGuard.zobj
-./Z64-CustomPlayerModels/oot/PlayAsPackages/Combined_HylianGuard/Adult_HylianGuard.zobj
-./Z64-CustomPlayerModels/oot/PlayAsPackages/PrincessRutoN64/Child_PrincessRutoN64.zobj
-./Z64-CustomPlayerModels/oot/PlayAsPackages/PrincessRutoN64/Adult_PrincessRutoN64.zobj
-./Z64-CustomPlayerModels/oot/PlayAsPackages/Kairi/kairi.zobj
-./Z64-CustomPlayerModels/oot/PlayAsPackages/3DSLink/src/OnlineYoungLink.zobj
-./Z64-CustomPlayerModels/oot/PlayAsPackages/3DSLink/src/OnlineLink.zobj
-./Z64-CustomPlayerModels/oot/PlayAsPackages/The_Aura_Pokemon/Lucario0.zobj
-./Z64-CustomPlayerModels/oot/PlayAsPackages/The_Aura_Pokemon/Lucario1.zobj
-./Z64-CustomPlayerModels/oot/PlayAsPackages/The_Aura_Pokemon/Riolu0.zobj
-./Z64-CustomPlayerModels/oot/PlayAsPackages/The_Aura_Pokemon/Riolu1.zobj
-./Z64-CustomPlayerModels/oot/PlayAsPackages/The_Aura_Pokemon/Lucario3.zobj
-./Z64-CustomPlayerModels/oot/PlayAsPackages/The_Aura_Pokemon/Lucario2.zobj
-./Z64-CustomPlayerModels/oot/PlayAsPackages/The_Aura_Pokemon/Riolu3.zobj
-./Z64-CustomPlayerModels/oot/PlayAsPackages/The_Aura_Pokemon/Riolu2.zobj
-./Z64-CustomPlayerModels/oot/PlayAsPackages/3DMalon/src/zzplayas_malonlegs_adult.zobj
-./Z64-CustomPlayerModels/oot/PlayAsPackages/3DMalon/src/zzplayas_malonlegs_child.zobj
-./Z64-CustomPlayerModels/oot/PlayAsPackages/HatsuneMikuColorable/AdultMiku.zobj
-./Z64-CustomPlayerModels/oot/PlayAsPackages/HatsuneMikuColorable/ChildMiku.zobj
-./Z64-CustomPlayerModels/oot/PlayAsPackages/Adult_PlumberLink/Adult_PlumberLink_OOT.zobj
-./Z64-CustomPlayerModels/oot/PlayAsPackages/TPLinkEquipped/OnlineYoungLink.zobj
-./Z64-CustomPlayerModels/oot/PlayAsPackages/TPLinkEquipped/OnlineLink.zobj
-./Z64-CustomPlayerModels/oot/PlayAsPackages/3DFierceDeity/src/FD3DS.zobj
-./Z64-CustomPlayerModels/oot/PlayAsPackages/Dampe/src/DampeOoTO.zobj
-./Z64-CustomPlayerModels/oot/PlayAsPackages/Child_LuigiLink/Child_LuigiLink_OOT.zobj
-./Z64-CustomPlayerModels/oot/PlayAsPackages/CHILD_Goron/skin.zobj
-./Z64-CustomPlayerModels/oot/PlayAsPackages/AllLink_LTTPLink/ChildLink_LTTPLink.zobj
-./Z64-CustomPlayerModels/oot/PlayAsPackages/AllLink_LTTPLink/AdultLink_LTTPLink.zobj
-./Z64-CustomPlayerModels/oot/PlayAsPackages/Darunia/skin.zobj
-./Z64-CustomPlayerModels/mm/PlayAsPackages/FoxLink/Fox Child MM.zobj
-./Z64-CustomPlayerModels/mm/PlayAsPackages/Child_FD/Child_FD_MM.zobj
-./Z64-CustomPlayerModels/mm/PlayAsPackages/ToonDarkMagicianGirl/toon_dmg_mm.zobj
-./Z64-CustomPlayerModels/mm/PlayAsPackages/Saria/Saria_Adult_MM.zobj
-./Z64-CustomPlayerModels/mm/PlayAsPackages/Saria/saria_mm.zobj
-./Z64-CustomPlayerModels/mm/PlayAsPackages/FoxLinkTunic/Fox Child Tunic MM.zobj
-./Z64-CustomPlayerModels/mm/PlayAsPackages/AmongUsCrewmate/Purple/ChildMM.zobj
-./Z64-CustomPlayerModels/mm/PlayAsPackages/AmongUsCrewmate/Pink/ChildMM.zobj
-./Z64-CustomPlayerModels/mm/PlayAsPackages/AmongUsCrewmate/White/ChildMM.zobj
-./Z64-CustomPlayerModels/mm/PlayAsPackages/AmongUsCrewmate/Cyan/ChildMM.zobj
-./Z64-CustomPlayerModels/mm/PlayAsPackages/AmongUsCrewmate/Lime/ChildMM.zobj
-./Z64-CustomPlayerModels/mm/PlayAsPackages/AmongUsCrewmate/Brown/ChildMM.zobj
-./Z64-CustomPlayerModels/mm/PlayAsPackages/AmongUsCrewmate/Red/ChildMM.zobj
-./Z64-CustomPlayerModels/mm/PlayAsPackages/AmongUsCrewmate/Black/ChildMM.zobj
-./Z64-CustomPlayerModels/mm/PlayAsPackages/AmongUsCrewmate/Orange/ChildMM.zobj
-./Z64-CustomPlayerModels/mm/PlayAsPackages/AmongUsCrewmate/Yellow/ChildMM.zobj
-./Z64-CustomPlayerModels/mm/PlayAsPackages/AmongUsCrewmate/Blue/ChildMM.zobj
-./Z64-CustomPlayerModels/mm/PlayAsPackages/AmongUsCrewmate/Green/ChildMM.zobj
-./Z64-CustomPlayerModels/mm/PlayAsPackages/Child_LuigiLink/Child_LuigiLink_MM.zobj
-./Z64-CustomPlayerModels/mm/PlayAsPackages/Child_Cool_Spot/cool_spot_MM.zobj
+--- Aria Hiroshi ---
+./oot/PlayAsPackages/AriaTheDemon/src/Aria_Hiro_Child_OOTO_Swim.zobj
+./oot/PlayAsPackages/AriaTheDemon/src/Aria_Hiro_Child_OOTO_Kokiri.zobj
+./oot/PlayAsPackages/AriaTheDemon/src/Aria_Hiro_Girl_OOTO_Proto.zobj
+./oot/PlayAsPackages/AriaTheDemon/src/Aria_Hiro_Girl_OOTO_Spirikin.zobj
+./oot/PlayAsPackages/AriaTheDemon/src/Aria_Hiro_Girl_OOTO.zobj
+./oot/PlayAsPackages/AriaTheDemon/src/Aria_Hiro_Child_OOTO_Spirikin.zobj
+./oot/PlayAsPackages/AriaTheDemon/src/Chichi_Hiro_Girl_OOTO.zobj
+./oot/PlayAsPackages/AriaTheDemon/src/Aria_Hiro_Girl_OOTO_Kokiri.zobj
+./oot/PlayAsPackages/AriaTheDemon/src/Aria_Hiro_Girl_OOTO_Swim.zobj
+./oot/PlayAsPackages/AriaTheDemon/src/Aria_Hiro_Child_OOTO.zobj
+./oot/PlayAsPackages/AriaTheDemon/src/Aria_Hiro_Child_OOTO_Proto.zobj
+./oot/PlayAsPackages/AriaTheDemon/src/Chichi_Hiro_Child_OOTO.zobj
+
+--- CraftyBoss ---
+./oot/PlayAsPackages/3DFierceDeity/src/FD3DS.zobj
+
+--- CrookedPoe ---
+./oot/PlayAsPackages/Kafei/src/kafei_extracted.zobj
+./oot/PlayAsPackages/FierceDeity/src/fd_link_extracted.zobj
+
+--- Hailey ---
+./oot/PlayAsPackages/Trunks/Trunks.zobj
+
+--- JanexLane ---
+./oot/PlayAsPackages/HatsuneMiku_LinkMod/AdultMiku.zobj
+./oot/PlayAsPackages/HatsuneMiku_LinkMod/ChildMiku.zobj
+./oot/PlayAsPackages/HatsuneMikuColorable/AdultMiku.zobj
+./oot/PlayAsPackages/HatsuneMikuColorable/ChildMiku.zobj
+
+--- Kimi-Stardust / Celestial Clarity / Karicyan ---
+./oot/PlayAsPackages/3DMalon/src/zzplayas_malonlegs_adult.zobj
+./oot/PlayAsPackages/3DMalon/src/zzplayas_malonlegs_child.zobj
+
+--- Malon's Rose ---
+./oot/PlayAsPackages/Adult_Zelda64/adult_zelda.zobj
+./oot/PlayAsPackages/Cool_Spot/cool_spot.zobj
+./oot/PlayAsPackages/Lucina/lucina.zobj
+./oot/PlayAsPackages/RubyRose/RubyRose.zobj
+./oot/PlayAsPackages/DarkMagicianGirl/Adult_Dark_Magician_Girl.zobj
+./oot/PlayAsPackages/Anju/Anju.zobj
+./oot/PlayAsPackages/Anju/child_anju.zobj
+./oot/PlayAsPackages/Anju/anju_legs.zobj
+./oot/PlayAsPackages/Child_Bubsy/child_bubsy.zobj
+./oot/PlayAsPackages/lonk/lonk.zobj
+./oot/PlayAsPackages/Saria/Adult_saria.zobj
+./oot/PlayAsPackages/Saria/Child_Saria.zobj
+./oot/PlayAsPackages/Kairi/kairi.zobj
+./mm/PlayAsPackages/Saria/Saria_Adult_MM.zobj
+./mm/PlayAsPackages/Saria/saria_mm.zobj
+./mm/PlayAsPackages/Child_Cool_Spot/cool_spot_MM.zobj
+
+--- Malon's Rose + Unesag ---
+./oot/PlayAsPackages/ToonDarkMagicianGirl/toon_dmg.zobj
+./mm/PlayAsPackages/ToonDarkMagicianGirl/toon_dmg_mm.zobj
+
+--- Mikus64 ---
+./oot/PlayAsPackages/PrincessRutoN64/Child_PrincessRutoN64.zobj
+./oot/PlayAsPackages/PrincessRutoN64/Adult_PrincessRutoN64.zobj
+
+--- Moriya ---
+./oot/PlayAsPackages/Adult_LowPoly_OOT/Adult_LowPoly_OOT.zobj
+
+--- ONI 3D-Arts ---
+./oot/PlayAsPackages/AdultLink_TerminalMontageLink/AdultLink_TerminalMontageLink.zobj
+./oot/PlayAsPackages/Combined_StoneOfAgony/Adult_StoneOfAgony.zobj
+./oot/PlayAsPackages/Combined_StoneOfAgony/Child_StoneOfAgony.zobj
+./oot/PlayAsPackages/OR_LA_ATTPLink/src/OnlineLink.zobj
+./oot/PlayAsPackages/Combined_HylianGuard/Child_HylianGuard.zobj
+./oot/PlayAsPackages/Combined_HylianGuard/Adult_HylianGuard.zobj
+./oot/PlayAsPackages/AllLink_LTTPLink/ChildLink_LTTPLink.zobj
+./oot/PlayAsPackages/AllLink_LTTPLink/AdultLink_LTTPLink.zobj
+
+--- Psi-Hate ---
+./oot/PlayAsPackages/Sonic/src/SonicModernOoTO.zobj
+./oot/PlayAsPackages/Sonic/src/SonicClassicOoTO.zobj
+./oot/PlayAsPackages/MegamanVolnutt/src/MegaManClassicOoTO.zobj
+./oot/PlayAsPackages/MegamanVolnutt/src/MegamanVolnutt.zobj
+./oot/PlayAsPackages/MegamanVolnutt/src/MegamanVolnuttOoTO.zobj
+./oot/PlayAsPackages/Roll/src/rollOoTO.zobj
+./oot/PlayAsPackages/Roll/src/rollClassicOoTO.zobj
+./oot/PlayAsPackages/BladeNia/src/OoTOBladeNia.zobj
+./oot/PlayAsPackages/IzouLink/src/IzouLinkOoTO.zobj
+./oot/PlayAsPackages/Linebeck/src/LinebeckOoTO.zobj
+./oot/PlayAsPackages/Bombiwa/src/BombiwaChildOoTO.zobj
+./oot/PlayAsPackages/Bombiwa/src/BombiwaAdultOoTO.zobj
+./oot/PlayAsPackages/Naruto/NarutoShippudenOoTO.zobj
+./oot/PlayAsPackages/Naruto/NarutoChildOoTO.zobj
+./oot/PlayAsPackages/Tetra/src/TetraOoTO.zobj
+./oot/PlayAsPackages/HeroShade/src/HeroShadeOoTO.zobj
+./oot/PlayAsPackages/ToonLink/src/DSLinkOoTO.zobj
+./oot/PlayAsPackages/Skullkid/src/SkullKidOoTO.zobj
+./oot/PlayAsPackages/Hinata/HinataChildOoTO.zobj
+./oot/PlayAsPackages/PsiHate/src/PsiHateOoTO.zobj
+./oot/PlayAsPackages/Dampe/src/DampeOoTO.zobj
+
+--- Serenade Melody ---
+./oot/PlayAsPackages/Wes_v2/wes_2.zobj
+
+--- Skilar Babcock ---
+./oot/PlayAsPackages/Chrono/src/OnlineLink.zobj
+./oot/PlayAsPackages/BOTWLink/src/OnlineLink.zobj
+./oot/PlayAsPackages/Cloud/src/OnlineLink.zobj
+./oot/PlayAsPackages/3DSLink/src/OnlineYoungLink.zobj
+./oot/PlayAsPackages/3DSLink/src/OnlineLink.zobj
+./oot/PlayAsPackages/TPLinkEquipped/OnlineYoungLink.zobj
+./oot/PlayAsPackages/TPLinkEquipped/OnlineLink.zobj
+
+--- spyfoxgames ---
+./oot/PlayAsPackages/Adult_ZoraLink/AdultZoraLink.zobj
+
+--- Swordsmage ---
+./oot/PlayAsPackages/FoxLink/Fox Boy OOT.zobj
+./oot/PlayAsPackages/FoxLink/Fox Child OOT.zobj
+./oot/PlayAsPackages/FoxLinkTunic/Fox Child Tunic OOT.zobj
+./oot/PlayAsPackages/FoxLinkTunic/Fox Boy Tunic OOT.zobj
+./oot/PlayAsPackages/The_Aura_Pokemon/Lucario0.zobj
+./oot/PlayAsPackages/The_Aura_Pokemon/Lucario1.zobj
+./oot/PlayAsPackages/The_Aura_Pokemon/Riolu0.zobj
+./oot/PlayAsPackages/The_Aura_Pokemon/Riolu1.zobj
+./oot/PlayAsPackages/The_Aura_Pokemon/Lucario3.zobj
+./oot/PlayAsPackages/The_Aura_Pokemon/Lucario2.zobj
+./oot/PlayAsPackages/The_Aura_Pokemon/Riolu3.zobj
+./oot/PlayAsPackages/The_Aura_Pokemon/Riolu2.zobj
+./mm/PlayAsPackages/FoxLink/Fox Child MM.zobj
+./mm/PlayAsPackages/FoxLinkTunic/Fox Child Tunic MM.zobj
+
+--- UltIMa647 ---
+./oot/PlayAsPackages/HenryStickmin/skin.zobj
+./oot/PlayAsPackages/ADULT_Pepsiman/src/skin.zobj
+./oot/PlayAsPackages/Adult_PlumberLink/Adult_PlumberLink_OOT.zobj
+./oot/PlayAsPackages/Child_LuigiLink/Child_LuigiLink_OOT.zobj
+./oot/PlayAsPackages/CHILD_Goron/skin.zobj
+./oot/PlayAsPackages/Darunia/skin.zobj
+./mm/PlayAsPackages/Child_FD/Child_FD_MM.zobj
+
+--- UltiMario ---
+./mm/PlayAsPackages/AmongUsCrewmate/Purple/ChildMM.zobj
+./mm/PlayAsPackages/AmongUsCrewmate/Pink/ChildMM.zobj
+./mm/PlayAsPackages/AmongUsCrewmate/White/ChildMM.zobj
+./mm/PlayAsPackages/AmongUsCrewmate/Cyan/ChildMM.zobj
+./mm/PlayAsPackages/AmongUsCrewmate/Lime/ChildMM.zobj
+./mm/PlayAsPackages/AmongUsCrewmate/Brown/ChildMM.zobj
+./mm/PlayAsPackages/AmongUsCrewmate/Red/ChildMM.zobj
+./mm/PlayAsPackages/AmongUsCrewmate/Black/ChildMM.zobj
+./mm/PlayAsPackages/AmongUsCrewmate/Orange/ChildMM.zobj
+./mm/PlayAsPackages/AmongUsCrewmate/Yellow/ChildMM.zobj
+./mm/PlayAsPackages/AmongUsCrewmate/Blue/ChildMM.zobj
+./mm/PlayAsPackages/AmongUsCrewmate/Green/ChildMM.zobj
+./mm/PlayAsPackages/Child_LuigiLink/Child_LuigiLink_MM.zobj
+
+--- Anonymous ---
+./oot/PlayAsPackages/Paya/Paya.zobj
