@@ -10,5 +10,8 @@
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^14.14.37"
+  },
+  "dependencies": {
+    "smart-buffer": "^4.1.0"
   }
 }
