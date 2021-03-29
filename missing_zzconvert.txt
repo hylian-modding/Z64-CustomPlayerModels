@@ -32,8 +32,6 @@
 ./Z64-CustomPlayerModels/oot/PlayAsPackages/Adult_LowPoly_OOT/Adult_LowPoly_OOT.zobj
 ./Z64-CustomPlayerModels/oot/PlayAsPackages/Roll/src/rollOoTO.zobj
 ./Z64-CustomPlayerModels/oot/PlayAsPackages/Roll/src/rollClassicOoTO.zobj
-./Z64-CustomPlayerModels/oot/PlayAsPackages/Synth/zzplayas_synth_child.zobj
-./Z64-CustomPlayerModels/oot/PlayAsPackages/Synth/zzplayas_synth_boy.zobj
 ./Z64-CustomPlayerModels/oot/PlayAsPackages/BladeNia/src/OoTOBladeNia.zobj
 ./Z64-CustomPlayerModels/oot/PlayAsPackages/Anju/Anju.zobj
 ./Z64-CustomPlayerModels/oot/PlayAsPackages/Anju/child_anju.zobj
