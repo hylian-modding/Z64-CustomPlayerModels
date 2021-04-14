@@ -85,7 +85,7 @@ END
 
 OBJECT POOL=0x5000,0x800 
   LUT_ZZ_MODLOADER:
-	HexString(4D 4F 44 4C 4F 41 44 45 52 36 34 01 FF FF FF FF);
+	HexString(4D 4F 44 4C 4F 41 44 45 52 36 34 01 06 00 53 A8);
   
       MATRIX_SWORD_BACK: // Hilt Matrix
           Matrix( 0, 0, 0, -440, -211, 0, 1, 1, 1 );
