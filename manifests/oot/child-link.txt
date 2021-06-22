@@ -33,7 +33,7 @@ DICTIONARY
     DL_HEAD               0x0148D8    "Limb 10"
     DL_HAT                0x0151E8    "Limb 11"
     DL_COLLAR             0x0153C0    "Limb 12"
-    DL_LSHOULDER          0x015780    "Limb 14"
+    DL_LSHOULDER          0x015780    "Limb 13"
     DL_LFOREARM           0x015BC0    "Limb 14"
     DL_RSHOULDER          0x017340    "Limb 16"
     DL_RFOREARM           0x017780    "Limb 17"
