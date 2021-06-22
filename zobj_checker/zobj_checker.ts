@@ -10,6 +10,7 @@ export class zobj_checker{
         console.log("is zzplayas: " + hasMLHeader.toString());
         console.log("is zzconvert: " + hasPlayasData.toString());
         console.log("-----------")
+        return hasMLHeader && !hasPlayasData;
     }
 
 }

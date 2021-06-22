@@ -14,6 +14,7 @@ var zobj_checker = /** @class */ (function () {
         console.log("is zzplayas: " + hasMLHeader.toString());
         console.log("is zzconvert: " + hasPlayasData.toString());
         console.log("-----------");
+        return hasMLHeader && !hasPlayasData;
     };
     return zobj_checker;
 }());

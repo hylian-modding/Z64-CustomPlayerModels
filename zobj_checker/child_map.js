@@ -1,77 +1,166 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.map = void 0;
-exports.map = new Map();
-exports.map.set("LUT_DL_SHIELD_DEKU", 0x50D0);
-exports.map.set("LUT_DL_WAIST", 0x50D8);
-exports.map.set("LUT_DL_RTHIGH", 0x50E0);
-exports.map.set("LUT_DL_RSHIN", 0x50E8);
-exports.map.set("LUT_DL_RFOOT", 0x50F0);
-exports.map.set("LUT_DL_LTHIGH", 0x50F8);
-exports.map.set("LUT_DL_LSHIN", 0x5100);
-exports.map.set("LUT_DL_LFOOT", 0x5108);
-exports.map.set("LUT_DL_HEAD", 0x5110);
-exports.map.set("LUT_DL_HAT", 0x5118);
-exports.map.set("LUT_DL_COLLAR", 0x5120);
-exports.map.set("LUT_DL_LSHOULDER", 0x5128);
-exports.map.set("LUT_DL_LFOREARM", 0x5130);
-exports.map.set("LUT_DL_RSHOULDER", 0x5138);
-exports.map.set("LUT_DL_RFOREARM", 0x5140);
-exports.map.set("LUT_DL_TORSO", 0x5148);
-exports.map.set("LUT_DL_LHAND", 0x5150);
-exports.map.set("LUT_DL_LFIST", 0x5158);
-exports.map.set("LUT_DL_LHAND_BOTTLE", 0x5160);
-exports.map.set("LUT_DL_RHAND", 0x5168);
-exports.map.set("LUT_DL_RFIST", 0x5170);
-exports.map.set("LUT_DL_SWORD_SHEATH", 0x5178);
-exports.map.set("LUT_DL_SWORD_HILT", 0x5180);
-exports.map.set("LUT_DL_SWORD_BLADE", 0x5188);
-exports.map.set("LUT_DL_SLINGSHOT", 0x5190);
-exports.map.set("LUT_DL_OCARINA_FAIRY", 0x5198);
-exports.map.set("LUT_DL_OCARINA_TIME", 0x51A0);
-exports.map.set("LUT_DL_DEKU_STICK", 0x51A8);
-exports.map.set("LUT_DL_BOOMERANG", 0x51B0);
-exports.map.set("LUT_DL_SHIELD_HYLIAN_BACK", 0x51B8);
-exports.map.set("LUT_DL_BOTTLE", 0x51C0);
-exports.map.set("LUT_DL_MASTER_SWORD", 0x51C8);
-exports.map.set("LUT_DL_GORON_BRACELET", 0x51D0);
-exports.map.set("LUT_DL_FPS_RIGHT_ARM", 0x51D8);
-exports.map.set("LUT_DL_SLINGSHOT_STRING", 0x51E0);
-exports.map.set("LUT_DL_MASK_BUNNY", 0x51E8);
-exports.map.set("LUT_DL_MASK_GERUDO", 0x51F0);
-exports.map.set("LUT_DL_MASK_GORON", 0x51F8);
-exports.map.set("LUT_DL_MASK_KEATON", 0x5200);
-exports.map.set("LUT_DL_MASK_SPOOKY", 0x5208);
-exports.map.set("LUT_DL_MASK_TRUTH", 0x5210);
-exports.map.set("LUT_DL_MASK_ZORA", 0x5218);
-exports.map.set("LUT_DL_MASK_SKULL", 0x5220);
-exports.map.set("DL_SWORD_SHEATHED", 0x5228);
-exports.map.set("LUT_DL_SWORD_SHEATHED", 0x5248);
-exports.map.set("DL_SHIELD_DEKU_ODD", 0x5250);
-exports.map.set("LUT_DL_SHIELD_DEKU_ODD", 0x5260);
-exports.map.set("DL_SHIELD_DEKU_BACK", 0x5268);
-exports.map.set("LUT_DL_SHIELD_DEKU_BACK", 0x5278);
-exports.map.set("DL_SWORD_SHIELD_HYLIAN", 0x5280);
-exports.map.set("LUT_DL_SWORD_SHIELD_HYLIAN", 0x5290);
-exports.map.set("DL_SWORD_SHIELD_DEKU", 0x5298);
-exports.map.set("LUT_DL_SWORD_SHIELD_DEKU", 0x52A8);
-exports.map.set("DL_SHEATH0_HYLIAN", 0x52B0);
-exports.map.set("LUT_DL_SHEATH0_HYLIAN", 0x52C0);
-exports.map.set("DL_SHEATH0_DEKU", 0x52C8);
-exports.map.set("LUT_DL_SHEATH0_DEKU", 0x52D8);
-exports.map.set("DL_LFIST_SWORD", 0x52E0);
-exports.map.set("LUT_DL_LFIST_SWORD", 0x52F8);
-exports.map.set("DL_LHAND_PEDESTALSWORD", 0x5300);
-exports.map.set("LUT_DL_LHAND_PEDESTALSWORD", 0x5310);
-exports.map.set("DL_LFIST_BOOMERANG", 0x5318);
-exports.map.set("LUT_DL_LFIST_BOOMERANG", 0x5328);
-exports.map.set("DL_RFIST_SHIELD_DEKU", 0x5330);
-exports.map.set("LUT_DL_RFIST_SHIELD_DEKU", 0x5340);
-exports.map.set("DL_RFIST_SLINGSHOT", 0x5348);
-exports.map.set("LUT_DL_RFIST_SLINGSHOT", 0x5358);
-exports.map.set("DL_RHAND_OCARINA_FAIRY", 0x5360);
-exports.map.set("LUT_DL_RHAND_OCARINA_FAIRY", 0x5370);
-exports.map.set("DL_RHAND_OCARINA_TIME", 0x5378);
-exports.map.set("LUT_DL_RHAND_OCARINA_TIME", 0x5388);
-exports.map.set("DL_FPS_RARM_SLINGSHOT", 0x5390);
-exports.map.set("LUT_DL_FPS_RARM_SLINGSHOT", 0x53A0);
+exports.TRANSLATION_MAP_CHILD = exports.MANIFEST_MAP_CHILD = exports.LUT_MAP_CHILD = void 0;
+exports.LUT_MAP_CHILD = new Map();
+exports.LUT_MAP_CHILD.set("LUT_DL_SHIELD_DEKU", 0x50D0);
+exports.LUT_MAP_CHILD.set("LUT_DL_WAIST", 0x50D8);
+exports.LUT_MAP_CHILD.set("LUT_DL_RTHIGH", 0x50E0);
+exports.LUT_MAP_CHILD.set("LUT_DL_RSHIN", 0x50E8);
+exports.LUT_MAP_CHILD.set("LUT_DL_RFOOT", 0x50F0);
+exports.LUT_MAP_CHILD.set("LUT_DL_LTHIGH", 0x50F8);
+exports.LUT_MAP_CHILD.set("LUT_DL_LSHIN", 0x5100);
+exports.LUT_MAP_CHILD.set("LUT_DL_LFOOT", 0x5108);
+exports.LUT_MAP_CHILD.set("LUT_DL_HEAD", 0x5110);
+exports.LUT_MAP_CHILD.set("LUT_DL_HAT", 0x5118);
+exports.LUT_MAP_CHILD.set("LUT_DL_COLLAR", 0x5120);
+exports.LUT_MAP_CHILD.set("LUT_DL_LSHOULDER", 0x5128);
+exports.LUT_MAP_CHILD.set("LUT_DL_LFOREARM", 0x5130);
+exports.LUT_MAP_CHILD.set("LUT_DL_RSHOULDER", 0x5138);
+exports.LUT_MAP_CHILD.set("LUT_DL_RFOREARM", 0x5140);
+exports.LUT_MAP_CHILD.set("LUT_DL_TORSO", 0x5148);
+exports.LUT_MAP_CHILD.set("LUT_DL_LHAND", 0x5150);
+exports.LUT_MAP_CHILD.set("LUT_DL_LFIST", 0x5158);
+exports.LUT_MAP_CHILD.set("LUT_DL_LHAND_BOTTLE", 0x5160);
+exports.LUT_MAP_CHILD.set("LUT_DL_RHAND", 0x5168);
+exports.LUT_MAP_CHILD.set("LUT_DL_RFIST", 0x5170);
+exports.LUT_MAP_CHILD.set("LUT_DL_SWORD_SHEATH", 0x5178);
+exports.LUT_MAP_CHILD.set("LUT_DL_SWORD_HILT", 0x5180);
+exports.LUT_MAP_CHILD.set("LUT_DL_SWORD_BLADE", 0x5188);
+exports.LUT_MAP_CHILD.set("LUT_DL_SLINGSHOT", 0x5190);
+exports.LUT_MAP_CHILD.set("LUT_DL_OCARINA_FAIRY", 0x5198);
+exports.LUT_MAP_CHILD.set("LUT_DL_OCARINA_TIME", 0x51A0);
+exports.LUT_MAP_CHILD.set("LUT_DL_DEKU_STICK", 0x51A8);
+exports.LUT_MAP_CHILD.set("LUT_DL_BOOMERANG", 0x51B0);
+exports.LUT_MAP_CHILD.set("LUT_DL_SHIELD_HYLIAN_BACK", 0x51B8);
+exports.LUT_MAP_CHILD.set("LUT_DL_BOTTLE", 0x51C0);
+exports.LUT_MAP_CHILD.set("LUT_DL_MASTER_SWORD", 0x51C8);
+exports.LUT_MAP_CHILD.set("LUT_DL_GORON_BRACELET", 0x51D0);
+exports.LUT_MAP_CHILD.set("LUT_DL_FPS_RIGHT_ARM", 0x51D8);
+exports.LUT_MAP_CHILD.set("LUT_DL_SLINGSHOT_STRING", 0x51E0);
+exports.LUT_MAP_CHILD.set("LUT_DL_MASK_BUNNY", 0x51E8);
+exports.LUT_MAP_CHILD.set("LUT_DL_MASK_GERUDO", 0x51F0);
+exports.LUT_MAP_CHILD.set("LUT_DL_MASK_GORON", 0x51F8);
+exports.LUT_MAP_CHILD.set("LUT_DL_MASK_KEATON", 0x5200);
+exports.LUT_MAP_CHILD.set("LUT_DL_MASK_SPOOKY", 0x5208);
+exports.LUT_MAP_CHILD.set("LUT_DL_MASK_TRUTH", 0x5210);
+exports.LUT_MAP_CHILD.set("LUT_DL_MASK_ZORA", 0x5218);
+exports.LUT_MAP_CHILD.set("LUT_DL_MASK_SKULL", 0x5220);
+exports.LUT_MAP_CHILD.set("DL_SWORD_SHEATHED", 0x5228);
+exports.LUT_MAP_CHILD.set("LUT_DL_SWORD_SHEATHED", 0x5248);
+exports.LUT_MAP_CHILD.set("DL_SHIELD_DEKU_ODD", 0x5250);
+exports.LUT_MAP_CHILD.set("LUT_DL_SHIELD_DEKU_ODD", 0x5260);
+exports.LUT_MAP_CHILD.set("DL_SHIELD_DEKU_BACK", 0x5268);
+exports.LUT_MAP_CHILD.set("LUT_DL_SHIELD_DEKU_BACK", 0x5278);
+exports.LUT_MAP_CHILD.set("DL_SWORD_SHIELD_HYLIAN", 0x5280);
+exports.LUT_MAP_CHILD.set("LUT_DL_SWORD_SHIELD_HYLIAN", 0x5290);
+exports.LUT_MAP_CHILD.set("DL_SWORD_SHIELD_DEKU", 0x5298);
+exports.LUT_MAP_CHILD.set("LUT_DL_SWORD_SHIELD_DEKU", 0x52A8);
+exports.LUT_MAP_CHILD.set("DL_SHEATH0_HYLIAN", 0x52B0);
+exports.LUT_MAP_CHILD.set("LUT_DL_SHEATH0_HYLIAN", 0x52C0);
+exports.LUT_MAP_CHILD.set("DL_SHEATH0_DEKU", 0x52C8);
+exports.LUT_MAP_CHILD.set("LUT_DL_SHEATH0_DEKU", 0x52D8);
+exports.LUT_MAP_CHILD.set("DL_LFIST_SWORD", 0x52E0);
+exports.LUT_MAP_CHILD.set("LUT_DL_LFIST_SWORD", 0x52F8);
+exports.LUT_MAP_CHILD.set("DL_LHAND_PEDESTALSWORD", 0x5300);
+exports.LUT_MAP_CHILD.set("LUT_DL_LHAND_PEDESTALSWORD", 0x5310);
+exports.LUT_MAP_CHILD.set("DL_LFIST_BOOMERANG", 0x5318);
+exports.LUT_MAP_CHILD.set("LUT_DL_LFIST_BOOMERANG", 0x5328);
+exports.LUT_MAP_CHILD.set("DL_RFIST_SHIELD_DEKU", 0x5330);
+exports.LUT_MAP_CHILD.set("LUT_DL_RFIST_SHIELD_DEKU", 0x5340);
+exports.LUT_MAP_CHILD.set("DL_RFIST_SLINGSHOT", 0x5348);
+exports.LUT_MAP_CHILD.set("LUT_DL_RFIST_SLINGSHOT", 0x5358);
+exports.LUT_MAP_CHILD.set("DL_RHAND_OCARINA_FAIRY", 0x5360);
+exports.LUT_MAP_CHILD.set("LUT_DL_RHAND_OCARINA_FAIRY", 0x5370);
+exports.LUT_MAP_CHILD.set("DL_RHAND_OCARINA_TIME", 0x5378);
+exports.LUT_MAP_CHILD.set("LUT_DL_RHAND_OCARINA_TIME", 0x5388);
+exports.LUT_MAP_CHILD.set("DL_FPS_RARM_SLINGSHOT", 0x5390);
+exports.LUT_MAP_CHILD.set("LUT_DL_FPS_RARM_SLINGSHOT", 0x53A0);
+// I may have actually looked up what a map constructor looks like since I made the first half of this file...
+exports.MANIFEST_MAP_CHILD = new Map([
+    ["Slingshot.String", 0x23],
+    ["Sheath", 0x2E],
+    ["Blade.2", 0x3A],
+    ["Blade.1", 0x46],
+    ["Boomerang", 0x54],
+    ["Fist.L", 0x5F],
+    ["Fist.R", 0x6A],
+    ["Hilt.1", 0x75],
+    ["Shield.1", 0x82],
+    ["Slingshot", 0x90],
+    ["Ocarina.1", 0x9E],
+    ["Bottle", 0xA9],
+    ["Ocarina.2", 0xB7],
+    ["Bottle.Hand.L", 0xC9],
+    ["GoronBracelet", 0xDB],
+    ["Mask.Skull", 0xEA],
+    ["Mask.Spooky", 0xFA],
+    ["Mask.Gerudo", 0x10A],
+    ["Mask.Goron", 0x119],
+    ["Mask.Keaton", 0x129],
+    ["Mask.Truth", 0x138],
+    ["Mask.Zora", 0x146],
+    ["FPS.Forearm.R", 0x158],
+    ["DekuStick", 0x166],
+    ["Shield.2", 0x173],
+    ["Limb 1", 0x17E],
+    ["Limb 3", 0x189],
+    ["Limb 4", 0x194],
+    ["Limb 5", 0x19F],
+    ["Limb 6", 0x1AA],
+    ["Limb 7", 0x1B5],
+    ["Limb 8", 0x1C0],
+    ["Limb 10", 0x1CC],
+    ["Limb 11", 0x1D8],
+    ["Limb 12", 0x1E4],
+    ["Limb 13", 0x1F0],
+    ["Limb 14", 0x1FC],
+    ["Limb 15", 0x208],
+    ["Limb 16", 0x214],
+    ["Limb 17", 0x220],
+    ["Limb 18", 0x22C],
+    ["Limb 20", 0x238]
+]);
+exports.TRANSLATION_MAP_CHILD = new Map([
+    ["LUT_DL_SLINGSHOT_STRING", "Slingshot.String"],
+    ["LUT_DL_SWORD_SHEATH", "Sheath"],
+    ["LUT_DL_MASTER_SWORD", "Blade.2"],
+    ["LUT_DL_SWORD_BLADE", "Blade.1"],
+    ["LUT_DL_BOOMERANG", "Boomerang"],
+    ["LUT_DL_LFIST", "Fist.L"],
+    ["LUT_DL_RFIST", "Fist.R"],
+    ["LUT_DL_SWORD_HILT", "Hilt.1"],
+    ["LUT_DL_SHIELD_DEKU", "Shield.1"],
+    ["LUT_DL_SLINGSHOT", "Slingshot"],
+    ["LUT_DL_OCARINA_FAIRY", "Ocarina.1"],
+    ["LUT_DL_BOTTLE", "Bottle"],
+    ["LUT_DL_OCARINA_TIME", "Ocarina.2"],
+    ["LUT_DL_LHAND_BOTTLE", "Bottle.Hand.L"],
+    ["LUT_DL_GORON_BRACELET", "GoronBracelet"],
+    ["LUT_DL_MASK_SKULL", "Mask.Skull"],
+    ["LUT_DL_MASK_SPOOKY", "Mask.Spooky"],
+    ["LUT_DL_MASK_GERUDO", "Mask.Gerudo"],
+    ["LUT_DL_MASK_GORON", "Mask.Goron"],
+    ["LUT_DL_MASK_KEATON", "Mask.Keaton"],
+    ["LUT_DL_MASK_TRUTH", "Mask.Truth"],
+    ["LUT_DL_MASK_ZORA", "Mask.Zora"],
+    ["LUT_DL_LFOREARM", "FPS.Forearm.R"],
+    ["LUT_DL_DEKU_STICK", "DekuStick"],
+    ["LUT_DL_SHIELD_HYLIAN_BACK", "Shield.2"],
+    ["LUT_DL_WAIST", "Limb 1"],
+    ["LUT_DL_RTHIGH", "Limb 3"],
+    ["LUT_DL_RSHIN", "Limb 4"],
+    ["LUT_DL_RFOOT", "Limb 5"],
+    ["LUT_DL_LTHIGH", "Limb 6"],
+    ["LUT_DL_LSHIN", "Limb 7"],
+    ["LUT_DL_LFOOT", "Limb 8"],
+    ["LUT_DL_HEAD", "Limb 10"],
+    ["LUT_DL_HAT", "Limb 11"],
+    ["LUT_DL_COLLAR", "Limb 12"],
+    ["LUT_DL_LSHOULDER", "Limb 13"],
+    ["LUT_DL_LFOREARM", "Limb 14"],
+    ["LUT_DL_LHAND", "Limb 15"],
+    ["LUT_DL_RSHOULDER", "Limb 16"],
+    ["LUT_DL_RFOREARM", "Limb 17"],
+    ["LUT_DL_RHAND", "Limb 18"],
+    ["LUT_DL_TORSO", "Limb 20"],
+]);
