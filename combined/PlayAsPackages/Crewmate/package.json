@@ -1,0 +1,96 @@
+{
+  "name": "Crewmate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "zzplayas.js",
+  "author": "UltiMario",
+  "credits": "",
+  "license": "GPL-3.0",
+  "core": [
+    "OcarinaofTime",
+    "MajorasMask"
+  ],
+  "zzplayas": {
+    "OOT": {
+      "adult_model": [],
+      "child_model": [
+        {
+          "file": "ChildOOT.zobj",
+          "name": "Crewmate 1"
+        }
+      ],
+      "anim_file": {
+        "file": "",
+        "name": ""
+      },
+      "colors": {
+        "kokiri": "",
+        "goron": "",
+        "zora": "",
+        "silver": "",
+        "golden": ""
+      },
+      "oot_script": "ootscript.js",
+      "options": {
+        "applyAnimBankOnEquip": false,
+        "applySoundOnEquip": false
+      }
+    },
+    "MM": {
+      "child_model": [
+        {
+          "file": "ChildMM.zobj",
+          "name": "Crewmate 0"
+        },
+        {
+          "file": "black.zobj",
+          "name": "Crewmate black"
+        },
+        {
+          "file": "blue.zobj",
+          "name": "Crewmate blue"
+        },
+        {
+          "file": "brown.zobj",
+          "name": "Crewmate brown"
+        },
+        {
+          "file": "cyan.zobj",
+          "name": "Crewmate cyan"
+        },
+        {
+          "file": "green.zobj",
+          "name": "Crewmate green"
+        },
+        {
+          "file": "lime.zobj",
+          "name": "Crewmate lime"
+        },
+        {
+          "file": "orange.zobj",
+          "name": "Crewmate orange"
+        },
+        {
+          "file": "pink.zobj",
+          "name": "Crewmate pink"
+        },
+        {
+          "file": "purple.zobj",
+          "name": "Crewmate purple"
+        },
+        {
+          "file": "red.zobj",
+          "name": "Crewmate red"
+        },
+        {
+          "file": "white.zobj",
+          "name": "Crewmate white"
+        },
+        {
+          "file": "yellow.zobj",
+          "name": "Crewmate yellow"
+        }
+      ]
+    }
+  }
+}

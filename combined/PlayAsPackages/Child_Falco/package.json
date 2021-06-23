@@ -1,0 +1,48 @@
+{
+  "name": "Falco",
+  "version": "1.0.0",
+  "description": "",
+  "main": "zzplayas.js",
+  "author": "Anubis-V1",
+  "credits": "",
+  "license": "GPL-3.0",
+  "core": [
+    "OcarinaofTime",
+    "MajorasMask"
+  ],
+  "zzplayas": {
+    "OOT": {
+      "adult_model": [],
+      "child_model": [
+        {
+          "file": "Child_Falco.zobj",
+          "name": "Child_Falco 0"
+        }
+      ],
+      "anim_file": {
+        "file": "",
+        "name": ""
+      },
+      "colors": {
+        "kokiri": "",
+        "goron": "",
+        "zora": "",
+        "silver": "",
+        "golden": ""
+      },
+      "oot_script": "ootscript.js",
+      "options": {
+        "applyAnimBankOnEquip": false,
+        "applySoundOnEquip": false
+      }
+    },
+    "MM": {
+      "child_model": [
+        {
+          "file": "MM_Falco.zobj",
+          "name": "Child_Falco 1"
+        }
+      ]
+    }
+  }
+}

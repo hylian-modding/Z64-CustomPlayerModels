@@ -1,0 +1,48 @@
+{
+  "name": "Zelda (OOT) - Child (OOT/MM)",
+  "version": "1.0.0",
+  "description": "",
+  "main": "zzplayas.js",
+  "author": "ONI 3D-Arts",
+  "credits": "",
+  "license": "GPL-3.0",
+  "core": [
+    "OcarinaofTime",
+    "MajorasMask"
+  ],
+  "zzplayas": {
+    "OOT": {
+      "adult_model": [],
+      "child_model": [
+        {
+          "file": "skin.zobj",
+          "name": "Child_OOTZeldaN64_Combined 0"
+        }
+      ],
+      "anim_file": {
+        "file": "",
+        "name": ""
+      },
+      "colors": {
+        "kokiri": "",
+        "goron": "",
+        "zora": "",
+        "silver": "",
+        "golden": ""
+      },
+      "oot_script": "ootscript.js",
+      "options": {
+        "applyAnimBankOnEquip": false,
+        "applySoundOnEquip": false
+      }
+    },
+    "MM": {
+      "child_model": [
+        {
+          "file": "skinMM.zobj",
+          "name": "Child_OOTZeldaN64_Combined 1"
+        }
+      ]
+    }
+  }
+}

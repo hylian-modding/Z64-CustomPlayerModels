@@ -1,0 +1,48 @@
+{
+  "name": "Adult_Saria",
+  "version": "1.0.0",
+  "description": "",
+  "main": "zzplayas.js",
+  "author": "Malon Rose",
+  "credits": "",
+  "license": "GPL-3.0",
+  "core": [
+    "OcarinaofTime",
+    "MajorasMask"
+  ],
+  "zzplayas": {
+    "OOT": {
+      "adult_model": [
+        {
+          "file": "Adult_saria.zobj",
+          "name": "Adult_Saria 0"
+        }
+      ],
+      "child_model": [],
+      "anim_file": {
+        "file": "",
+        "name": ""
+      },
+      "colors": {
+        "kokiri": "",
+        "goron": "",
+        "zora": "",
+        "silver": "",
+        "golden": ""
+      },
+      "oot_script": "ootscript.js",
+      "options": {
+        "applyAnimBankOnEquip": false,
+        "applySoundOnEquip": false
+      }
+    },
+    "MM": {
+      "child_model": [
+        {
+          "file": "Saria_Adult_MM.zobj",
+          "name": "Adult_Saria 1"
+        }
+      ]
+    }
+  }
+}

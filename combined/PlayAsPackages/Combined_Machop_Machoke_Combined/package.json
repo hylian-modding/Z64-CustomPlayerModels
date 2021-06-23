@@ -1,0 +1,53 @@
+{
+  "name": "Machop & Machoke",
+  "version": "1.0.0",
+  "description": "",
+  "main": "zzplayas.js",
+  "author": "Team-Ooto",
+  "credits": "",
+  "license": "GPL-3.0",
+  "core": [
+    "OcarinaofTime",
+    "MajorasMask"
+  ],
+  "zzplayas": {
+    "OOT": {
+      "adult_model": [
+        {
+          "file": "MachokePlayas.zobj",
+          "name": "Combined_Machop_Machoke_Combined 0"
+        }
+      ],
+      "child_model": [
+        {
+          "file": "MachopPlayAs.zobj",
+          "name": "Combined_Machop_Machoke_Combined 2"
+        }
+      ],
+      "anim_file": {
+        "file": "",
+        "name": ""
+      },
+      "colors": {
+        "kokiri": "",
+        "goron": "",
+        "zora": "",
+        "silver": "",
+        "golden": ""
+      },
+      "oot_script": "ootscript.js",
+      "options": {
+        "applyAnimBankOnEquip": false,
+        "applySoundOnEquip": false
+      }
+    },
+    "MM": {
+      "child_model": [
+        {
+          "file": "MachopMMPlayAs.zobj",
+          "name": "Combined_Machop_Machoke_Combined 1"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "name": "ViegoLink",
+  "version": "1.0.0",
+  "description": "",
+  "main": "zzplayas.js",
+  "author": "Team-Ooto",
+  "credits": "",
+  "license": "GPL-3.0",
+  "core": [
+    "OcarinaofTime",
+    "MajorasMask"
+  ],
+  "zzplayas": {
+    "OOT": {
+      "adult_model": [
+        {
+          "file": "viegoOOT.zobj",
+          "name": "ViegoLinkMM 1"
+        }
+      ],
+      "child_model": [],
+      "anim_file": {
+        "file": "",
+        "name": ""
+      },
+      "colors": {
+        "kokiri": "",
+        "goron": "",
+        "zora": "",
+        "silver": "",
+        "golden": ""
+      },
+      "oot_script": "ootscript.js",
+      "options": {
+        "applyAnimBankOnEquip": false,
+        "applySoundOnEquip": false
+      }
+    },
+    "MM": {
+      "child_model": [
+        {
+          "file": "viego.zobj",
+          "name": "ViegoLinkMM 0"
+        }
+      ]
+    }
+  }
+}
