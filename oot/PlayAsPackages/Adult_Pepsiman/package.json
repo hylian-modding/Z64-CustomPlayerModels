@@ -1,0 +1,48 @@
+{
+  "name": "Pepsiman",
+  "version": "1.0.0",
+  "description": "",
+  "main": "zzplayas.js",
+  "author": "UltIMa647",
+  "credits": "",
+  "license": "GPL-3.0",
+  "core": [
+    "OcarinaofTime",
+    "MajorasMask"
+  ],
+  "zzplayas": {
+    "OOT": {
+      "adult_model": [
+        {
+          "file": "skin.zobj",
+          "name": "Adult_Pepsiman 0"
+        }
+      ],
+      "child_model": [],
+      "anim_file": {
+        "file": "",
+        "name": ""
+      },
+      "colors": {
+        "kokiri": "1858F8",
+        "goron": "EB1933",
+        "zora": "FFFFFF",
+        "silver": "2151A1",
+        "golden": "EB1933"
+      },
+      "oot_script": "ootscript.js",
+      "options": {
+        "applyAnimBankOnEquip": false,
+        "applySoundOnEquip": false
+      }
+    },
+    "MM": {
+      "child_model": [
+        {
+          "file": "",
+          "name": ""
+        }
+      ]
+    }
+  }
+}

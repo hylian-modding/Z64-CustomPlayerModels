@@ -1,0 +1,53 @@
+{
+  "name": "Christmas Zelda",
+  "version": "1.0.0",
+  "description": "",
+  "main": "zzplayas.js",
+  "author": "Hailey",
+  "credits": "",
+  "license": "GPL-3.0",
+  "core": [
+    "OcarinaofTime",
+    "MajorasMask"
+  ],
+  "zzplayas": {
+    "OOT": {
+      "adult_model": [
+        {
+          "file": "Zelda.zobj",
+          "name": "Adult_Christmas_Zelda 1"
+        }
+      ],
+      "child_model": [
+        {
+          "file": "ChildZelda.zobj",
+          "name": "Adult_Christmas_Zelda 0"
+        }
+      ],
+      "anim_file": {
+        "file": "",
+        "name": ""
+      },
+      "colors": {
+        "kokiri": "FDEDFD",
+        "goron": "",
+        "zora": "",
+        "silver": "",
+        "golden": ""
+      },
+      "oot_script": "ootscript.js",
+      "options": {
+        "applyAnimBankOnEquip": false,
+        "applySoundOnEquip": false
+      }
+    },
+    "MM": {
+      "child_model": [
+        {
+          "file": "",
+          "name": ""
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "name": "Adult_Anju",
+  "version": "1.0.0",
+  "description": "",
+  "main": "zzplayas.js",
+  "author": "Malon Rose",
+  "credits": "",
+  "license": "GPL-3.0",
+  "core": [
+    "OcarinaofTime",
+    "MajorasMask"
+  ],
+  "zzplayas": {
+    "OOT": {
+      "adult_model": [
+        {
+          "file": "Anju.zobj",
+          "name": "Adult_Anju 0"
+        },
+        {
+          "file": "anju_legs.zobj",
+          "name": "Adult_Anju 1"
+        }
+      ],
+      "child_model": [],
+      "anim_file": {
+        "file": "",
+        "name": ""
+      },
+      "colors": {
+        "kokiri": "723E25",
+        "goron": "",
+        "zora": "",
+        "silver": "",
+        "golden": ""
+      },
+      "oot_script": "ootscript.js",
+      "options": {
+        "applyAnimBankOnEquip": false,
+        "applySoundOnEquip": false
+      }
+    },
+    "MM": {
+      "child_model": [
+        {
+          "file": "",
+          "name": ""
+        }
+      ]
+    }
+  }
+}

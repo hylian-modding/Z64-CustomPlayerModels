@@ -1,0 +1,53 @@
+{
+  "name": "Combined_PrincessRutoN64",
+  "version": "1.0.0",
+  "description": "",
+  "main": "zzplayas.js",
+  "author": "Team-Ooto",
+  "credits": "",
+  "license": "GPL-3.0",
+  "core": [
+    "OcarinaofTime",
+    "MajorasMask"
+  ],
+  "zzplayas": {
+    "OOT": {
+      "adult_model": [
+        {
+          "file": "Adult_PrincessRutoN64.zobj",
+          "name": "Combined_PrincessRutoN64 0"
+        }
+      ],
+      "child_model": [
+        {
+          "file": "Child_PrincessRutoN64.zobj",
+          "name": "Combined_PrincessRutoN64 1"
+        }
+      ],
+      "anim_file": {
+        "file": "",
+        "name": ""
+      },
+      "colors": {
+        "kokiri": "",
+        "goron": "",
+        "zora": "",
+        "silver": "",
+        "golden": ""
+      },
+      "oot_script": "ootscript.js",
+      "options": {
+        "applyAnimBankOnEquip": false,
+        "applySoundOnEquip": false
+      }
+    },
+    "MM": {
+      "child_model": [
+        {
+          "file": "",
+          "name": ""
+        }
+      ]
+    }
+  }
+}

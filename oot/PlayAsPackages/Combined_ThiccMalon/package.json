@@ -1,0 +1,61 @@
+{
+  "name": "ThiccMalon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "zzplayas.js",
+  "author": "Kimi Stardust",
+  "credits": "",
+  "license": "GPL-3.0",
+  "core": [
+    "OcarinaofTime",
+    "MajorasMask"
+  ],
+  "zzplayas": {
+    "OOT": {
+      "adult_model": [
+        {
+          "file": "zzplayas_thiccmalon_adult.zobj",
+          "name": "Combined_ThiccMalon 0"
+        },
+        {
+          "file": "zzplayas_thiccmalon_adult_2.zobj",
+          "name": "Combined_ThiccMalon 1"
+        },
+        {
+          "file": "zzplayas_thiccmalon_adult_3.zobj",
+          "name": "Combined_ThiccMalon 2"
+        }
+      ],
+      "child_model": [
+        {
+          "file": "zzplayas_thiccmalon_child.zobj",
+          "name": "Combined_ThiccMalon 3"
+        }
+      ],
+      "anim_file": {
+        "file": "",
+        "name": ""
+      },
+      "colors": {
+        "kokiri": "",
+        "goron": "",
+        "zora": "",
+        "silver": "",
+        "golden": ""
+      },
+      "oot_script": "ootscript.js",
+      "options": {
+        "applyAnimBankOnEquip": false,
+        "applySoundOnEquip": false
+      }
+    },
+    "MM": {
+      "child_model": [
+        {
+          "file": "",
+          "name": ""
+        }
+      ]
+    }
+  }
+}

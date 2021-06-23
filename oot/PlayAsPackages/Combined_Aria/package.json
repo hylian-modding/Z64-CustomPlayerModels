@@ -1,0 +1,93 @@
+{
+  "name": "Aria_the_Demon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "zzplayas.js",
+  "author": "AriaHiro64",
+  "credits": "",
+  "license": "GPL-3.0",
+  "core": [
+    "OcarinaofTime",
+    "MajorasMask"
+  ],
+  "zzplayas": {
+    "OOT": {
+      "adult_model": [
+        {
+          "file": "Aria_Hiro_Girl_OOTO.zobj",
+          "name": "Combined_Aria 5"
+        },
+        {
+          "file": "Aria_Hiro_Girl_OOTO_Kokiri.zobj",
+          "name": "Combined_Aria 6"
+        },
+        {
+          "file": "Aria_Hiro_Girl_OOTO_Proto.zobj",
+          "name": "Combined_Aria 7"
+        },
+        {
+          "file": "Aria_Hiro_Girl_OOTO_Spirikin.zobj",
+          "name": "Combined_Aria 8"
+        },
+        {
+          "file": "Aria_Hiro_Girl_OOTO_Swim.zobj",
+          "name": "Combined_Aria 9"
+        },
+        {
+          "file": "Chichi_Hiro_Girl_OOTO.zobj",
+          "name": "Combined_Aria 11"
+        }
+      ],
+      "child_model": [
+        {
+          "file": "Aria_Hiro_Child_OOTO.zobj",
+          "name": "Combined_Aria 0"
+        },
+        {
+          "file": "Aria_Hiro_Child_OOTO_Kokiri.zobj",
+          "name": "Combined_Aria 1"
+        },
+        {
+          "file": "Aria_Hiro_Child_OOTO_Proto.zobj",
+          "name": "Combined_Aria 2"
+        },
+        {
+          "file": "Aria_Hiro_Child_OOTO_Spirikin.zobj",
+          "name": "Combined_Aria 3"
+        },
+        {
+          "file": "Aria_Hiro_Child_OOTO_Swim.zobj",
+          "name": "Combined_Aria 4"
+        },
+        {
+          "file": "Chichi_Hiro_Child_OOTO.zobj",
+          "name": "Combined_Aria 10"
+        }
+      ],
+      "anim_file": {
+        "file": "link_animetion.zdata",
+        "name": "Combined_Aria"
+      },
+      "colors": {
+        "kokiri": "",
+        "goron": "",
+        "zora": "",
+        "silver": "",
+        "golden": ""
+      },
+      "oot_script": "ootscript.js",
+      "options": {
+        "applyAnimBankOnEquip": true,
+        "applySoundOnEquip": false
+      }
+    },
+    "MM": {
+      "child_model": [
+        {
+          "file": "",
+          "name": ""
+        }
+      ]
+    }
+  }
+}
