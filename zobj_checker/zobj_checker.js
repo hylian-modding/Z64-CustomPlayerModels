@@ -13,6 +13,7 @@ var zobj_checker = /** @class */ (function () {
         console.log("-----------");
         console.log("is zzplayas: " + hasMLHeader.toString());
         console.log("is zzconvert: " + hasPlayasData.toString());
+        console.log("is byte aligned: " + (buf.byteLength % 0x10 === 0));
         console.log("-----------");
         return hasMLHeader && !hasPlayasData;
     };
