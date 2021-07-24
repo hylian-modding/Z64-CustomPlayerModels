@@ -13,7 +13,7 @@ Now select the `...` next to `Target`. This will prompt you to select a rom. __D
 Finally, click the `Import` button. You will either get a message saying that the ZOBJ was written successfully, or an error. So long as you are following the `Blender` and `Converting` parts of [the tutorial](http://www.z64.me/guides/blender-play-as) properly and are using our provided `manifest(s)`, you should not get any errors.
 
 ### Using the play-as ZOBJ inside OoT Online
-@denoflions
+You can test the zobj using the [zobj testing tool](https://cdn.discordapp.com/attachments/706278515447824384/821455357728653432/OotOPlayasDev.pak). When you're ready to submit, use the [template zip file](https://github.com/hylian-modding/zzplayas_modloader_template/releases).
 
 ### Submitting a play-as ZOBJ to our database
-@denoflions
+Use the [play-as submission form](https://forms.gle/J7L6TQFNR53hKQzGA).
