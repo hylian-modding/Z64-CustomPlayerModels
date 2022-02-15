@@ -1,13 +1,15 @@
 import fs from 'fs';
 import path from 'path';
+import child_process from 'child_process';
 
-let categories: string[] = ["Adult", "Child", "Combined", "Failed to parse"];
+let categories: string[] = ["adult", "child", "combined", "Failed to parse"];
 
 let directories: string[] = [path.resolve("./oot/pak")];
 
 interface Pak{
     name: string;
     game: string;
+    author: string;
     category: string;
 }
 
@@ -22,15 +24,26 @@ function process(game: string){
             if (path.parse(file).ext !== ".pak") return;
             let cat = "";
             for (let j = 0; j < categories.length; j++){
-                if (file.indexOf(categories[j]) > -1){
+                let f = file.toLowerCase();
+                if (f.indexOf(categories[j]) > -1){
                     cat = categories[j];
                     break;
                 }
             }
             if (cat === ""){
                 cat = categories[3];
+                console.log(`Failed to parse ${file} correctly.`);
             }
-            paks.push({name: path.parse(file).name, game, category: cat});
+            try{
+                fs.mkdirSync("./temp");
+            }catch(err){}
+            child_process.execSync(`paker -i "${file}" -o ./temp`);
+            let _dir = fs.readdirSync("./temp")[0];
+            let p = path.resolve("./temp", _dir, "package.json");
+            let meta = JSON.parse(fs.readFileSync(p).toString());
+            if (meta.author === "Team-Ooto") meta.author = "";
+            paks.push({name: meta.name, game, category: cat, author: meta.author});
+            fs.rmdirSync("./temp", {recursive: true});
         });
     }
 }
@@ -47,7 +60,7 @@ table, th, td {
 }
 </style></head><body>\n`;
 str += "<table>\n";
-str += "<tr><th>Pak</th><th>Game</th><th>Category</th><th>URL</th></tr>";
+str += "<tr><th>Pak</th><th>Author</th><th>Game</th><th>Category</th><th>URL</th></tr>";
 
 function getURL(pak: Pak){
     let g = "";
@@ -58,7 +71,7 @@ function getURL(pak: Pak){
 }
 
 for (let i = 0; i < paks.length; i++){
-    str += `<tr><td>${paks[i].name}</td><td>${paks[i].game}</td><td>${paks[i].category}</td><td><a href="${getURL(paks[i])}">Download</a></td></tr>\n`;
+    str += `<tr><td>${paks[i].name}</td><td>${paks[i].author}</td><td>${paks[i].game}</td><td>${paks[i].category}</td><td><a href="${getURL(paks[i])}">Download</a></td></tr>\n`;
 }
 str += `</body></html>`;
 

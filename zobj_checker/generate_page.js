@@ -5,7 +5,8 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 var fs_1 = __importDefault(require("fs"));
 var path_1 = __importDefault(require("path"));
-var categories = ["Adult", "Child", "Combined", "Failed to parse"];
+var child_process_1 = __importDefault(require("child_process"));
+var categories = ["adult", "child", "combined", "Failed to parse"];
 var directories = [path_1.default.resolve("./oot/pak")];
 var paks = [];
 function process(game) {
@@ -19,15 +20,28 @@ function process(game) {
                 return;
             var cat = "";
             for (var j = 0; j < categories.length; j++) {
-                if (file.indexOf(categories[j]) > -1) {
+                var f_1 = file.toLowerCase();
+                if (f_1.indexOf(categories[j]) > -1) {
                     cat = categories[j];
                     break;
                 }
             }
             if (cat === "") {
                 cat = categories[3];
+                console.log("Failed to parse " + file + " correctly.");
             }
-            paks.push({ name: path_1.default.parse(file).name, game: game, category: cat });
+            try {
+                fs_1.default.mkdirSync("./temp");
+            }
+            catch (err) { }
+            child_process_1.default.execSync("paker -i \"" + file + "\" -o ./temp");
+            var _dir = fs_1.default.readdirSync("./temp")[0];
+            var p = path_1.default.resolve("./temp", _dir, "package.json");
+            var meta = JSON.parse(fs_1.default.readFileSync(p).toString());
+            if (meta.author === "Team-Ooto")
+                meta.author = "";
+            paks.push({ name: meta.name, game: game, category: cat, author: meta.author });
+            fs_1.default.rmdirSync("./temp", { recursive: true });
         });
     };
     for (var i = 0; i < directories.length; i++) {
@@ -41,7 +55,7 @@ directories = [path_1.default.resolve("./combined/pak")];
 process("Oot/MM");
 var str = "<html><head><style>\ntable, th, td {\n  border:1px solid black;\n}\n</style></head><body>\n";
 str += "<table>\n";
-str += "<tr><th>Pak</th><th>Game</th><th>Category</th><th>URL</th></tr>";
+str += "<tr><th>Pak</th><th>Author</th><th>Game</th><th>Category</th><th>URL</th></tr>";
 function getURL(pak) {
     var g = "";
     if (pak.game === "Oot")
@@ -53,7 +67,7 @@ function getURL(pak) {
     return "https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/" + g + "/pak/" + pak.name + ".pak";
 }
 for (var i = 0; i < paks.length; i++) {
-    str += "<tr><td>" + paks[i].name + "</td><td>" + paks[i].game + "</td><td>" + paks[i].category + "</td><td><a href=\"" + getURL(paks[i]) + "\">Download</a></td></tr>\n";
+    str += "<tr><td>" + paks[i].name + "</td><td>" + paks[i].author + "</td><td>" + paks[i].game + "</td><td>" + paks[i].category + "</td><td><a href=\"" + getURL(paks[i]) + "\">Download</a></td></tr>\n";
 }
 str += "</body></html>";
 fs_1.default.writeFileSync("./paks.html", str);
