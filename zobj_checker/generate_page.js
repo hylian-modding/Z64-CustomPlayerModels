@@ -40,7 +40,7 @@ function process(game) {
             var meta = JSON.parse(fs_1.default.readFileSync(p).toString());
             if (meta.author === "Team-Ooto")
                 meta.author = "";
-            paks.push({ name: meta.name, game: game, category: cat, author: meta.author });
+            paks.push({ name: meta.name, game: game, category: cat, author: meta.author, file: path_1.default.parse(file).base });
             fs_1.default.rmdirSync("./temp", { recursive: true });
         });
     };
@@ -64,7 +64,7 @@ function getURL(pak) {
         g = "mm";
     if (pak.game === "Oot/MM")
         g = "combined";
-    return "https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/" + g + "/pak/" + pak.name + ".pak";
+    return "https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/" + g + "/pak/" + pak.file + ".pak";
 }
 for (var i = 0; i < paks.length; i++) {
     str += "<tr><td>" + paks[i].name + "</td><td>" + paks[i].author + "</td><td>" + paks[i].game + "</td><td>" + paks[i].category + "</td><td><a href=\"" + getURL(paks[i]) + "\">Download</a></td></tr>\n";

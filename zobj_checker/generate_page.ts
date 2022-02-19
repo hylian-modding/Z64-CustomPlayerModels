@@ -8,6 +8,7 @@ let directories: string[] = [path.resolve("./oot/pak")];
 
 interface Pak{
     name: string;
+    file: string;
     game: string;
     author: string;
     category: string;
@@ -42,7 +43,7 @@ function process(game: string){
             let p = path.resolve("./temp", _dir, "package.json");
             let meta = JSON.parse(fs.readFileSync(p).toString());
             if (meta.author === "Team-Ooto") meta.author = "";
-            paks.push({name: meta.name, game, category: cat, author: meta.author});
+            paks.push({name: meta.name, game, category: cat, author: meta.author, file: path.parse(file).base});
             fs.rmdirSync("./temp", {recursive: true});
         });
     }
@@ -67,7 +68,7 @@ function getURL(pak: Pak){
     if (pak.game === "Oot") g = "oot";
     if (pak.game === "MM") g = "mm";
     if (pak.game === "Oot/MM") g = "combined";
-    return `https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/${g}/pak/${pak.name}.pak`;
+    return `https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/${g}/pak/${pak.file}.pak`;
 }
 
 for (let i = 0; i < paks.length; i++){
