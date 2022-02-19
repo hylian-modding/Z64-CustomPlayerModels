@@ -68,7 +68,7 @@ function getURL(pak: Pak){
     if (pak.game === "Oot") g = "oot";
     if (pak.game === "MM") g = "mm";
     if (pak.game === "Oot/MM") g = "combined";
-    return `https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/${g}/pak/${pak.file}.pak`;
+    return `https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/${g}/pak/${pak.file}`;
 }
 
 for (let i = 0; i < paks.length; i++){

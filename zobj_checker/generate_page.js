@@ -64,7 +64,7 @@ function getURL(pak) {
         g = "mm";
     if (pak.game === "Oot/MM")
         g = "combined";
-    return "https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/" + g + "/pak/" + pak.file + ".pak";
+    return "https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/" + g + "/pak/" + pak.file;
 }
 for (var i = 0; i < paks.length; i++) {
     str += "<tr><td>" + paks[i].name + "</td><td>" + paks[i].author + "</td><td>" + paks[i].game + "</td><td>" + paks[i].category + "</td><td><a href=\"" + getURL(paks[i]) + "\">Download</a></td></tr>\n";
