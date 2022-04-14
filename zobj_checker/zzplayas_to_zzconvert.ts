@@ -1,5 +1,6 @@
 import { SmartBuffer } from 'smart-buffer';
 import fs from 'fs';
+import path from 'path';
 import { TRANSLATION_MAP_ADULT, LUT_MAP_ADULT, MANIFEST_MAP_ADULT } from './adult_map';
 import { LUT_MAP_CHILD, MANIFEST_MAP_CHILD, TRANSLATION_MAP_CHILD } from './child_map';
 
@@ -8,7 +9,7 @@ export class zzplayas_to_zzconvert {
     convert_adult(buf: Buffer): Buffer {
         let out: SmartBuffer = new SmartBuffer();
         out.writeBuffer(buf);
-        let template = fs.readFileSync("./zobjs/zzconvert_adult_template.zobj");
+        let template = fs.readFileSync(path.resolve(__dirname, "zobjs/zzconvert_adult_template.zobj"));
         out.writeBuffer(template);
         let n = out.toBuffer();
         let start = n.indexOf("!PlayAsManifest0");
@@ -44,7 +45,7 @@ export class zzplayas_to_zzconvert {
     convert_child(buf: Buffer): Buffer{
         let out: SmartBuffer = new SmartBuffer();
         out.writeBuffer(buf);
-        let template = fs.readFileSync("./zobjs/zzconvert_child_template.zobj");
+        let template = fs.readFileSync(path.resolve(__dirname, "zobjs/zzconvert_child_template.zobj"));
         out.writeBuffer(template);
         let n = out.toBuffer();
         let start = n.indexOf("!PlayAsManifest0");

@@ -6,6 +6,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.zzplayas_to_zzconvert = void 0;
 var smart_buffer_1 = require("smart-buffer");
 var fs_1 = __importDefault(require("fs"));
+var path_1 = __importDefault(require("path"));
 var adult_map_1 = require("./adult_map");
 var child_map_1 = require("./child_map");
 var zzplayas_to_zzconvert = /** @class */ (function () {
@@ -14,7 +15,7 @@ var zzplayas_to_zzconvert = /** @class */ (function () {
     zzplayas_to_zzconvert.prototype.convert_adult = function (buf) {
         var out = new smart_buffer_1.SmartBuffer();
         out.writeBuffer(buf);
-        var template = fs_1.default.readFileSync("./zobjs/zzconvert_adult_template.zobj");
+        var template = fs_1.default.readFileSync(path_1.default.resolve(__dirname, "zobjs/zzconvert_adult_template.zobj"));
         out.writeBuffer(template);
         var n = out.toBuffer();
         var start = n.indexOf("!PlayAsManifest0");
@@ -50,7 +51,7 @@ var zzplayas_to_zzconvert = /** @class */ (function () {
     zzplayas_to_zzconvert.prototype.convert_child = function (buf) {
         var out = new smart_buffer_1.SmartBuffer();
         out.writeBuffer(buf);
-        var template = fs_1.default.readFileSync("./zobjs/zzconvert_child_template.zobj");
+        var template = fs_1.default.readFileSync(path_1.default.resolve(__dirname, "zobjs/zzconvert_child_template.zobj"));
         out.writeBuffer(template);
         var n = out.toBuffer();
         var start = n.indexOf("!PlayAsManifest0");
