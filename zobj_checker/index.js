@@ -21,5 +21,5 @@ if (checker.check(buf)) {
             break;
     }
     var out = path_1.default.parse(process.argv[2]);
-    fs_1.default.writeFileSync(path_1.default.resolve(out.dir, "" + out.base), buf);
+    fs_1.default.writeFileSync(path_1.default.resolve(out.dir, "".concat(out.base)), buf);
 }

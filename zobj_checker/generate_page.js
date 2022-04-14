@@ -28,13 +28,13 @@ function process(game) {
             }
             if (cat === "") {
                 cat = categories[3];
-                console.log("Failed to parse " + file + " correctly.");
+                console.log("Failed to parse ".concat(file, " correctly."));
             }
             try {
                 fs_1.default.mkdirSync("./temp");
             }
             catch (err) { }
-            child_process_1.default.execSync("paker -i \"" + file + "\" -o ./temp");
+            child_process_1.default.execSync("paker -i \"".concat(file, "\" -o ./temp"));
             var _dir = fs_1.default.readdirSync("./temp")[0];
             var p = path_1.default.resolve("./temp", _dir, "package.json");
             var meta = JSON.parse(fs_1.default.readFileSync(p).toString());
@@ -64,10 +64,10 @@ function getURL(pak) {
         g = "mm";
     if (pak.game === "Oot/MM")
         g = "combined";
-    return "https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/" + g + "/pak/" + pak.file;
+    return "https://github.com/hylian-modding/Z64-CustomPlayerModels/raw/master/".concat(g, "/pak/").concat(pak.file);
 }
 for (var i = 0; i < paks.length; i++) {
-    str += "<tr><td>" + paks[i].name + "</td><td>" + paks[i].author + "</td><td>" + paks[i].game + "</td><td>" + paks[i].category + "</td><td><a href=\"" + getURL(paks[i]) + "\">Download</a></td></tr>\n";
+    str += "<tr><td>".concat(paks[i].name, "</td><td>").concat(paks[i].author, "</td><td>").concat(paks[i].game, "</td><td>").concat(paks[i].category, "</td><td><a href=\"").concat(getURL(paks[i]), "\">Download</a></td></tr>\n");
 }
 str += "</body></html>";
 fs_1.default.writeFileSync("./paks.html", str);
