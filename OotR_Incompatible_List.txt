@@ -1,46 +1,27 @@
+oot\PlayAsPackages\Adult_2B\Adult_2B_OOT.zobj
 oot\PlayAsPackages\Adult_Aria\object_link_boy_wth_bottle.zobj
 oot\PlayAsPackages\Adult_AriaDemon\object_link_boy_wth_bottle.zobj
 oot\PlayAsPackages\Adult_AriaPrototype\object_link_boy_wth_bottle.zobj
+oot\PlayAsPackages\Adult_EliteKnight\Adult_EliteKnight_OOT.zobj
 oot\PlayAsPackages\Adult_Giantdad\Adult_Giantdad_OOT.zobj
 oot\PlayAsPackages\ADULT_HenryStickmin\skin.zobj
 oot\PlayAsPackages\Adult_HeroOfTheSky\AdultOOTHeroSky.zobj
 oot\PlayAsPackages\Adult_MasterChief_OOT\MasterChief.zobj
 oot\PlayAsPackages\Adult_MeleeLink\Adult_MeleeLink.zobj
+oot\PlayAsPackages\Adult_Paya\Paya.zobj
 oot\PlayAsPackages\Adult_Raiden\Adult_Raiden(MGR).zobj
 oot\PlayAsPackages\Adult_SkyloftLink\Adult_SkyloftLink.zobj
 oot\PlayAsPackages\Adult_Solaire\Adult_Solaire_OOT.zobj
 oot\PlayAsPackages\Child_AquaConnie\zzplayas_GoddessChildConnieOot.zobj
-oot\PlayAsPackages\Child_Aria\object_link_child_wth_bottle.zobj
-oot\PlayAsPackages\Child_AriaDemon\object_link_child_wth_bottle.zobj
 oot\PlayAsPackages\Child_CyberAceConnie\zzplayas_CyberAceChildConnieOot.zobj
 oot\PlayAsPackages\Child_Goku\Kid Goku.zobj
-oot\PlayAsPackages\Child_Lucus\object_link_child_wth_bottle.zobj
-oot\PlayAsPackages\Child_ToonLink_Unesag\Child_ToonLink_OOT.zobj
 oot\PlayAsPackages\Combined_DioBrando\Adult_DioZaWarudo_OOT.zobj
-oot\PlayAsPackages\Combined_DioBrando\Adult_Dio_OOT.zobj
-oot\PlayAsPackages\Combined_DioBrando\Child_Dio_OOT.zobj
-oot\PlayAsPackages\Combined_FinnTheHuman\Adult_Finn_OOT.zobj
-oot\PlayAsPackages\Combined_FinnTheHuman\Child_Finn_OOT.zobj
-oot\PlayAsPackages\Combined_FreddyFazbear\Adult_Freddy Fazbear_OOT.zobj
-oot\PlayAsPackages\Combined_FreddyFazbear\Child_Freddy Fazbear_OOT.zobj
-oot\PlayAsPackages\Combined_Jak\Adult_Jak2_OOT.zobj
-oot\PlayAsPackages\Combined_Jak\Child_Jak1_OOT.zobj
-oot\PlayAsPackages\Combined_Kristin\Child_Kristin_OOT.zobj
-oot\PlayAsPackages\Combined_KristinaV2\Child_Model_OOT.zobj
-oot\PlayAsPackages\Combined_Linkle\Adult_Linklehood_OOT.zobj
-oot\PlayAsPackages\Combined_Linkle\Adult_Linkle_OOT.zobj
-oot\PlayAsPackages\Combined_Linkle\Child_Linklehood_OOT.zobj
-oot\PlayAsPackages\Combined_Linkle\Child_Linkle_OOT.zobj
 oot\PlayAsPackages\Combined_PeterGriffin\Adult_Peter Griffin_OOT.zobj
 oot\PlayAsPackages\Combined_PeterGriffin\Child_Peter Griffin_OOT.zobj
-Combined\PlayAsPackages\Adult_3DSMalon\3DS_Cremia_zzconvert.zobj
-Combined\PlayAsPackages\Child_3DSMalon\3DS_Child_Romani_zzconvert.zobj
-Combined\PlayAsPackages\Child_Connie\zzplayas_CyberAce.zobj
-Combined\PlayAsPackages\Combined_FoxLink\Fox Boy.zobj
-Combined\PlayAsPackages\Combined_FoxLink\Fox Child.zobj
-Combined\PlayAsPackages\Combined_FoxLinkTunic\Fox Child Tunic.zobj
-Combined\PlayAsPackages\Combined_Omori_Combined\zzplayas_ChildOmori.zobj
-Combined\PlayAsPackages\Combined_Reimu\zzplayas_CootReimu.zobj
+oot\PlayAsPackages\Combined_Protogen\Adult_Protogen_OOT.zobj
+oot\PlayAsPackages\Combined_Protogen\Child_Protogen_OOT.zobj
+oot\PlayAsPackages\Combined_Yugi_Yami\Adult Yami.zobj
+oot\PlayAsPackages\Combined_Yugi_Yami\Child Yugi.zobj
 
 Generated a file via the randomizer, but crashed on load in RetroArch. May be an implementation issue and not a hardware issue:
 oot\PlayAsPackages\Child_Aria\Child_Work.zobj
