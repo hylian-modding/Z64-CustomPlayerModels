@@ -5,7 +5,7 @@ Place a ".pak" of your choosing in the mods folder of ML64.
 [Read the guide here](guide/README.md)
 
 # Available Skins
-All officially available playas models for OoT and MM are on the [ModLoader64](https://www.modloader64.com/models.html) website.
+All officially available playas models for OoT and MM are on the [ModLoader64](https://modloader64.com/models.html) website.
 
 # License
 By submitting to this repository you agree to license the submission under GPL-3; the terms of which are in the LICENSE file of this repository.
