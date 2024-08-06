@@ -1,27 +1,47 @@
-oot\PlayAsPackages\Adult_2B\Adult_2B_OOT.zobj
-oot\PlayAsPackages\Adult_Aria\object_link_boy_wth_bottle.zobj
-oot\PlayAsPackages\Adult_AriaDemon\object_link_boy_wth_bottle.zobj
-oot\PlayAsPackages\Adult_AriaPrototype\object_link_boy_wth_bottle.zobj
-oot\PlayAsPackages\Adult_EliteKnight\Adult_EliteKnight_OOT.zobj
-oot\PlayAsPackages\Adult_Giantdad\Adult_Giantdad_OOT.zobj
-oot\PlayAsPackages\ADULT_HenryStickmin\skin.zobj
-oot\PlayAsPackages\Adult_HeroOfTheSky\AdultOOTHeroSky.zobj
-oot\PlayAsPackages\Adult_MasterChief_OOT\MasterChief.zobj
-oot\PlayAsPackages\Adult_MeleeLink\Adult_MeleeLink.zobj
-oot\PlayAsPackages\Adult_Paya\Paya.zobj
-oot\PlayAsPackages\Adult_Raiden\Adult_Raiden(MGR).zobj
-oot\PlayAsPackages\Adult_SkyloftLink\Adult_SkyloftLink.zobj
-oot\PlayAsPackages\Adult_Solaire\Adult_Solaire_OOT.zobj
-oot\PlayAsPackages\Child_AquaConnie\zzplayas_GoddessChildConnieOot.zobj
-oot\PlayAsPackages\Child_CyberAceConnie\zzplayas_CyberAceChildConnieOot.zobj
-oot\PlayAsPackages\Child_Goku\Kid Goku.zobj
-oot\PlayAsPackages\Combined_DioBrando\Adult_DioZaWarudo_OOT.zobj
-oot\PlayAsPackages\Combined_PeterGriffin\Adult_Peter Griffin_OOT.zobj
-oot\PlayAsPackages\Combined_PeterGriffin\Child_Peter Griffin_OOT.zobj
-oot\PlayAsPackages\Combined_Protogen\Adult_Protogen_OOT.zobj
-oot\PlayAsPackages\Combined_Protogen\Child_Protogen_OOT.zobj
-oot\PlayAsPackages\Combined_Yugi_Yami\Adult Yami.zobj
-oot\PlayAsPackages\Combined_Yugi_Yami\Child Yugi.zobj
+oot/PlayAsPackages/ADULT_HenryStickmin/skin.zobj
+oot/PlayAsPackages/Adult_2B/Adult_2B_OOT.zobj
+oot/PlayAsPackages/Adult_3DS_Shiek/adult_zzconvert_shiek_oot.zobj
+oot/PlayAsPackages/Adult_Aria/object_link_boy_wth_bottle.zobj
+oot/PlayAsPackages/Adult_AriaDemon/object_link_boy_wth_bottle.zobj
+oot/PlayAsPackages/Adult_AriaPrototype/object_link_boy_wth_bottle.zobj
+oot/PlayAsPackages/Adult_Ciel/adult_ciel_zzconvert_oot.zobj
+oot/PlayAsPackages/Adult_Ciel/ciel_summer_zzplayas.zobj
+oot/PlayAsPackages/Adult_Damage_Template_Link/adult_3ds_link_20_zzconvert_oot.zobj
+oot/PlayAsPackages/Adult_Damage_Template_Link/adult_3ds_link_40_zzconvert_oot.zobj
+oot/PlayAsPackages/Adult_Damage_Template_Link/adult_3ds_link_60_zzconvert_oot.zobj
+oot/PlayAsPackages/Adult_DragonQuestLink/link_dragon_quest_zzconvert.zobj
+oot/PlayAsPackages/Adult_EliteKnight/Adult_EliteKnight_OOT.zobj
+oot/PlayAsPackages/Adult_Giantdad/Adult_Giantdad_OOT.zobj
+oot/PlayAsPackages/Adult_HeroOfTheSky/AdultOOTHeroSky.zobj
+oot/PlayAsPackages/Adult_Lucina/adult_lucina_adult_zzconvert_oot.zobj
+oot/PlayAsPackages/Adult_MasterChief_OOT/MasterChief.zobj
+oot/PlayAsPackages/Adult_MeleeLink/Adult_MeleeLink.zobj
+oot/PlayAsPackages/Adult_Palutena3DS/adult_palutena_zzconvert_default_oot.zobj
+oot/PlayAsPackages/Adult_Palutena3DS/adult_palutena_zzconvert_zzenv_oot.zobj
+oot/PlayAsPackages/Adult_Paya/Paya.zobj
+oot/PlayAsPackages/Adult_PokemonTrn_Hilda/hilda_zzconvert.zobj
+oot/PlayAsPackages/Adult_PokemonTrn_Hilda/hilda_zzconvert_zzenv.zobj
+oot/PlayAsPackages/Adult_Raiden/Adult_Raiden(MGR).zobj
+oot/PlayAsPackages/Adult_SkyloftLink/Adult_SkyloftLink.zobj
+oot/PlayAsPackages/Adult_Solaire/Adult_Solaire_OOT.zobj
+oot/PlayAsPackages/Adult_Tifa_Dissidia/adult_tifa_zzconvert_oot.zobj
+oot/PlayAsPackages/Adult_Zero_Suit_Samus/adult_3ds_zero_suit_samus_zzconvert_oot.zobj
+oot/PlayAsPackages/Child_AquaConnie/zzplayas_GoddessChildConnieOot.zobj
+oot/PlayAsPackages/Child_CyberAceConnie/zzplayas_CyberAceChildConnieOot.zobj
+oot/PlayAsPackages/Child_Goku/Kid Goku.zobj
+oot/PlayAsPackages/Combined_Bridget/Adult_Bridget_OOT.zobj
+oot/PlayAsPackages/Combined_Bridget/Child_Bridget_OOT.zobj
+oot/PlayAsPackages/Combined_Chara/Chara_Adult.zobj
+oot/PlayAsPackages/Combined_Chara/Chara_Child.zobj
+oot/PlayAsPackages/Combined_Definitive_Link/Adult_Link_Playas.zobj
+oot/PlayAsPackages/Combined_Definitive_Link/Child_Link_Playas.zobj
+oot/PlayAsPackages/Combined_DioBrando/Adult_DioZaWarudo_OOT.zobj
+oot/PlayAsPackages/Combined_PeterGriffin/Adult_Peter Griffin_OOT.zobj
+oot/PlayAsPackages/Combined_PeterGriffin/Child_Peter Griffin_OOT.zobj
+oot/PlayAsPackages/Combined_Protogen/Adult_Protogen_OOT.zobj
+oot/PlayAsPackages/Combined_Protogen/Child_Protogen_OOT.zobj
+oot/PlayAsPackages/Combined_Yugi_Yami/Adult Yami.zobj
+oot/PlayAsPackages/Combined_Yugi_Yami/Child Yugi.zobj
 
 Generated a file via the randomizer, but crashed on load in RetroArch. May be an implementation issue and not a hardware issue:
 oot\PlayAsPackages\Child_Aria\Child_Work.zobj
